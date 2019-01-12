@@ -24,17 +24,21 @@ If you want to preview the generated site for your changes, there are two option
 * Update a profile photo named `photo.png` to your folder. %%Naturally, as the purpose of this photo is for others to identify you, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo.%%
 * Update other info in the `info.md` file in your folder.
 
-<panel type="seamless" header="Guidelines for the photo">
-
-</panel>
 
 ## Adding the Resume
 
 * Update the `resume.md` in your folder.
-* Length 1-2 pages. You may want to read up some online advice on writing good tech resumes. Write it as if you will use it for internship/job applications in the near future.
+* Length 1-2 pages.
+* ==Don't simply copy-paste your current resume.== Customize it to fit the module requirements. Recommended sections to have:
+  * Credentials: A brief segment covering highlights of education qualifications, awards, grades, etc.
+  * Experience: List work experience but do not give too much details. Just where, when, in what role, and possibly 1-2 line about what you did there.
+  * Competencies: give 2-3 things you are good at. For each, give concrete evidence to back up your claims. Give links to your work when you can. Cross refer previous section when necessary.
+* {{ icon_important_red }} Do not give a long laundry list of technologies/tools.
+
 
 <panel type="seamless" header="%%Why use markdown instead of PDF etc.?%%">
-  > We require a text-based resume so that we can track the changes to it during the semester. Also, you should also have (even _prefer_) a text-based resume because some big companies (and head-hunting agencies) use text bots to process resumes.
+
+We require a text-based resume so that we can track the changes to it during the semester. Also, you should also have (even _prefer_) a text-based resume because some big companies (and head-hunting agencies) use text bots to process resumes.
 </panel>
 
 

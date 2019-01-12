@@ -6,15 +6,15 @@
 **Projects:** <include src="info.md#projects" optional inline trim />
 
 
-<panel header="Resume">
+<panel header="**Resume**" minimized>
 
   <include src="resume.md" optional />
 </panel>
-<panel header="Progress">
+<panel header="**Progress**" minimized>
 
   <include src="progress.md" optional />
 </panel>
-<panel header="Observations">
+<panel header="**Observations**" minimized>
 
   <include src="observations.md" optional />
 </panel>
