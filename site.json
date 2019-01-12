@@ -1,0 +1,20 @@
+{
+  "baseUrl": "/2019",
+  "titlePrefix": "",
+  "ignore": [
+    "_markbind/layouts/*",
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md",
+    "*.mbd"
+  ],
+  "pages": [
+    {
+      "glob": "**/*.mbd"
+    }
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}
