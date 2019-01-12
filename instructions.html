@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="markbind\css\bootstrap.min.css">
+    <link rel="stylesheet" href="markbind\css\bootstrap-vue.min.css">
+    <link rel="stylesheet" href="markbind\css\font-awesome.min.css" >
+    <link rel="stylesheet" href="markbind\css\bootstrap-glyphicons.min.css" >
+    <link rel="stylesheet" href="markbind\css\github.min.css">
+    <link rel="stylesheet" href="markbind\css\markbind.css">
+    <link rel="stylesheet" href="markbind\layouts\default\styles.css">
+    
+    
+    
+</head>
+<body>
+<div id="app">
+    <div id="content-wrapper">
+  <div>
+    <navbar placement="top" type="inverse">
+      <a slot="brand" href="/" title="Home" class="navbar-brand">CS3281&2-2019/Students</a>
+      <li>
+        <a href="/2019/instructions.html" class="nav-link">Instructions</a></li>
+      <li slot="right">
+        <a href="https://nus-cs3281.github.io/website/" class="nav-link">Module Website</a></li>
+    </navbar>
+    <div class="contents"></div>
+  </div>
+  <h1 id="instructions-for-updating-this-website">Instructions for Updating this Website<a class="fa fa-anchor" href="#instructions-for-updating-this-website"></a></h1>
+  <p>This repo/website is for hosting information about the students in the module, to be maintained by CS3281&amp;2 students collectively. <span class="dimmed">It is maintained as a separate repo because students need write access to it.</span></p>
+  <h2 id="general-instructions-for-updating-this-repo">General Instructions for Updating This Repo<a class="fa fa-anchor" href="#general-instructions-for-updating-this-repo"></a></h2>
+  <ul>
+    <li>Always use a new branch to add your content</li>
+    <li>Do not force-push</li>
+    <li>Usually, there is no need to create issues or PRs when updating this repo</li>
+  </ul>
+  <p>While this site uses <a href="https://markbind.github.io/markbind/">MarkBind</a>, you can use normal markdown syntax for your updates (MarkBind is compatible with Markdown).</p>
+  <p>All your files are in a <code>students/*</code> sub-folder that is named after you e.g., <code>students/johnDoe</code>. Update the <code>info.md</code> file in that folder with your basic info. After you have pushed the updated files to the repo, your info should appear automatically in <a href="/2019/">this page</a>, possibly after a lapse of a few minutes.</p>
+  <p>If you want to preview the generated site for your changes, there are two options:</p>
+  <ol>
+    <li>Install MarkBind and use the <code>markbind serve</code> command to generate the site locally.</li>
+    <li>Create a PR, and use the Netlify PR preview to see the updated version.</li>
+  </ol>
+  <h2 id="updating-your-basic-info">Updating Your Basic Info<a class="fa fa-anchor" href="#updating-your-basic-info"></a></h2>
+  <ul>
+    <li>Update a profile photo named <code>photo.png</code> to your folder. <span class="dimmed">Naturally, as the purpose of this photo is for others to identify you, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo.</span></li>
+    <li>Update other info in the <code>info.md</code> file in your folder.</li>
+  </ul>
+  <panel type="seamless" header="Guidelines for the photo"></panel>
+  <h2 id="adding-the-resume">Adding the Resume<a class="fa fa-anchor" href="#adding-the-resume"></a></h2>
+  <ul>
+    <li>Update the <code>resume.md</code> in your folder.</li>
+    <li>Length 1-2 pages. You may want to read up some online advice on writing good tech resumes. Write it as if you will use it for internship/job applications in the near future.</li>
+  </ul>
+  <panel type="seamless" header="%%Why use markdown instead of PDF etc.?%%">
+    > We require a text-based resume so that we can track the changes to it during the semester. Also, you should also have (even _prefer_) a text-based resume because some big companies (and head-hunting agencies) use text bots to process resumes.
+  </panel>
+  <h2 id="updating-your-project-progress">Updating Your Project Progress<a class="fa fa-anchor" href="#updating-your-project-progress"></a></h2>
+  <p>Update the <code>progress.md</code> in your folder periodically, at least once every two weeks.</p>
+  <tabs>
+      <tab header="Sample">
+      <div class="table-responsive">
+        <table class="markbind-table table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Achievements</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Reviewed PR: <a href="">PR name 1 #1234</a></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Merged PR: <a href="">PR name 4 #3245</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Submitted Issue: <a href="">Issue name #223</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Authored PR (put on hold by request): <a href="">PR name 3 #365</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Responded to contributor queries: <a href="">#1234</a>, <a href="">#4567</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </tab>
+      <tab header="Code for the sample">
+      <pre class="hljs"><code>Week | Achievements
+---- | ------------
+1 | Reviewed PR: [PR name 1 #1234]()
+1 | Merged PR: [PR name 4 #3245]()
+2 | Submitted Issue: [Issue name #223]()
+2 | Authored PR (put on hold by request): [PR name 3 #365]()
+2 | Responded to contributor queries: [#1234](), [#4567]()
+</code></pre>
+    </tab>
+  </tabs>
+  <hr>
+  <p>Notes:</p>
+  <ul>
+    <li>The page is for CS3282 work only (i.e., contributions to our own internal projects)</li>
+    <li>PR-related contributions: Report only when a PR is merged (or it's finalized in some other way e.g., abandoned)</li>
+    <li>Past PRs can be claimed in future weeks, but not the other way around.</li>
+    <li>Report each significant achievement in a separate row. You may aggregate multiple minor achievements in to a single row.</li>
+  </ul>
+  <h2 id="updating-the-process-observations-page">Updating the Process Observations Page<a class="fa fa-anchor" href="#updating-the-process-observations-page"></a></h2>
+  <p>Update the <code>observations.md</code> page in your folder with your observations from the external projects.</p>
+  <div></div>
+</div>
+<div id="flex-div"></div>
+<footer>
+  <div class="text-center">
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Sat, 12 Jan 2019 11:57:46 GMT</small></div>
+</footer>
+</div>
+</body>
+<script src="markbind\js\vue.min.js"></script>
+<script src="markbind\js\vue-strap.min.js"></script>
+<script src="markbind\js\polyfill.min.js"></script>
+<script src="markbind\js\bootstrap-vue.min.js"></script>
+<script>
+    const baseUrl = '/2019'
+</script>
+<script src="markbind\js\setup.js"></script>
+<script src="markbind\layouts\default\scripts.js"></script>
+</html>
