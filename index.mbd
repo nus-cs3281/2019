@@ -59,6 +59,4 @@ title: CS3281&2 - 2019 Batch
   {% endfor %}
 {% endfor %}
 
-<box>
-
-<include src="common/botto.mbdf" />
+<include src="common/bottom.mbdf" />
