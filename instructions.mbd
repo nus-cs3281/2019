@@ -6,9 +6,10 @@ This repo/website is for hosting information about the students in the module, t
 
 ## General Instructions for Updating This Repo
 
-* Always use a new branch to add your content
-* Do not force-push
-* Usually, there is no need to create issues or PRs when updating this repo
+* Clone https://github.com/nus-cs3281/{{ year }} to your Computer.
+* Always use a new branch to add your content.
+* Do not force-push.
+* Usually, there is no need to create issues or PRs when updating this repo.
 
 While this site uses [MarkBind](https://markbind.github.io/markbind/), you can use normal markdown syntax for your updates (MarkBind is compatible with Markdown).
 
@@ -16,8 +17,8 @@ All your files are in a `students/*` sub-folder that is named after you e.g., `s
 
 If you want to preview the generated site for your changes, there are two options:
 
-1. Install MarkBind and use the `markbind serve` command to generate the site locally.
-2. Create a PR, and use the Netlify PR preview to see the updated version.
+1. Install MarkBind, use the `markbind serve` command to generate the site locally, and ensure the output is as you intended.
+2. Create a PR, and use the Netlify PR preview to check how the PR updates the website.
 
 ## Updating Your Basic Info
 
@@ -70,11 +71,7 @@ Week | Achievements
 2 | Responded to contributor queries: [#1234](), [#4567]()
 ```
 </tab>
-</tabs><hr>
-
-
-
-
+</tabs>
 
 Notes:
 * The page is for CS3282 work only (i.e., contributions to our own internal projects)
