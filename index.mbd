@@ -41,8 +41,7 @@ title: CS3281&2 - 2019 Batch
 
 {% for project in projects %}
 **{{ project.name }}:**
-{% for student in project.students %}
-* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-')}})
+{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-')}})
 {% endfor %}
 {% endfor %}
 
@@ -52,9 +51,20 @@ title: CS3281&2 - 2019 Batch
 <box>
 
 ## {{ student[0] }}
+
+<div class="container">
+ <div class="row">
+  <div class="col">
 <img src="students/{{ student[1] }}/photo.png" width="100" /><br>
 
-<include src="students/{{ student[1] }}/studentInfo.md" boilerplate />
+
+  </div>
+  <div class="col">
+<include src="students/{{ student[1] }}/studentInfo.md#info" boilerplate />
+  </div>
+ </div>
+</div>
+<include src="students/{{ student[1] }}/studentInfo.md#work" boilerplate />
 </box>
   {% endfor %}
 {% endfor %}
