@@ -15,8 +15,8 @@ title: CS3281&2 - 2019 Batch
     ]},
     {name: "PowerPointLabs", students: [
       ['BRYAN LEW JU YU', 'bryanLew'],
-      ['HENRY YU PEI', 'henryYuPei'],
-      ['SNG YU FENG CHESTER', 'chesterSng']
+      ['SNG YU FENG CHESTER', 'chesterSng'],
+      ['YU PEI, HENRY', 'henryYuPei']
     ]},
     {name: "RepoSense", students: [
       ['CHELSEY ONG HEE', 'chelseyOng'],
@@ -41,7 +41,7 @@ title: CS3281&2 - 2019 Batch
 
 {% for project in projects %}
 **{{ project.name }}:**
-{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-')}})
+{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '%2C')}})
 {% endfor %}
 {% endfor %}
 
