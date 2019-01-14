@@ -9,6 +9,7 @@ title: CS3281&2 - 2019 Batch
 {% set projects = [
     {name: "MarkBind", students: [
       ['CHIN KUN SONG, MARVIN', 'marvinChin'],
+      ['LIN SI JIE', 'linSiJie'],
       ['LU YANG KENNETH', 'kennethLu'],
       ['MADDI AADYAA', 'maddiAadyaa'],
       ['TAN ZHEN YONG', 'tanZhenYong']
@@ -21,7 +22,6 @@ title: CS3281&2 - 2019 Batch
     {name: "RepoSense", students: [
       ['CHELSEY ONG HEE', 'chelseyOng'],
       ['GILBERT EMERSON', 'gilbertEmerson'],
-      ['LIN SI JIE', 'linSiJie'],
       ['ONG SHU PENG', 'ongShuPeng'],
       ['WANG CHAO', 'wangChao']
     ]},
