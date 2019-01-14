@@ -7,7 +7,6 @@ This repo/website is for hosting information about the students in the module, t
 ## General Instructions for Updating This Repo
 
 * Clone https://github.com/nus-cs3281/{{ year }} to your Computer.
-* Always use a new branch to add your content.
 * Do not force-push.
 * Usually, there is no need to create issues or PRs when updating this repo.
 
