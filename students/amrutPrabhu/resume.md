@@ -16,7 +16,12 @@ Website: http://amrut-prabhu.github.io
 
 #### R&D Engineer: Software Development Intern | Works Applications (May 2018 - Aug 2018)
 
-- Worked as a full stack developer intern in the Master Maintenance team.
+- Worked as a full stack developer intern at Works Applications, an ERP software manufacturer with the top market share in Japan.
+- Worked in a small team to develop a framework used for quick development of custom systems for clients.
+<a name="worksap"></a>
+- Redesigned and enhanced a feature to support batch CRUD operations for different types of input
+- Effectively fixed multiple bugs such as disappering highlights in search results.
+- Streamlined application deployment to a single step process by utilizing Jenkins, Docker-compose and Nginx.
 
 #### Teaching Assistant | National University of Singapore (Jan 2018 - Present)
 
@@ -27,8 +32,12 @@ Website: http://amrut-prabhu.github.io
 
 #### TEAMMATES (Jan 2019 - Present)
 
-- Took part in.
+- Contributor.
 
+<a name="club-connect"></a>
+#### Club Connect
+
+- See the project [here](https://github.com/amrut-prabhu/club-connect).
 
 ## Competencies
 
@@ -38,15 +47,15 @@ Website: http://amrut-prabhu.github.io
 
 ### Java
 
-- Over x000 lines written in Java across multiple projects and algorithm courses.
-
-#### Club Connect: Wrote 2000 lines of functional code and 1800?? lines of JUnit test code in Java.
-
----
-
-### 2
-
+- Developed multiple features in Java with over 9 KLoC across multiple projects and courses.
+- Added ~2.7 KLoC to enhance a feature at [Works Applciations](worksap).
+- Wrote ~1.9 KLoC of functional code and ~1.8 KLoC of JUnit tests for [Club Connect](club-connect).
 
 ---
 
-### 3
+### React
+
+
+---
+
+### Testing
