@@ -14,6 +14,8 @@ Computer Science: Current CAP of 4.84
 - H3 Science Research
 - SMTP (Science Mathematics Talent Program) (y3, y4)
 
+---
+
 ### Experience
 #### Developer, DateIdeas
 *Jun 2016 - now*
@@ -26,6 +28,8 @@ Computer Science: Current CAP of 4.84
 
 - Developed a VueJS based dashboard for visualization of report information, structured as a single page application with extendable modules
 - Reviewed PRs for frontend related features and bug fixes
+
+---
 
 ### Competencies
 ####
