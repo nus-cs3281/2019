@@ -16,11 +16,11 @@ Website: http://amrut-prabhu.github.io
 
 #### R&D Engineer: Software Development Intern | Works Applications (May 2018 - Aug 2018)
 
-- Worked as a full stack developer intern at Works Applications, an ERP software manufacturer with the top market share in Japan.
-- Worked in a small team to develop a framework used for quick development of custom systems for clients.
+- Worked as a full stack developer at Works Applications, an ERP software manufacturer with the top market share in Japan.
+- Worked in a small team to develop a framework used to speed up development of custom software for clients.
 <a name="worksap"></a>
-- Redesigned and enhanced a feature to support batch CRUD operations for different types of input
-- Effectively fixed multiple bugs such as disappering highlights in search results.
+- Enhanced the import feature and redesigned CRUD operations to support batch mode for different types of inputs, hence reducing the number of slow database queries.
+- Effectively fixed multiple bugs such as non-persistent highlighted text in search results.
 - Streamlined application deployment to a single step process by utilizing Jenkins, Docker-compose and Nginx.
 
 #### Teaching Assistant | National University of Singapore (Jan 2018 - Present)
@@ -34,9 +34,12 @@ Website: http://amrut-prabhu.github.io
 
 - Contributor.
 
-<a name="club-connect"></a>
 #### Club Connect
 
+- Desktop application to ease management of clubs in NUS.
+- Designed and improved end-to-end features using Agile development.
+- Developed import and export features to improve functionality of the app.
+- Built a feature to add profile pictures for users.
 - See the project [here](https://github.com/amrut-prabhu/club-connect).
 
 ## Competencies
@@ -49,13 +52,22 @@ Website: http://amrut-prabhu.github.io
 
 - Developed multiple features in Java with over 9 KLoC across multiple projects and courses.
 - Added ~2.7 KLoC to enhance a feature at [Works Applciations](worksap).
-- Wrote ~1.9 KLoC of functional code and ~1.8 KLoC of JUnit tests for [Club Connect](club-connect).
+- Added ~1.9 KLoC of functional code and ~1.8 KLoC of JUnit tests for [Club Connect](#club-connect).
 
 ---
 
 ### React
 
+- lorem ipsum
 
 ---
 
 ### Testing
+
+- Added ~1.6 KLoC of JUnit tests for [Club Connect](#club-connect), which can be seen [here](https://github.com/amrut-prabhu/club-connect/blob/master/collated/test/amrut-prabhu.md).
+
+---
+
+### Web Applications
+
+- lorem ipsum
