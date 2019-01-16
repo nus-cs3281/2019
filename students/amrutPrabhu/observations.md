@@ -1,3 +1,3 @@
-# Observations from External Project 1:
+# Observations from External Project 1: Open Library
 
 Coming soon ..
