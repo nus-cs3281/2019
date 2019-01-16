@@ -1,6 +1,6 @@
 #### Credentials
 **National University of Singapore (2017 - now)**
-Computer Science: Current CAP of 4.84
+- Computer Science: Current CAP of 4.74
 - TA for AY2018/19 Sem 1 - CS1010 Programming Methodology (Tutorial)
 
 **Hwa Chong Institution (2009 - 2014)**
