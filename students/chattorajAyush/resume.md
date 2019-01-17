@@ -1,7 +1,7 @@
 # Chattoraj Ayush
  
 - GitHub: https://www.github.com/AyushChatto
-- Email: ayush.chattoraj@gmail.com
+- Email: ayush.chattoraj@u.nus.edu
 
 ## Education
 #### National University of Singapore
@@ -29,8 +29,7 @@ Software Engineering Intern | May 2018 - Aug 2018
 in photographs, much like the Snapchat feature.
 - Developed using Python, the open-cv library,and the Telepot
 library
-- The project can be viewed here:
-https://devpost.com/software/myfaceswap-bot
+- The project can be viewed [here:](https://devpost.com/software/myfaceswap-bot)
 
 #### INSUREN | ADDRESS BOOK FOR INSURANCE AGENTS
 - Developed by me and my team for our Software Engineering
@@ -39,12 +38,11 @@ Course.
 specifically for Insurance Agents as the target user.
 - I designed the feature enabling users to schedule and keep track
 of meetings with their clients.
-- The project can be viewed here:
-https://github.com/CS2103-AY1819S1-W13-1/main
+- The project can be viewed [here:](https://github.com/CS2103-AY1819S1-W13-1/main)
 
 ## Expertise Areas
 #### Java
-- Wrote feature to enable users to schedule meetings with clients. Example code: https://nus-cs2103-ay1819s1.github.io/cs2103-dashboard/#=undefined&search=ayushchatto&sort=displayName&since=2018-09-12&until=2018-11-15&timeframe=day&reverse=false&repoSort=true 
+- Wrote feature to enable users to schedule meetings with clients. Example code: [RepoSense](https://nus-cs2103-ay1819s1.github.io/cs2103-dashboard/#=undefined&search=ayushchatto&sort=displayName&since=2018-09-12&until=2018-11-15&timeframe=day&reverse=false&repoSort=true) 
 
 #### Front-end JavaScript frameworks
 - Wrote front-end during my internship for an Employee Onboarding Form for a HR
