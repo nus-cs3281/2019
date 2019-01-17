@@ -10,6 +10,9 @@ University Scholars' Programme (USP)
 Science & Tech Undergraduate Scholarship
 CAP: 4.69/5.0
 
+#### University Scholars' Programme (USP)
+The [University Scholars Programme (USP)](http://usp.nus.edu.sg/) is an undergraduate academic programme that aims to shape independent, adaptable thinkers and doers who will make an impact in the world. USP provides students with an innovative curriculum, diverse global opportunities and a transformative learning environment. Each year, around 200 incoming NUS students are admitted to USP.
+
 ## Experience
 #### Payboy Pte Ltd. 
 Software Engineering Intern | May 2018 - Aug 2018
