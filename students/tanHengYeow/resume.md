@@ -7,11 +7,11 @@
 #### National University of Singapore
 Bachelor of Computing (Honours) in Computer Science
 - Teaching Assistant for CS2103T (Software Engineering): Facilitated 10 students in learning Software Engineering concepts and best practices. Provided guidance and feedback for their Software Engineering projects.
-- Tutor for [CP2106 (Independent Software Development Project)](https://orbital.comp.nus.edu.sg/): Conducted a [workshop](https://drive.google.com/file/d/0B-nbjLrjTlQsaE9xQXQ1ZVZ5Xzg/view) on Web Security that educates both offensive and defensive aspects of Web Security.
+- Tutor for [CP2106 (Independent Software Development Project)](https://orbital.comp.nus.edu.sg/): Conducted a [workshop](https://drive.google.com/file/d/0B-nbjLrjTlQsaE9xQXQ1ZVZ5Xzg/view) that educates both offensive and defensive aspects of Web Security.
 
 ## Experience
 #### GovTech - Open Government Products
-Software Engineering Intern | Dec 2018 - Jan 2018
+Software Engineering Intern | Dec 2018 - Jan 2019
 - Worked with an in-house [team](https://open.gov.sg/) of engineers, designers, and product managers who build systems that improve the public good.
 - Built an Single-Page Application (SPA) analytics dashboard using Angular for [FormSG](https://form.gov.sg/#!/), a form builder tool.
 - Built API endpoints in Express and efficient MongoDB queries to work with >250K entries, serving data for the analytics dashboard.
@@ -25,7 +25,7 @@ Open Source Software Engineer | Mar 2018 - Present
 #### DSO National Laboratories 
 Security Researcher | May 2017 - Aug 2017
 - DSO National Laboratories is Singapore’s largest defence research and development (R&D) organisation.
-- Developed python scripts in Linux to work with Windows Registry/support other operations. One of the scripts can be found [here](https://github.com/tanhengyeow/python-registry/commit/b966c8bba764cc78109c081c8d8e569c6a35a82c).
+- Developed python scripts to work with Windows Registry in Linux/support other operations. One of the scripts can be found [here](https://github.com/tanhengyeow/python-registry/commit/b966c8bba764cc78109c081c8d8e569c6a35a82c).
 - Conducted research on Windows Shellbag Forensics/shell items. Developed windows
 powershell scripts to assist in the research.
 
