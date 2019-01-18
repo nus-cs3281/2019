@@ -8,22 +8,26 @@
 
 ## Experience/Work Industry:
 
+
 ### Summer Internship at BreadTalk Group Ltd (May - August 2018)
-##### BreadTalk Group Ltd is a Singaporean multinational food and beverage corporation
+_BreadTalk Group Ltd is a Singaporean multinational food and beverage corporation._
 
 #### Software Developer for Internal Application (C#, SQL, HTML, CSS, JavaScript)
-##### Enhanced file management system (JavaScript Library zTree)
+###### Enhanced file management system (JavaScript Library zTree)
 1.  Added permissions and restricted features for each permission tier
 2.  Added various security features to prevent illegal manipulation of folders
 3.  Added unread/total count flags features for files under folder
+
 ###### Implemented contacts page (Javascript Library DataTables)
 1. Developed contacts page frontend and backend
+
 ###### Improved user experience of application
 1. Implemented usage of cookies to store login information
 2. Documented user guide for file management system
 3. Revamped user interface
 
 ## Expertise Areas: 
+
 
 ##### Java
 
