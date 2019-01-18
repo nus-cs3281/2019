@@ -4,7 +4,7 @@
 - Email: fzdy1914@gmail.com
 
 ## Education
-#### National University of Singapore (2016 - )
+#### National University of Singapore (2017 - )
 - Bachelor of Computing (Honours) in Computer Science
 - Second Year
 - CAP: 5.0 / 5.0 up till now
