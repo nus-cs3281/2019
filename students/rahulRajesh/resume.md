@@ -16,10 +16,8 @@ __Teaching Assistant | Aug 2018 - Present__
 
 #### SAP Digital Labs
 __Software Engineering Intern | May 2018 - Aug 2018__
-- Worked on a native mobile application with enhanced features (Chat-bot/QR
-code tracking etc.) for global clients .
-- Created an application that uses Optical Character Recognition technology to
-extract named entities from paper documents.
+- Worked on a native mobile application with enhanced features (Chat-bot/QR code tracking etc.) for global clients
+- Created an application that uses Optical Character Recognition technology to extract named entities from paper documents.
 - Presented prototypes to clients in engagements and conducted a coding
 workshop for over 100 school students.
 
@@ -27,23 +25,20 @@ workshop for over 100 school students.
 __Associate Developer | May 2018 - Aug 2018__
 - Designed a monitoring system using Open Source tools (ELK stack) to
 aggregate logs and monitor resource usage of Servers.
-- Revamped and upgraded Capture, a Merchant On-Boarding solution for banks.
-Worked on the critical APIs and optimised the database schema.
+- Revamped and upgraded Capture, a Merchant On-Boarding solution for banks. Worked on the critical APIs and optimised the database schema.
 - Came up with fully integrated UI Tests and automated deployment of web
 applications.
 
 ## Projects
 #### Stock Market Insights
 __Machine Learning, NLP | Sep 2018 - Present__
-- Research project to gather data from news articles/social media sites to make
-predictions on the stock market.
+- Research project to gather data from news articles/social media sites to make predictions on the stock market.
 - Used supervised and unsupervised learning models to analyze verbs from
 various lexicons and corpora (scikit-learn and nltk).
 
 #### Saadhana 'A' Level Tuition
 __Project Director | Aug 2017 - Oct 2017__
-- Led a large-scale subsidized tuition for the ’A’ level examinations that won the
-platinum award at the NUS student achievement awards.
+- Led a large-scale subsidized tuition for the ’A’ level examinations that won the platinum award at the NUS student achievement awards.
 - Catered to 100s of students and worked with many external organizations.
 - Built a learning management system to facilitate the tuition process.
 
