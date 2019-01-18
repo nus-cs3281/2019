@@ -63,10 +63,6 @@ To advance my knowledge in Algorithms, I have also challenged myself as a Teachi
 <br/>
 I am also part of the organising team for the National Olympiad in Informatics 2019/20.
 
-<box type="info" icon="{{fas_lightbulb}}">
-    This resume is printable!
-</box>
-
 <modal id="modal:2040">
   <div slot="modal-header" class="modal-title text-center">
     <h4>CS2040</h4>

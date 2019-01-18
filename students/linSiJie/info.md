@@ -6,4 +6,4 @@
 <span id="areas">JS, AWS Lambda, Dev Ops (Ansible)</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[https://github.com/MarkBind/markbind](MarkBind), [https://github.com/se-edu](SE-EDU)</span>
+<span id="projects">[MarkBind](https://github.com/MarkBind/markbind), [SE-EDU](https://github.com/se-edu)</span>
