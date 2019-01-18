@@ -37,8 +37,8 @@ _C#, SQL, HTML, CSS, Javascript_
     
 ###### Developed Desktop Application CLInic as part of CS2103T Software Engineering:
 1. CLInic is a desktop application designed for clinics to manage patient and medicine information effectively.
-2. The source code for CLInic can be found[here](https://github.com/CS2103-AY1819S1-W16-4/main).
-3. My contributions to CLInic can be found [here](https://cs2103-ay1819s1-w16-4.github.io/main/team/chestersng.html)
+2. The source code for CLInic can be found [here](https://github.com/CS2103-AY1819S1-W16-4/main).
+3. My contributions to CLInic can be found [here](https://cs2103-ay1819s1-w16-4.github.io/main/team/chestersng.html).
     
 ##### JavaScript
 
@@ -51,3 +51,5 @@ _C#, SQL, HTML, CSS, Javascript_
 ##### C#
 
 ###### Used Entity Framework during internship
+
+###### Contributed to PowerPointLabs
