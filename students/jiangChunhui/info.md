@@ -6,4 +6,4 @@
 <span id="areas">Database, Fault Tolerance</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates), [Project2]()</span>
+<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates), [CockroachDB](https://github.com/cockroachdb/cockroach)</span>
