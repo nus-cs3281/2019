@@ -28,11 +28,13 @@ _Singapore | May 2018 - July 2018_
 #### National University of Singapore | Teaching Assistant
 _Singapore | August 2018 - December 2018_
 
-- CS1101S Programming Methodology: Prepared and conducted tutorial lessons for 8 students on programming concepts
+- CS1101S Programming Methodology: Prepared and conducted tutorial lessons for 8 students, teaching basic programming concepts and algorithms
 - Feedback rating score: 4.6/5.0 (Faculty average: 4.1/5.0)
 
 
 ### Projects
+
+---
 
 ##### TEAMMATES
 
@@ -42,7 +44,7 @@ _Singapore | August 2018 - December 2018_
 
 - In a team of five, developed a food delivery management desktop application on Java with various frameworks such as JUnit, JavaFX, etc.
 - Developed the feature to assign food orders to deliverymen.
-- [Repo](https://github.com/CS2103-AY1819S1-T16-3/main) [Portfolio] (https://github.com/CS2103-AY1819S1-T16-3/main/blob/master/docs/team/monmanuela.adoc).
+- View the repo [here](https://github.com/CS2103-AY1819S1-T16-3/main), or view my [portfolio](https://github.com/CS2103-AY1819S1-T16-3/main/blob/master/docs/team/monmanuela.adoc).
 
 ##### Lapar
 
