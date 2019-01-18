@@ -99,7 +99,7 @@ first class functions, closures, continuations, monad, etc.<br/>Source: NUSMods<
   <div slot="modal-header" class="modal-title text-center">
     <h4>Deadline Manager</h4>
   </div>
-  <pic src="deadlinemanager.png" style="width: 100%">
+  <pic src="students/linSiJie/deadlinemanager.png" style="width: 100%">
     Screenshot from Deadline Manager, a desktop deadline manager application with user interactions geared towards a Command Line Interface.
   </pic>
 </modal>
