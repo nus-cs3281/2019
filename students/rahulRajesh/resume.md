@@ -33,14 +33,14 @@ Worked on the critical APIs and optimised the database schema.
 applications.
 
 ## Projects
-#### STOCK MARKET INSIGHTS
+#### Stock Market Insights
 __Machine Learning, NLP | Sep 2018 - Present__
 - Research project to gather data from news articles/social media sites to make
 predictions on the stock market.
 - Used supervised and unsupervised learning models to analyze verbs from
 various lexicons and corpora (scikit-learn and nltk).
 
-#### SAADHANA 'A' LEVEL TUITION
+#### Saadhana 'A' Level Tuition
 __Project Director | Aug 2017 - Oct 2017__
 - Led a large-scale subsidized tuition for the ’A’ level examinations that won the
 platinum award at the NUS student achievement awards.
@@ -55,4 +55,4 @@ platinum award at the NUS student achievement awards.
 #### DevOps
 - Used Ansible to automate deployment of all web applications in the company when interning at a fintech startup
 - Used Open Source Tools like Zabbix along with the ELK stack to build a complete monitoring system for production servers
-- Core team member in charge of site deployment for the Source Academy, a website used by 400+ students for a introduction programming course. Made use of Amazon Web Services.
+- Core team member in charge of site deployment for the Source Academy, a website used by 400+ students for a introduction programming course. Made use of Amazon Web Services
