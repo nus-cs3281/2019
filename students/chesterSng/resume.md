@@ -7,18 +7,17 @@
 * Bachelor of Computing (Honours) in Computer Science 2021 
 
 ## Experience/Work Industry:
+<br/>
 
-
-### Summer Internship at BreadTalk Group Ltd (May - August 2018)
+#### Software Developer | Internship at BreadTalk Group Ltd (May - August 2018)
 _BreadTalk Group Ltd is a Singaporean multinational food and beverage corporation._
-
-#### Software Developer for Internal Application (C#, SQL, HTML, CSS, JavaScript)
-###### Enhanced file management system (JavaScript Library zTree)
+_C#, SQL, HTML, CSS, Javascript_
+###### Enhanced file management system 
 1.  Added permissions and restricted features for each permission tier
 2.  Added various security features to prevent illegal manipulation of folders
 3.  Added unread/total count flags features for files under folder
 
-###### Implemented contacts page (Javascript Library DataTables)
+###### Implemented contacts page 
 1. Developed contacts page frontend and backend
 
 ###### Improved user experience of application
@@ -27,7 +26,7 @@ _BreadTalk Group Ltd is a Singaporean multinational food and beverage corporatio
 3. Revamped user interface
 
 ## Expertise Areas: 
-
+<br/>
 
 ##### Java
 
