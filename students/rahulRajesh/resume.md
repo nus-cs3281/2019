@@ -50,4 +50,4 @@ __Project Director | Aug 2017 - Oct 2017__
 #### DevOps
 - Used Ansible to automate deployment of all web applications in the company when interning at a fintech startup
 - Used Open Source Tools like Zabbix along with the ELK stack to build a complete monitoring system for production servers
-- Core team member in charge of site deployment for the Source Academy, a website used by 400+ students for a introduction programming course. Made use of Amazon Web Services
+- Core team member in charge of site deployment for the Source Academy, a website used by 400+ students for a introductory programming course. Made use of Amazon Web Services
