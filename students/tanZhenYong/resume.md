@@ -1,7 +1,7 @@
 <frontmatter>
     title: Resume - Tan Zhen Yong
 </frontmatter>
-{% set forWeb = false %}
+{% set forWeb = true %}
 {% set dot = '<svg height="5" width="5"><circle cx="2.5" cy="4" r="1" fill="black" /></svg>' %}
 
 ---
