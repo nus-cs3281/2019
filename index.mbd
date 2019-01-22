@@ -1,5 +1,6 @@
 <frontmatter>
 title: CS3281&2 - 2019 Batch
+pageNav: 2
 </frontmatter>
 
 <include src="common/top.mbdf" />
@@ -41,7 +42,7 @@ title: CS3281&2 - 2019 Batch
 
 {% for project in projects %}
 **{{ project.name }}:**
-{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '%2C')}})
+{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '')}})
 {% endfor %}
 {% endfor %}
 
@@ -56,8 +57,6 @@ title: CS3281&2 - 2019 Batch
  <div class="row">
   <div class="col">
 <img src="students/{{ student[1] }}/photo.png" width="100" /><br>
-
-
   </div>
   <div class="col">
 <include src="students/{{ student[1] }}/studentInfo.md#info" boilerplate />
