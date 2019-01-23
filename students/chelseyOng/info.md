@@ -6,4 +6,4 @@
 <span id="areas">Java, Performance & Scalability</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [TBC]()</span>
+<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [Jabref](https://github.com/JabRef/jabref)</span>
