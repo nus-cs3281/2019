@@ -1,0 +1,42 @@
+<frontmatter>
+footer:
+</frontmatter>
+{% from "index.mbd" import projects %}
+
+{% macro print_row(student) %}
+<tr>
+<td style="width:150px; height:160px">
+<img src="{{ baseUrl }}/students/{{ student[1] }}/photo.png" height="150" /><br>
+</td>
+<td valign="top" style="border: 1px solid black; padding:5px">
+
+****{{ student[0] }}**** <span style="float:right;">Delivery: `1` `2` `3` `4` `5` | Usefulness: `1` `2` `3` `4` `5`</span><br>
+Liked:
+<br><br>
+To improve:
+
+</td>
+</tr>
+{% endmacro %}
+
+{% macro print_feedback_table(round) %}
+
+**Delivery**: `1` very bad | `3` average | `5` very good<br>
+**Usefulness to YOU**: `1` not useful at all | `3` >25% of the talk useful | `5` >75% of the talk useful
+
+<table style="width:100%">
+{% for project in projects %}
+{% for student in project.students %}
+{% if student[2] == round %}
+{{ print_row(student) }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</table>
+<p style="page-break-after: always;">&nbsp;</p>
+{% endmacro %}
+
+
+{{ print_feedback_table('A1') }}
+{{ print_feedback_table('A2') }}
+{{ print_feedback_table('A3') }}
