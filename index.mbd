@@ -27,8 +27,8 @@ pageNav: 2
       ['WANG CHAO', 'wangChao', 'A3']
     ]},
     {name: "TEAMMATES", students: [
-      ['AMRUT PRABHU', 'amrutPrabhu', 'A3'],
-      ['CHATTORAJ AYUSH', 'chattorajAyush', 'A1'],
+      ['AMRUT PRABHU', 'amrutPrabhu', 'A1'],
+      ['CHATTORAJ AYUSH', 'chattorajAyush', 'A3'],
       ['JEREMY CHOO WUN KA', 'jeremyChoo', 'A2'],
       ['JIANG CHUNHUI', 'jiangChunhui', 'A2'],
       ['LI PENGCHENG', 'liPengcheng', 'A1'],
