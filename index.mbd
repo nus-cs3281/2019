@@ -49,22 +49,11 @@ pageNav: 2
 {% for project in projects %}
 # {{ project.name }}
   {% for student in project.students %}
-<box>
 
-## {{ student[0] }}
-
-<div class="container">
- <div class="row">
-  <div class="col">
-<img src="students/{{ student[1] }}/photo.png" width="100" /><br>
-  </div>
-  <div class="col">
-<include src="students/{{ student[1] }}/studentInfo.md#info" boilerplate />
-  </div>
- </div>
-</div>
-<include src="students/{{ student[1] }}/studentInfo.md#work" boilerplate />
-</box>
+<include src="students/{{ student[1] }}/studentInfo.md" boilerplate >
+  <span id="name">{{ student[0] }}</span>
+  <span id="folder">{{ student[1] }}</span>
+</include>
   {% endfor %}
 {% endfor %}
 
