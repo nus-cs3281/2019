@@ -1,4 +1,4 @@
-# Progress Placeholder
+# Progress
 
 Week | Achievements
 ---- | ------------
