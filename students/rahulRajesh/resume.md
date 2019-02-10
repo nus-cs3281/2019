@@ -44,7 +44,7 @@ __Project Director | Aug 2017 - Oct 2017__
 
 ## Expertise Areas (TBC)
 #### Java
-- Worked on a Java Desktop Application to handle efficient dispatch of food delivery (https://github.com/CS2103-AY1819S1-T16-3/main/) Wrote over 10K lines of Java Code, notable features include a completely offline Map service
+- Worked on a Java Desktop Application to handle efficient dispatch of food delivery (https://github.com/CS2103-AY1819S1-T16-3/main/) Wrote over 1K lines of Java Code, notable features include a completely offline Map service
 - Contributor to Teammates, a Google Summer of Code approved project primarily written in Java and used for education: http://teammatesv4.appspot.com/
 
 #### DevOps
