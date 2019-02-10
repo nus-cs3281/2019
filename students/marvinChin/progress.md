@@ -1,0 +1,15 @@
+Week | Achievements
+ ---- | ------------
+ 1 | Authored PR (closed superseded by #595): [Add check to ensure root folder when creating new Site object #584](https://github.com/MarkBind/markbind/pull/584)
+ 1 | Merged PR: [Add "Using Keywords" heading #586](https://github.com/MarkBind/markbind/pull/586)
+ 1 | Merged PR: [Revise logic to determine root folder #595](https://github.com/MarkBind/markbind/pull/595)
+ 1 | Submitted Issue: [Reduce replication of constants #597](https://github.com/MarkBind/markbind/issues/597)
+ 2 | Authored PR: [Add spinner to be shown before content is completely rendered #590](https://github.com/MarkBind/markbind/pull/590)
+ 2 | Merged PR: [Hide pageNav and siteNav when printing #624](https://github.com/MarkBind/markbind/pull/624)
+ 2 | Merged PR: [Update searchbar documentation #622](https://github.com/MarkBind/markbind/pull/622)
+ 3 | Merged PR: [Add spinner to be shown before content is completely rendered #590](https://github.com/MarkBind/markbind/pull/590)
+ 3 | Merged PR: [Load site data asynchronously #621](https://github.com/MarkBind/markbind/pull/621)
+ 3 | Submitted Issue: [Use server side rendering for Vue components #637](https://github.com/MarkBind/markbind/issues/637)
+ 4 | Investigated Issue: [Load site data asynchronously #621](https://github.com/MarkBind/markbind/pull/621)
+ 4 | Merged PR: [Add temporary styles #664](https://github.com/MarkBind/markbind/pull/664)
+ 4 | Merged PR: [Add Agolia search integration #65](https://github.com/se-edu/se-book/pull/65)
