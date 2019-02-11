@@ -10,5 +10,6 @@ Week | Achievements
 3 | Reviewed PR: [Integrate Azure speech services to narrations lab #1725](https://github.com/PowerPointLabs/PowerPointLabs/pull/1725)
 3 | Merged PR : [#1737 Convert to Picture: Unsupported Object #1764](https://github.com/PowerPointLabs/PowerPointLabs/pull/1764)
 3 | Reviewed PR: [#1604 Disable SyncLab/ShapesLab button when there is no selection #1760](https://github.com/PowerPointLabs/PowerPointLabs/pull/1760)
-3 | Subimitted Issue: [Use of != null inside ThisAddIn.cs #1765](https://github.com/PowerPointLabs/PowerPointLabs/issues/1765)
+3 | Submitted Issue: [Use of != null inside ThisAddIn.cs #1765](https://github.com/PowerPointLabs/PowerPointLabs/issues/1765)
 4 | Merged PR: [#1684 Log all sync methods #1751](https://github.com/PowerPointLabs/PowerPointLabs/pull/1751)
+4 | Merged PR: [#1702 Add Fiona Chang to AboutUs. #88](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/88)
