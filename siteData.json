@@ -1,21 +1,22 @@
 {
+  "enableSearch": true,
   "pages": [
     {
       "headings": {
-        "cs3281%262---2019-batch": "CS3281&amp;2 - 2019 Batch",
+        "cs3281-and-2-2019-batch": "CS3281&amp;2 - 2019 Batch",
         "markbind": "MarkBind",
-        "chin-kun-song%2C-marvin": "CHIN KUN SONG, MARVIN",
+        "chin-kun-song-marvin": "CHIN KUN SONG, MARVIN",
+        "lin-si-jie": "LIN SI JIE",
         "lu-yang-kenneth": "LU YANG KENNETH",
         "maddi-aadyaa": "MADDI AADYAA",
         "tan-zhen-yong": "TAN ZHEN YONG",
         "powerpointlabs": "PowerPointLabs",
         "bryan-lew-ju-yu": "BRYAN LEW JU YU",
         "sng-yu-feng-chester": "SNG YU FENG CHESTER",
-        "yu-pei-henry": "YU PEI HENRY",
+        "yu-pei-henry": "YU PEI, HENRY",
         "reposense": "RepoSense",
         "chelsey-ong-hee": "CHELSEY ONG HEE",
         "gilbert-emerson": "GILBERT EMERSON",
-        "lin-si-jie": "LIN SI JIE",
         "ong-shu-peng": "ONG SHU PENG",
         "wang-chao": "WANG CHAO",
         "teammates": "TEAMMATES",
@@ -31,18 +32,28 @@
         "wang-junming": "WANG JUNMING"
       },
       "title": "CS3281&2 - 2019 Batch",
+      "pageNav": 2,
       "src": "index.mbd",
       "layout": "default"
     },
     {
       "headings": {
-        "general-instructions-for-adding-to-this-repo": "General Instructions for adding to this Repo",
-        "updating-the-student-list": "Updating the Student List",
+        "instructions-for-updating-this-website": "Instructions for Updating this Website",
+        "general-instructions-for-updating-this-repo": "General Instructions for Updating This Repo",
+        "updating-your-basic-info": "Updating Your Basic Info",
         "adding-the-resume": "Adding the Resume",
-        "updating-your-project-progress": "Updating your Project Progress",
+        "updating-your-project-progress": "Updating Your Project Progress",
         "updating-the-process-observations-page": "Updating the Process Observations Page"
       },
+      "title": "Updating this website",
+      "pageNav": 2,
       "src": "instructions.mbd",
+      "layout": "default"
+    },
+    {
+      "headings": {},
+      "footer": null,
+      "src": "students/talksFeedback.mbd",
       "title": "",
       "layout": "default"
     }
