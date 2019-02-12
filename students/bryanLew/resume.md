@@ -25,16 +25,18 @@ GitHub: https://www.github.com/blewjy <br>
 - Built UI 100% programmatically in Swift 4.0, following proper MVC design patterns.
 - Backend technology used: Google's Firebase Database
 - This project was part of the Orbital Programme conducted by NUS School of Computing, and was awarded the ‘Gemini’ level of accomplishment (Intermediate).
+- Project details and source available [here](https://github.com/blewjy/EzDrive)
 
 ## Expertise Area
 
 ### iOS Development (Swift)
 - Contributed to Mozilla Firefox iOS Application
-    - [PR #4480](https://github.com/mozilla-mobile/firefox-ios/pull/4480) *ongoing*
+    - New feature [PR #4480](https://github.com/mozilla-mobile/firefox-ios/pull/4480) *ongoing*
 - Contributed to Rocket.Chat iOS Application
-    - [PR #2949](https://github.com/RocketChat/Rocket.Chat.iOS/pull/2494)
-- Main developer of EzDrive, a full native iOS Application written in Swift 4.0 for NUS SoC Orbital 2018.
+    - UI Improvement [PR #2949](https://github.com/RocketChat/Rocket.Chat.iOS/pull/2494)
+    - New feature [PR #2514](https://github.com/RocketChat/Rocket.Chat.iOS/pull/2514)
+- Main developer of [EzDrive](https://github.com/blewjy/EzDrive), a full native iOS Application written in Swift 4.0 for NUS SoC Orbital 2018.
 
 ### C#
 - Contributed to PowerPointLabs, a Microsoft PowerPoint add-in written in C#
-    - [PR #1718](https://github.com/PowerPointLabs/PowerPointLabs/pull/1730) *ongoing*
+    - [List of contributions](https://github.com/PowerPointLabs/PowerPointLabs/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Ablewjy+sort%3Aupdated-desc+)
