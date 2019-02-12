@@ -10,7 +10,6 @@ Website: http://amrut-prabhu.github.io
 - Bachelor of Computing (Honours) in Computer Science
 - Specialization : Software Engineering, Artificial Intelligence
 - Minor in Management of Technology
-- Cumulative Aggregate Points: 4.72/5
 
 ## Work Experience
 
@@ -32,7 +31,14 @@ Website: http://amrut-prabhu.github.io
 
 #### TEAMMATES (Jan 2019 - Present)
 
-- Contributor.
+- Contributed PRs and submitted issues.
+
+#### ChairVise
+
+- Developed the web application to visualize Microsoft CMT conference data.
+- Enhanced the visualization feature by adding support for uploads of multiple files and deriving insights from the file combinations.
+- Developed using Python and Vue.js
+- See the project [here](https://github.com/amrut-prabhu/chairvise).
 
 #### Club Connect
 
@@ -68,6 +74,6 @@ Website: http://amrut-prabhu.github.io
 
 ---
 
-### Web Applications
+### Progressive Web Applications
 
 - lorem ipsum
