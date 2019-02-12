@@ -10,4 +10,4 @@ Week | Achievements
 3 | Merged PR: [Disable SyncLab/ShapesLab button when no selection](https://github.com/PowerPointLabs/PowerPointLabs/pull/1760)
 3 | Submitted Issue: [SonarQube Check failing on some commits](https://github.com/PowerPointLabs/PowerPointLabs/issues/1762)
 4 | Reviewed PR: [Convert to Picture: Unsupported Object #1764](https://github.com/PowerPointLabs/PowerPointLabs/pull/1764)
-5 | Authored PR: [Disable PictureSlidesLab on empty presentation](https://github.com/PowerPointLabs/PowerPointLabs/pull/1776)
+5 | Authored PR: [Disable PictureSlidesLab on empty presentation #1776](https://github.com/PowerPointLabs/PowerPointLabs/pull/1776)
