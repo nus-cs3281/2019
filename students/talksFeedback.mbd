@@ -33,6 +33,7 @@ To improve:
 {% endfor %}
 {% endfor %}
 </table>
+<hr>
 <p style="page-break-after: always;">&nbsp;</p>
 {% endmacro %}
 
