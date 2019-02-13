@@ -1,5 +1,6 @@
 <footer>
   <div class="text-center">
-    <small>This site was built with {{ MarkBind }} at {{ timestamp }}</small>
+
+ <small>This page was built with <img src="https://markbind.github.io/markbind/favicon.ico" width="20"/> {{ MarkBind }} at {{ timestamp }}</small>
   </div>
 </footer>
