@@ -14,3 +14,4 @@ Week | Achievements
 3 | Submitted Issue: [Gradle CheckStyle plugin fails in jdk11 #523](https://github.com/reposense/RepoSense/issues/523)
 4 | Merged PR: [[#534] Fixes untouched code button failure #536](https://github.com/reposense/RepoSense/pull/536)
 5 | Merged PR: [build.gradle: Fix checkstyle plugin failure in JDK11 #530](https://github.com/reposense/RepoSense/pull/530)
+6 | Merged PR: [ArgsParser: extract magic strings and follow a widely-used standard for CLI #526](https://github.com/reposense/RepoSense/pull/526)
