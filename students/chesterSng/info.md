@@ -6,4 +6,4 @@
 <span id="areas">Java, C#, JavaScript</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[CLInic](https://github.com/CS2103-AY1819S1-W16-4/main)</span>
+<span id="projects">[PowerPointLabs](https://github.com/PowerPointLabs/PowerPointLabs), [Habitica](https://github.com/HabitRPG/habitica)</span>
