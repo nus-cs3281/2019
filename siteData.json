@@ -51,9 +51,18 @@
       "layout": "default"
     },
     {
-      "headings": {},
+      "headings": {
+        "current-round": "Current Round",
+        "round-b1": "Round B1",
+        "round-b2": "Round B2",
+        "round-b3": "Round B3",
+        "previous-rounds": "Previous Rounds",
+        "round-a1": "Round A1",
+        "round-a2": "Round A2",
+        "round-a3": "Round A3"
+      },
       "footer": null,
-      "src": "students/talksFeedback.mbd",
+      "src": "students/talksSchedule.mbd",
       "title": "",
       "layout": "default"
     }
