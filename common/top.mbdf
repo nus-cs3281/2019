@@ -7,10 +7,10 @@
   <li>
     <a href="{{ baseUrl }}/instructions.html" class="nav-link">Instructions</a>
   </li>
-  <dropdown text="Lightning Talks" class="nav-link">
-    <li><a href="{{ baseUrl }}/students/talksFeedback.html" class="dropdown-item">Round A</a></li>
-  </dropdown>
   <li>
+    <a href="{{ baseUrl }}/students/talksSchedule.html" class="nav-link">Lightning Talks</a>
+  </li>
+    <li>
     <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website {{ glyphicon_share_alt }}</a>
   </li>
   <li slot="right">
