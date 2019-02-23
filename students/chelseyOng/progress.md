@@ -7,3 +7,4 @@ Week | Achievements
 2 | Submitted issue: [Fix sorting of ramp charts by author names #501](https://github.com/reposense/RepoSense/issues/501)
 2 | Merged PR: [ChartView: apply case-insensitive sorting sequence to `Author Name` #488](https://github.com/reposense/RepoSense/pull/488)
 4 | Submitted Issue: [Implement grouping of ramp charts by authors #543](https://github.com/reposense/RepoSense/issues/543)
+5 | Merged PR: [Collapse/Expand All button not updated correctly after hiding all files #529](https://github.com/reposense/RepoSense/pull/529)
