@@ -8,5 +8,13 @@ Week | Achievements
 3 | Merged PR: [[#8779] AccountAttributes: Remove HTML sanitization before saving for googleId, name, institute #9368](https://github.com/TEAMMATES/teammates/pull/9368)
 3 | Submitted Issue: [Cannot create an instructor with an email that has a 2 letter domain #9390](https://github.com/TEAMMATES/teammates/issues/9390)
 3 | Merged PR: [[#9390] Cannot create an instructor with an email that has a 2 letter domain #9401](https://github.com/TEAMMATES/teammates/pull/9401)
+4 | Reviewed PR: [[#9420] Consolidate FeedbackQuestionRecipients RESTFul API #9446](https://github.com/TEAMMATES/teammates/pull/9446)
+4 | Reviewed PR: [[#9420] Consolidate account, student RESTFul API #9436](https://github.com/TEAMMATES/teammates/pull/9436)
+6 | Merged PR: [[#9420] Consolidate Sessions RESTFul API #9453](https://github.com/TEAMMATES/teammates/pull/9453)
+Recess | Merged PR: [[#9420] Consolidate Join RESTFul API #9485](https://github.com/TEAMMATES/teammates/pull/9485)
+Recess | Commented on PR: [[#9420] Consolidate Recycle Bin RESTFul API #9489](https://github.com/TEAMMATES/teammates/pull/9489)
+Recess | Reviewed PR: [ [#9494] Consolidate Courses RESTFul API #9513 ](https://github.com/TEAMMATES/teammates/pull/9513)
+? | Merged PR [[#9420] Consolidate Course RESTFul API #9437](https://github.com/TEAMMATES/teammates/pull/9437)
+? | Merged PR [[#9494] Consolidate GET course RESTFul API #9512](https://github.com/TEAMMATES/teammates/pull/9512)
 
 [comment]: <> (2 | Authored PR (put on hold by request): [PR name 3 #365]())
