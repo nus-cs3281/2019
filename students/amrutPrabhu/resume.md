@@ -24,6 +24,7 @@ Website: http://amrut-prabhu.github.io
 
 #### Teaching Assistant | National University of Singapore (Jan 2018 - Present)
 
+- CS3244 Machine Learning: Created and updated course material for linear and logistic regression. 
 - CS2103 Software Engineering: Guided 2 teams in their SE projects and conduted tutorial sessions focused on UML diagrams, Software Engineering Principles and Patterns, and Software Development Life Cycle. 
 - CS1020 Data Structures and Algorithms: Facilitated lab sessions for a group of 40 students. Discussed solutions to programming assignements and tests focused around linear data structures, efficient algorithms and hashing.
 
@@ -50,10 +51,6 @@ Website: http://amrut-prabhu.github.io
 
 ## Competencies
 
-<!-- - Expertise: Java, Code Analysis
-- Other Areas: JavaScript, Python, HTML, CSS, Vue.js, C/C++, MySQL
-## Expertise Area -->
-
 ### Java
 
 - Developed multiple features in Java with over 9 KLoC across multiple projects and courses.
@@ -62,18 +59,12 @@ Website: http://amrut-prabhu.github.io
 
 ---
 
-### React
-
-- lorem ipsum
-
----
-
 ### Testing
 
 - Added ~1.6 KLoC of JUnit tests for [Club Connect](#club-connect), which can be seen [here](https://github.com/amrut-prabhu/club-connect/blob/master/collated/test/amrut-prabhu.md).
-
+- L&P Testing
 ---
 
-### Progressive Web Applications
+### Web Applications
 
-- lorem ipsum
+- Multiple web app projects.
