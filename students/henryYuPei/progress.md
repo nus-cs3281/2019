@@ -5,7 +5,7 @@ Week | Achievements
 1 | Submitted Issue: [Visual Studio modifies files in .vs folder not in .gitignore #1735](https://github.com/PowerPointLabs/PowerPointLabs/issues/1735)
 1 | Submitted Issue: [Convert to Picture: Unsupported Object #1737](https://github.com/PowerPointLabs/PowerPointLabs/issues/1737)
 2 | Merged PR: [#1735 Visual Studio modifies files in .vs folder not in .gitignore #1738](https://github.com/PowerPointLabs/PowerPointLabs/pull/1738)
-2 | Reviewed PR: [#1741 Picture Slides Lab: Account for scale factor of windows #1742}(https://github.com/PowerPointLabs/PowerPointLabs/pull/1742)
+2 | Reviewed PR: [#1741 Picture Slides Lab: Account for scale factor of windows #1742](https://github.com/PowerPointLabs/PowerPointLabs/pull/1742)
 2 | Submitted Issue: [ColorsLab FT does not work correctly #1744](https://github.com/PowerPointLabs/PowerPointLabs/issues/1744)
 3 | Reviewed PR: [Integrate Azure speech services to narrations lab #1725](https://github.com/PowerPointLabs/PowerPointLabs/pull/1725)
 3 | Merged PR : [#1737 Convert to Picture: Unsupported Object #1764](https://github.com/PowerPointLabs/PowerPointLabs/pull/1764)
