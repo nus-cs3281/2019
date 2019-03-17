@@ -1,7 +1,7 @@
 # Amrut Prabhu
 
-Email: amrut08@gmail.com <br>
-GitHub: https://www.github.com/amrut-prabhu <br>
+Email: amrut08@gmail.com  
+GitHub: https://www.github.com/amrut-prabhu  
 Website: http://amrut-prabhu.github.io
 
 ## Education
@@ -62,9 +62,22 @@ Website: http://amrut-prabhu.github.io
 ### Testing
 
 - Added ~1.6 KLoC of JUnit tests for [Club Connect](#club-connect), which can be seen [here](https://github.com/amrut-prabhu/club-connect/blob/master/collated/test/amrut-prabhu.md).
-- L&P Testing
+- Load and Performance (L&P) Testing
+	- Led the [Continuous Profiling](https://github.com/teammates/teammates/projects/7) project for TEAMMATES.
+	- Created performance tests for different endpoints using JMeter.
+
 ---
 
-### Web Applications
+### Artificial Intelligence
 
-- Multiple web app projects.
+#### Projects
+
+- [Predicting defaults on student loans](https://github.com/amrut-prabhu/loan-default-prediction)
+	- Led a project to predict the future earnings and loan default rates for students, using the College Scorecard dataset. 
+- [Modelled the trajectory of a table tennis ball](https://github.com/amrut-prabhu/table-tennis-ball-trajectory) using **Computer Vision** techniques
+- [Poker AI]
+
+#### Related work
+
+-  Delivered a [lightning talk](https://github.com/nus-cs3281/2019/issues/49) explaining what **Machine Learning** is and why it is important to understand it.
+- Worked as a CS3244 Machine Learning Research Assistant at NUS. Created and updated course content (lecture notes, tutorials, lab assignments and quizzes) to improve the quality of the course.
