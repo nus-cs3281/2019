@@ -1,0 +1,17 @@
+Week | Achievements
+---- | ------------
+0 | Merged PR: [[#396] Provide a link to repo even when not grouped by repo #426](https://github.com/reposense/RepoSense/pull/426)
+0 | Merged PR: [[#405] Code view: reset to top when loading new code view #428](https://github.com/reposense/RepoSense/pull/428)
+0 | Merged PR: [[#374] Add args to ignore standalone config in command line #431](https://github.com/reposense/RepoSense/pull/431)
+0 | Submitted issue: [Formats field in args seems not work properly #430](https://github.com/reposense/RepoSense/issues/430)
+0 | Submitted Issue: [Different author with same alias will not trigger any warning #436](https://github.com/reposense/RepoSense/issues/436)
+0 | Submitted Issue: [GitLogTest fails due to system time >= 2019 #452](https://github.com/reposense/RepoSense/issues/452)
+1 | Submitted Issue: [RampChart: Ramp URL lead to 404 web page on github when analyzing a local Repo #491](https://github.com/reposense/RepoSense/issues/491)
+1 | Merged PR: [[#350] author-config.csv: make repo's location optional field #441](https://github.com/reposense/RepoSense/pull/441)
+1 | Merged PR: [Remove report folder #489](https://github.com/reposense/RepoSense/pull/489)
+2 | Merged PR: [Code view: give link to history and blame views of each file #490](https://github.com/reposense/RepoSense/pull/490)
+2 | Submitted issue: [Add -version tag to show the version of the jar of RepoSense #503](https://github.com/reposense/RepoSense/issues/503)
+3 | Submitted Issue: [Gradle CheckStyle plugin fails in jdk11 #523](https://github.com/reposense/RepoSense/issues/523)
+4 | Merged PR: [[#534] Fixes untouched code button failure #536](https://github.com/reposense/RepoSense/pull/536)
+5 | Merged PR: [build.gradle: Fix checkstyle plugin failure in JDK11 #530](https://github.com/reposense/RepoSense/pull/530)
+6 | Merged PR: [ArgsParser: extract magic strings and follow a widely-used standard for CLI #526](https://github.com/reposense/RepoSense/pull/526)

@@ -59,7 +59,7 @@ LinkedIn: https://www.linkedin.com/in/aadyaa-maddi/
 
 - Added ~2.7 KLoC of functional code and ~2.9 KLoC for [ContactSails](https://github.com/amad-person/ContactSails).
 - Wrote ~0.5 KLoC for the API shadow testing infrastructure at PayPal.
-
+- Wrote ~3.0 KLoC for assignments and labs in CS1020, CS2010, and CS2105.
 ---
 
 ### JavaScript
@@ -67,5 +67,12 @@ LinkedIn: https://www.linkedin.com/in/aadyaa-maddi/
 - Developed a dynamic documentation website using React at PayPal. 
 - Built the front-end for Find And Seek in React. A gist summarizing the code can be found [here](https://gist.github.com/amad-person/7928dd3a51ebfff0ec9f3dbf52ba2ab2).
 - Made [NewsTab](https://github.com/amad-person/NewsTab), a React Chrome extension that displays the latest headlines on your new tab page. 
+- Contributed to [MarkBind](https://github.com/MarkBind/markbind) and [Gatsby](https://github.com/gatsbyjs/gatsby).
 
+### Documentation
+
+- Responsible for maintaining and improving documentation for [ContactSails](https://github.com/amad-person/ContactSails).
+    - Added new sections and improved existing sections of the User Guide. (Pull requests https://github.com/CS2103JAN2018-W13-B1/main/pull/124[#124], https://github.com/CS2103JAN2018-W13-B1/main/pull/141[#141], https://github.com/CS2103JAN2018-W13-B1/main/pull/165[#165], https://github.com/CS2103JAN2018-W13-B1/main/pull/217[#217]).
+    - Improved existing sections of the Developer Guide. (Pull requests https://github.com/CS2103JAN2018-W13-B1/main/pull/57[#57], https://github.com/CS2103JAN2018-W13-B1/main/pull/88[#88], https://github.com/CS2103JAN2018-W13-B1/main/pull/101[#101], https://github.com/CS2103JAN2018-W13-B1/main/pull/105[#105], https://github.com/CS2103JAN2018-W13-B1/main/pull/226[#226])
+- Wrote and maintained documentation aimed at both users and developers for all projects at PayPal.
 ---

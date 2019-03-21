@@ -1,7 +1,7 @@
 # Amrut Prabhu
 
-Email: amrut08@gmail.com <br>
-GitHub: https://www.github.com/amrut-prabhu <br>
+Email: amrut08@gmail.com  
+GitHub: https://www.github.com/amrut-prabhu  
 Website: http://amrut-prabhu.github.io
 
 ## Education
@@ -24,6 +24,7 @@ Website: http://amrut-prabhu.github.io
 
 #### Teaching Assistant | National University of Singapore (Jan 2018 - Present)
 
+- CS3244 Machine Learning: Created and updated course material for linear and logistic regression. 
 - CS2103 Software Engineering: Guided 2 teams in their SE projects and conduted tutorial sessions focused on UML diagrams, Software Engineering Principles and Patterns, and Software Development Life Cycle. 
 - CS1020 Data Structures and Algorithms: Facilitated lab sessions for a group of 40 students. Discussed solutions to programming assignements and tests focused around linear data structures, efficient algorithms and hashing.
 
@@ -50,10 +51,6 @@ Website: http://amrut-prabhu.github.io
 
 ## Competencies
 
-<!-- - Expertise: Java, Code Analysis
-- Other Areas: JavaScript, Python, HTML, CSS, Vue.js, C/C++, MySQL
-## Expertise Area -->
-
 ### Java
 
 - Developed multiple features in Java with over 9 KLoC across multiple projects and courses.
@@ -62,18 +59,25 @@ Website: http://amrut-prabhu.github.io
 
 ---
 
-### React
-
-- lorem ipsum
-
----
-
 ### Testing
 
 - Added ~1.6 KLoC of JUnit tests for [Club Connect](#club-connect), which can be seen [here](https://github.com/amrut-prabhu/club-connect/blob/master/collated/test/amrut-prabhu.md).
+- Load and Performance (L&P) Testing
+	- Led the [Continuous Profiling](https://github.com/teammates/teammates/projects/7) project for TEAMMATES.
+	- Created performance tests for different endpoints using JMeter.
 
 ---
 
-### Progressive Web Applications
+### Artificial Intelligence
 
-- lorem ipsum
+#### Projects
+
+- [Predicting defaults on student loans](https://github.com/amrut-prabhu/loan-default-prediction)
+	- Led a project to predict the future earnings and loan default rates for students, using the College Scorecard dataset. 
+- [Modelled the trajectory of a table tennis ball](https://github.com/amrut-prabhu/table-tennis-ball-trajectory) using **Computer Vision** techniques
+- [Poker AI]
+
+#### Related work
+
+-  Delivered a [lightning talk](https://github.com/nus-cs3281/2019/issues/49) explaining what **Machine Learning** is and why it is important to understand it.
+- Worked as a CS3244 Machine Learning Research Assistant at NUS. Created and updated course content (lecture notes, tutorials, lab assignments and quizzes) to improve the quality of the course.

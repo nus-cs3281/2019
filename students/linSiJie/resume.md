@@ -37,25 +37,34 @@ After the internship, I stayed on as a freelance trainer to teach programming.
 ## Competencies
 
 #### NodeJS
-NodeJS is my go-to language for writing server-side software. With its vast npm collection, NodeJS allows me to quickly prototype software projects.
-Among many projects, I implemented the Reliability Monitoring service from MrJudge, as well as a live code sharing tool that enables teachers to
-cast code in real time to students during a lecture.
-Some snippets of my code can be found at [here](https://gist.github.com/sijie123/26be19e7aba1522b79cef42b75bfed89)
+Notable projects:
+- Implemented the Reliability Monitoring service from MrJudge
+- A live code sharing tool that enables teachers to cast code in real time to students during a lecture.
+- MarkBind: a tool that generate dynamic websites from Markdown text.
+Some snippets of my code can be found [here](https://gist.github.com/sijie123/26be19e7aba1522b79cef42b75bfed89)
 
 #### Java
-Having learnt the intricacies of the Java language through a module in NUS, CS2030: Programming Methodology II, 
-I furthered my interest in the language by returning as a Teaching Assistant in the next semester.
-Following which, I developed a Software Engineering project in Java. Coming in at ~10kLoC, 
-the Software Engineering project, <trigger for="modal:dm" trigger="click">DeadlineManager</trigger>, allowed me to use various styles of programming (e.g. Functional / OOP) in Java to develop a robust and clean product.
-My project portfolio can be found [here](https://cs2103-ay1819s1-w17-4.github.io/main/team/sijie123.html).
+Learnt the intricacies of the Java language through a module in NUS, CS2030: Programming Methodology II
+- Grade: A
+- Returned as Teaching Assistant in the next semester
+
+Developed a Software Engineering project (<trigger for="modal:dm" trigger="click">DeadlineManager</trigger>) in Java.
+- ~10kLoC
+- Used various styles of programming (e.g. Functional / OOP) in Java to develop a robust and clean product.
+- Project portfolio: [here](https://cs2103-ay1819s1-w17-4.github.io/main/team/sijie123.html).
+- Grade: A+
+
+Contributed to SE-EDU, a collection of FOSS resources for Software Engineering educators and students.
+Notable contributions:
+- ~10kLOC AddressBook Level 4: Upgraded unit tests from JUnit 4 to JUnit 5
 <br/>
 <br/>
-I received A and A+ respectively for the two modules.
 
 #### Competitive Programming
-To further my capabilities of writing accurate and efficient code, I have trained for and participated in various competitive programming competitions, 
-such as the [National Olympiad in Informatics](https://noisg.comp.nus.edu.sg) and [Inter-Collegiate Programming Competition](https://www.comp.nus.edu.sg/~acmicpc/).
-Most recently, I was one of the teams that represented NUS in the Singapore ICPC Regionals. My team attained a first-to-solve prize in the competition.
+To further my capabilities of writing accurate and efficient code, I have trained for and participated in various competitive programming competitions.
+- [National Olympiad in Informatics](https://noisg.comp.nus.edu.sg) 
+- [Inter-Collegiate Programming Competition](https://www.comp.nus.edu.sg/~acmicpc/)
+- Represented NUS in the Singapore ICPC Regionals. My team attained a first-to-solve prize in the competition.
 <br/>
 <br/>
 To advance my knowledge in Algorithms, I have also challenged myself as a Teaching Assistant for CS2040: Data Structures and Algorithms.

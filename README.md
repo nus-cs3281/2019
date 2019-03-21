@@ -1,5 +1,5 @@
 # CS3281&2 - 2019 Batch
 
-The website: https://nus-cs3281-2019.netlify.com
+The website: https://nus-cs3281.github.io/2019/
 
-Instructions for updating this repo: https://nus-cs3281-2019.netlify.com/instructions.html
+Instructions for updating this repo: https://nus-cs3281.github.io/2019/instructions.html
