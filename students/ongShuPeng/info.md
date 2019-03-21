@@ -5,4 +5,4 @@
 <span id="areas">nodejs, web development, VueJs</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [External Project]()</span>
+<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [Offline-QR-Code](https://github.com/rugk/offline-qr-code)</span>
