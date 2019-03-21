@@ -5,7 +5,7 @@
 <div class="container">
  <div class="row">
   <div class="col">
-<img src="students/{{ folder }}/photo.png" width="100" /><br>
+<img src="photo.png" width="100" /><br>
   </div>
   <div class="col">
 
