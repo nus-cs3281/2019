@@ -1829,7 +1829,7 @@
             <div class="col">
               <p><strong>GitHub:</strong> <span><a href="https://www.github.com/ongspxm">https://www.github.com/ongspxm</a></span><br></p>
               <p><strong>Expert areas:</strong> <span>nodejs, web development, VueJs</span><br></p>
-              <p><strong>Projects:</strong> <span><a href="https://github.com/reposense/RepoSense">RepoSense</a>, <a href>External Project</a></span></p>
+              <p><strong>Projects:</strong> <span><a href="https://github.com/reposense/RepoSense">RepoSense</a>, <a href="https://github.com/rugk/offline-qr-code">Offline-QR-Code</a></span></p>
             </div>
           </div>
         </div>
@@ -1895,7 +1895,7 @@
                   </tr>
                   <tr>
                     <td>1</td>
-                    <td>Worked on #492, #495</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/515">#515</a></td>
                   </tr>
                   <tr>
                     <td>2</td>
@@ -1903,7 +1903,7 @@
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>Worked on #507, #500</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/495">#495</a></td>
                   </tr>
                   <tr>
                     <td>3</td>
@@ -1911,7 +1911,7 @@
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td>Worked on #514, #516, #500</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/514">#514</a>, <a href="https://github.com/reposense/RepoSense/pull/516">#516</a></td>
                   </tr>
                   <tr>
                     <td>4</td>
@@ -1919,7 +1919,7 @@
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Worked on #500</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/500">#500</a>, <a href="https://github.com/reposense/RepoSense/pull/545">#545</a></td>
                   </tr>
                   <tr>
                     <td>5</td>
@@ -1927,7 +1927,39 @@
                   </tr>
                   <tr>
                     <td>5</td>
-                    <td></td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/558">#558</a></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Reviewed #513</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/572">#572</a>, <a href="https://github.com/reposense/RepoSense/pull/544">#544</a></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Reviewed #487, #532</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/591">#591</a></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Reviewed #445, #524</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/566">#566</a></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Reviewed #445, #570, #589</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Merged <a href="https://github.com/reposense/RepoSense/pull/574">#574</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -1936,7 +1968,14 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>Coming soon ...</p>
+            <p>The particular project that I picked was part of a collection of firefox extensions. As such, they use many general libraries for rendering tooltips, popups, and interacting with the browser content.</p>
+            <p>These libraries are &quot;imported&quot; using the git submodule and any updates to the libraries can be easily updated through git as well. Using git submodules to manage libraries was new to me, and this was a concept that would be relevant for bigger projects with many moving parts.</p>
+            <p>However, this may not be so relevent for RepoSense. Even though the frontend report interface may be thought to be a separate component from the java backend which generates the report, they are too tightly related, the frontend having strong dependency with the format of the generated reports.</p>
+            <p>Another observation was the use of the <code>.editorconfig</code> file. The collection of firefox extensions is a rather large project with many different contributors. To help with the setting up of the development environment, this config file will handle code style such as indentation and trailing spaces.</p>
+            <p>For projects with many different contributors this can be useful to automatically handle the different types of indentation styles. Since most editors respect the <code>.editorconfig</code> file, little has to be done to manage the file.</p>
+            <p>For RepoSense, this is something we could definitely do, using a <code>.editorconfig</code> to handle different kinds of code style. This is especially important for CLI based text editors such as vim where such options cannot be conviniently changed.</p>
+            <p>However, to tackle this issue, code style checkers such as eslint and checkstyle is used as part of the CI process to enforce a certain code style. The <code>.editorconfig</code> file can still come in useful for files where the style checkers miss (e.g. css files). With this configuration file, there would be less cases of early PRs having offending whitespaces changes.</p>
+            <p>Another useful thing to note is that most web based ide as offered by major code repository hosting platforms like github, gitlab and bitbucket do offer support for this config file. Therefore, this will make it more convenient for developers to work on their code, using these web ides.</p>
           </div>
         </panel>
       </box>
@@ -3493,7 +3532,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Thu, 21 Mar 2019 07:30:44 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Thu, 21 Mar 2019 10:08:38 GMT</small></p>
   </div>
 </footer>
 </div>
