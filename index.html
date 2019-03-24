@@ -3088,7 +3088,7 @@
                   </tr>
                   <tr>
                     <td>6</td>
-                    <td>Submitted Issue: <a href="https://github.com/TEAMMATES/teammates/issues/9424">feedbackQuestionType in FeedbackQuestionAttributes #9424</a></td>
+                    <td>Submitted Issue: <a href="https://github.com/TEAMMATES/teammates/issues/9424">Remove feedbackQuestionType in FeedbackQuestionAttributes #9424</a></td>
                   </tr>
                   <tr>
                     <td>6</td>
@@ -3106,6 +3106,18 @@
                     <td>8</td>
                     <td>Reviewed PR: <a href="https://github.com/TEAMMATES/teammates/pull/9512">Consolidate GET course RESTFul API #9512</a></td>
                   </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Submitted Issue: <a href="https://github.com/TEAMMATES/teammates/issues/9598">Bug: Cannot delete all courses in recycle bin #9598</a></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Reviewed PR: <a href="https://github.com/TEAMMATES/teammates/pull/9599">Bug fix: Cannot delete all courses in recycle bin #9599</a></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Reviewed PR: <a href="https://github.com/TEAMMATES/teammates/pull/9575">Consolidate Student Profile Picture RESTFul API #9575</a></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -3113,7 +3125,49 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>External project really has detailed documentation. Should be adapted in TEAMMATES</p>
+            <h3 id="project">Project:<a class="fa fa-anchor" href="#project"></a></h3>
+            <ul>
+              <li><a href="https://github.com/Kentico/cloud-sdk-swift/blob/master/CONTRIBUTING.md">Kentico Cloud Swift SDK</a></li>
+            </ul>
+            <h3 id="documentation-2">Documentation:<a class="fa fa-anchor" href="#documentation-2"></a></h3>
+            <ul>
+              <li><a href="https://github.com/Kentico/cloud-sdk-swift/blob/master/CONTRIBUTING.md">Ways to contribute</a></li>
+              <li><a href="https://github.com/Kentico/cloud-sdk-swift/blob/master/CONTRIBUTING.md#submitting-pull-requests">Submit pull requests</a></li>
+            </ul>
+            <h3 id="contribution-so-far">Contribution so far:<a class="fa fa-anchor" href="#contribution-so-far"></a></h3>
+            <ul>
+              <li><a href="https://github.com/Kentico/cloud-sdk-swift/pull/63">Implement retry policy</a></li>
+            </ul>
+            <h3 id="observation">Observation:<a class="fa fa-anchor" href="#observation"></a></h3>
+            <ul>
+              <li>
+                <p>As shown in the above documentation link, they also use the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">feature branch workflow</a>, which is similar as TEAMMATE's.</p>
+              </li>
+              <li>
+                <p>The KenticoCloud iOS SDK developed by <a href="https://www.kentico.com/">Kentico CMS</a> is a Swift library used for retrieving web content. Since the SDK is target to developers rather than general users, the documentation is quite detailed in terms of both developer guide and inline comment. As shown in this <a href="https://github.com/Kentico/cloud-sdk-swift/blob/master/CONTRIBUTING.md#Definition-of-Done">link</a>, they require documentation in every <code>public</code> member in order to make it clear for other developers.</p>
+              </li>
+            </ul>
+            <h3 id="what-i-have-learnt">What I have learnt<a class="fa fa-anchor" href="#what-i-have-learnt"></a></h3>
+            <ul>
+              <li>
+                <p><strong>Write meaningful commit message and organize commit messages well.</strong> I found it important because as I used to have messy commit messages, sometimes I even confused myself when I wanted to track some files. Organizing commit message is quite a valuable skill that I learnt from contributing to open source project. TEAMMATE also emphesis organzing commit messages.</p>
+              </li>
+              <li>
+                <p><strong>Read documentation of dependencies, and be careful to block main thread.</strong> In this <a href="https://github.com/Kentico/cloud-sdk-swift/pull/63">PR</a>, my first approach blocked the main thread, which was pointed by the maintainer. He also told me to read some documentation of dependency modules, and finally I implemented better functionality. Sometimes the dependencies have provided API that can solve the issue. I should explore them before implementating the feature from scratch.</p>
+              </li>
+              <li>
+                <p><strong>Follow some <a href="https://tirania.org/blog/archive/2010/Dec-31.html">contribution etiquette</a>.</strong> This is written in thier contribution guide. I used to try to refactor the code for my better understanding before fixing the issue. However, I realize that applying this will cost extra effort for maintainer to review my refactoring, and is not a good practice to contribute to open source project. This link about etiquette can also be put on TEAMMATE since it will be contribute to large number of developers.</p>
+              </li>
+            </ul>
+            <h3 id="tools">Tools<a class="fa fa-anchor" href="#tools"></a></h3>
+            <ul>
+              <li>Auto-generating documentation: <a href="https://github.com/realm/jazzy">jazzy</a></li>
+              <li>Testing: <a href="https://github.com/Quick/Nimble">Quick/Nimble</a></li>
+            </ul>
+            <p>However, after exploration, these framework are typically designed for Swift/Objecive-C. Therefore, it is not applicable to NUS-OSS project currently. However, there are similar tools that support for other languages, such as <code>Javadoc</code> which can be used for TEAMMATE.</p>
+            <h3 id="suggestions-to-teammate">Suggestions to TEAMMATE<a class="fa fa-anchor" href="#suggestions-to-teammate"></a></h3>
+            <p>TEAMMATE can pay more attention to documentation, especially the developer guide. As an API developer, I often find it costing a lot of time to understand how does the API work, and try to consolidate it.
+              Since TEAMMATE is intended to be contributed by a large number of developers, it is important to help them understand the codebase quickly. Therefore, I believe the developer guide on API layer is necessary for both backend developers to improve the API and frontend developers to use API. It will be better if the developer guide on storage lay can also be provided.</p>
           </div>
         </panel>
       </box>
@@ -4187,7 +4241,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Sun, 24 Mar 2019 11:02:19 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Sun, 24 Mar 2019 12:10:58 GMT</small></p>
   </div>
 </footer>
 </div>
