@@ -36,11 +36,12 @@ Developed a game based tool for Professor Martin Henz to help students in NUS le
 
 ## Competencies
 #### Problem Solving Skills
-Strong in problem solving skills and interested in solving challenging problems. Grades of algorithm modules taken in NUS:
+Strong intesests in solving challenging problems. 
+Below are the algorithm modules taken in NUS:
 
-- CS2020 - Data Structure and algorithms accelerated : A+
-- CS3230 - Design and Analysis of algorithms: A
-- CS5234 - Combinatorial and graph algorithms: A 
-- CS5330 - Randomised Algorithms: Currently Taking
-- CS4231 - Parallel and Distributed Algorithms: Currently Taking
+- CS2020 - Data Structure and algorithms accelerated 
+- CS3230 - Design and Analysis of algorithms
+- CS5234 - Combinatorial and graph algorithms
+- CS5330 - Randomised Algorithms
+- CS4231 - Parallel and Distributed Algorithms
 
