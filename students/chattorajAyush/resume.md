@@ -27,14 +27,14 @@ Software Engineering Intern | May 2018 - Aug 2018
 
 #### TEAMMATES | ONLINE PEER FEEDBACK/EVALUATION SYSTEM
 - [TEAMMATES](http://teammatesv4.appspot.com/) is an award winning online feedback management system for education, used by over 500K users.
-- Contributed over 1.5KLoC for front-end snapshot testing using Jest (Sample PR [#1] (https://github.com/TEAMMATES/teammates/pull/9586) [#2] (https://github.com/TEAMMATES/teammates/pull/9571))
-- Migrated pages from JSP to a modern front-end framework, Angular (Sample [PR] (https://github.com/TEAMMATES/teammates/pull/9394))
-- Improved accesibility and UI/UX of the newly migrated system (Sample [PR] (https://github.com/TEAMMATES/teammates/pull/9428)) 
+- Contributed over 1.5KLoC for front-end snapshot testing using Jest (Sample PR [#1](https://github.com/TEAMMATES/teammates/pull/9586) [#2](https://github.com/TEAMMATES/teammates/pull/9571))
+- Migrated pages from JSP to a modern front-end framework, Angular (Sample [PR](https://github.com/TEAMMATES/teammates/pull/9394))
+- Improved accesibility and UI/UX of the newly migrated system (Sample [PR](https://github.com/TEAMMATES/teammates/pull/9428)) 
 
 #### CHAT.SUSI.AI | ARTIFICAL INTELLIGENCE FOR PERSONAL ASSISTANTS
-- SUSI.AI is an artificial intelligence system, with a web front-end for interaction at [chat.susi.ai] (chat.susi.ai)
+- SUSI.AI is an artificial intelligence system, with a web front-end for interaction at [chat.susi.ai](chat.susi.ai)
 - Refactored code base to improve code quality and created reusable navigation button.
-- PRs: [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2] (https://github.com/fossasia/chat.susi.ai/pull/2052)
+- PRs: [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2](https://github.com/fossasia/chat.susi.ai/pull/2052)
 
 #### INSUREN | ADDRESS BOOK FOR INSURANCE AGENTS
 - Developed by me and my team for our Software Engineering
@@ -50,8 +50,8 @@ of meetings with their clients.
 - Wrote feature to enable users to schedule meetings with clients. Example code: [RepoSense](https://nus-cs2103-ay1819s1.github.io/cs2103-dashboard/#=undefined&search=ayushchatto&sort=displayName&since=2018-09-12&until=2018-11-15&timeframe=day&reverse=false&repoSort=true) 
 
 #### Front-end frameworks
-- Worked on Angular front-end migrations and snapshot tests on TEAMMATES. [#1] (https://github.com/TEAMMATES/teammates/pull/9586) [#2](https://github.com/TEAMMATES/teammates/pull/9394).
-- Worked with ReactJS for contributions to FOSSASIA's chat.susi.ai. [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2] (https://github.com/fossasia/chat.susi.ai/pull/2052)
+- Worked on Angular front-end migrations and snapshot tests on TEAMMATES. [#1](https://github.com/TEAMMATES/teammates/pull/9586) [#2](https://github.com/TEAMMATES/teammates/pull/9394).
+- Worked with ReactJS for contributions to FOSSASIA's chat.susi.ai. [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2](https://github.com/fossasia/chat.susi.ai/pull/2052)
 - Wrote front-end during my internship for an Employee Onboarding Form for a HR management software in Vue.js. 
 
 #### Ruby on Rails
