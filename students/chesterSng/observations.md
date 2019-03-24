@@ -11,7 +11,7 @@ The main reason being their documentation is **clear and easy to read**. Habitic
 
 Fun Fact: Contributors on Habitica are not called "contributors", they are called **Blacksmiths**.
 
- ##### Habitica shows Blacksmiths where they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
+ ##### Habitica shows Blacksmiths what they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
 
 On the same page, you can find that Habitica also introduces the workflow of the project. Some FAQs like where to add images, where to add translatable strings are on the same page. Also, even though MongoDB might be widely used, Habitica also has a small section to teach Blacksmiths how to modify the database so that they are able to test their changes. 
 
@@ -19,7 +19,9 @@ For someone like me who only knew MongoDB is a great database system and not kno
 
 ##### Blacksmiths are awarded Contributor Tiers
 
-Habitica shows their appreciation for Blacksmiths by awarding Contributor Tiers once the pull request gets merged. For example, you can see in my [first pull request](https://github.com/HabitRPG/habitica/pull/10965), I was awarded the first contributor tier. In game, this achievement comes as a [badge](https://imgur.com/a/MmMJi3L) viewable in your own profile. Contributing more or longer pull requests will increase the contributor tier accordingly. Here in my [third pull request](https://github.com/HabitRPG/habitica/pull/11078), I was award the second tier. You can see my users of Habitica will be willing to contribute to Habitica here, because Habitica gamifies the contributing as well! Even if you are contributing artwork or a sound piece, you will be awarded different [contributor titles](https://habitica.fandom.com/wiki/Contributor_Titles) as well. 
+Habitica shows their appreciation for Blacksmiths by awarding Contributor Tiers once the pull request gets merged. For example, you can see in my [first pull request](https://github.com/HabitRPG/habitica/pull/10965), I was awarded the first contributor tier. In game, this achievement comes as a [badge](https://imgur.com/a/MmMJi3L) viewable in your own profile. Contributing more or longer pull requests will increase the contributor tier accordingly. Here in my [third pull request](https://github.com/HabitRPG/habitica/pull/11078), I was award the second tier. 
+
+You can see why users of Habitica will be willing to contribute to Habitica: because Habitica gamifies the contributing as well! If you are contributing artwork or a sound piece, you will be  awarded a different [contributor title](https://habitica.fandom.com/wiki/Contributor_Titles) as well. 
 
 ##### Help is always available for Blacksmiths
 
