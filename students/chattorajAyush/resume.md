@@ -8,6 +8,7 @@
 - Bachelor of Computing (Honours) in Computer Science
 - University Scholars' Programme (USP)
 - Science & Tech Undergraduate Scholarship
+- Dean's List for AY2018/19 Semester 1
 - CAP: 4.69/5.0
 
 #### University Scholars' Programme (USP)
@@ -23,13 +24,17 @@ Software Engineering Intern | May 2018 - Aug 2018
 - Employed by over 200 client-companies, with over 10,000 employees managed by the system.
 
 ## Personal Projects
-#### MYFACESWAPBOT | SNAPCHAT FOR TELEGRAM USERS
-- Developed by me and my team during NUS Hack & Roll 2018.
-- This telegram bot has the ability to swap the faces of the people
-in photographs, much like the Snapchat feature.
-- Developed using Python, the open-cv library,and the Telepot
-library
-- The project can be viewed [here:](https://devpost.com/software/myfaceswap-bot)
+
+#### TEAMMATES | ONLINE PEER FEEDBACK/EVALUATION SYSTEM
+- [TEAMMATES](http://teammatesv4.appspot.com/) is an award winning online feedback management system for education, used by over 500K users.
+- Contributed over 1.5KLoC for front-end snapshot testing using Jest (Sample PR [#1] (https://github.com/TEAMMATES/teammates/pull/9586) [#2] (https://github.com/TEAMMATES/teammates/pull/9571))
+- Migrated pages from JSP to a modern front-end framework, Angular (Sample [PR] (https://github.com/TEAMMATES/teammates/pull/9394))
+- Improved accesibility and UI/UX of the newly migrated system (Sample [PR] (https://github.com/TEAMMATES/teammates/pull/9428)) 
+
+#### CHAT.SUSI.AI | ARTIFICAL INTELLIGENCE FOR PERSONAL ASSISTANTS
+- SUSI.AI is an artificial intelligence system, with a web front-end for interaction at [chat.susi.ai] (chat.susi.ai)
+- Refactored code base to improve code quality and created reusable navigation button.
+- PRs: [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2] (https://github.com/fossasia/chat.susi.ai/pull/2052)
 
 #### INSUREN | ADDRESS BOOK FOR INSURANCE AGENTS
 - Developed by me and my team for our Software Engineering
@@ -44,10 +49,13 @@ of meetings with their clients.
 #### Java
 - Wrote feature to enable users to schedule meetings with clients. Example code: [RepoSense](https://nus-cs2103-ay1819s1.github.io/cs2103-dashboard/#=undefined&search=ayushchatto&sort=displayName&since=2018-09-12&until=2018-11-15&timeframe=day&reverse=false&repoSort=true) 
 
-#### Front-end JavaScript frameworks
-- Wrote front-end during my internship for an Employee Onboarding Form for a HR
-  management software in Vue.js. 
+#### Front-end frameworks
+- Worked on Angular front-end migrations and snapshot tests on TEAMMATES. [#1] (https://github.com/TEAMMATES/teammates/pull/9586) [#2](https://github.com/TEAMMATES/teammates/pull/9394).
+- Worked with ReactJS for contributions to FOSSASIA's chat.susi.ai. [#1](https://github.com/fossasia/chat.susi.ai/pull/2068) [#2] (https://github.com/fossasia/chat.susi.ai/pull/2052)
+- Wrote front-end during my internship for an Employee Onboarding Form for a HR management software in Vue.js. 
 
 #### Ruby on Rails
-- Designed a CPF calculator, to be used by over 200 client companies for Payroll
-  generation. 
+- Designed a CPF calculator, to be used by over 200 client companies for Payroll generation.
+- Gave a lightning talk on Ruby on Rails
+- Wrote a book chapter on Ruby on Rails
+ 
