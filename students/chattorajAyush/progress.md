@@ -5,9 +5,9 @@ Week | Achievements
 4 | Merged PR: [[#9382] Migrate courses section of instructor help page to Angular #9394](https://github.com/TEAMMATES/teammates/pull/9394)
 4 | Submitted Issue: [Links in the Instructor help page to other questions cards do not work #9423](https://github.com/TEAMMATES/teammates/issues/9423)
 4 | Merged PR: [[#5616] Implement side nav to replace links on top for Instructor Help Page #9428](https://github.com/TEAMMATES/teammates/pull/9428)
-4 | Responded to new contributors: <ul><li> [#9442] (https://github.com/TEAMMATES/teammates/pull/9442#issuecomment-463904282) </li>
+4 | Responded to new contributors: <ul><li> [#9442](https://github.com/TEAMMATES/teammates/pull/9442#issuecomment-463904282) </li>
 5 | Submitted Issue: [Add front-end snapshot tests for all Angular components in v7 #9480](https://github.com/TEAMMATES/teammates/issues/9480)
-6 | Merged PR: [[#9480] Add student home page snapshot tests #9496] (https://github.com/TEAMMATES/teammates/pull/9496#event-2175786675) 
+6 | Merged PR: [[#9480] Add student home page snapshot tests #9496](https://github.com/TEAMMATES/teammates/pull/9496#event-2175786675) 
 6 | Submitted Issue: [Update Documentation for guide on Snapshot Tests #9526](https://github.com/TEAMMATES/teammates/issues/9526)
 7 | Reviewed PR: [[#9493] Convert FieldValidator to a utility class #9529](https://github.com/TEAMMATES/teammates/pull/9529)
 7 | Reviewed PR: [[#9526] Update Documentation for guide on Snapshot Tests #9552](https://github.com/TEAMMATES/teammates/pull/9552)
@@ -22,5 +22,5 @@ Week | Achievements
 9 | Reviewed PR: [[#9480] Add snapshot test for student list component #9582](https://github.com/TEAMMATES/teammates/pull/9582)
 9 | Reviewed PR: [[#9533] update user map for jan feb 2019 #9578](https://github.com/TEAMMATES/teammates/pull/9578)
 9 | Reviewed PR: [[#9574] Clicking Save Edited Photo does not close the modal in Student Profile page #9588](https://github.com/TEAMMATES/teammates/pull/9588)
-9 | Responded to new contributors: <ul><li> [#9591](https://github.com/TEAMMATES/teammates/pull/9591#pullrequestreview-216870212) </li> <li> [#9588] (https://github.com/TEAMMATES/teammates/pull/9588#issuecomment-474676664)</li> <li> [#9568] (https://github.com/TEAMMATES/teammates/pull/9568#issuecomment-472599560) </li>
+9 | Responded to new contributors: <ul><li> [#9591](https://github.com/TEAMMATES/teammates/pull/9591#pullrequestreview-216870212) </li> <li> [#9588](https://github.com/TEAMMATES/teammates/pull/9588#issuecomment-474676664)</li> <li> [#9568](https://github.com/TEAMMATES/teammates/pull/9568#issuecomment-472599560) </li>
 
