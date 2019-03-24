@@ -1577,27 +1577,39 @@
             </ul>
             <h2 id="competencies-4">Competencies<a class="fa fa-anchor" href="#competencies-4"></a></h2>
             <h4 id="c-3">C#</h4>
-            <h5 id="experience-with-language">Experience with Language</h5>
             <ul>
-              <li>SaberSkirmish (1K LoC)</li>
+              <li>Experience with Language
+                <ul>
+                  <li>SaberSkirmish (1K LoC)</li>
+                </ul>
+              </li>
             </ul>
             <h4 id="ai-and-machine-learning">AI and Machine Learning</h4>
-            <h5 id="graphs">Graphs</h5>
             <ul>
-              <li>Pyramid Puzzle Solver for the Pyramid Beads Puzzle</li>
-              <li>Tetris Agent: Efficient implementation of Page Rank Algorithm</li>
+              <li>
+                <p>Graphs</p>
+                <ul>
+                  <li>Pyramid Puzzle Solver for the Pyramid Beads Puzzle</li>
+                  <li>Tetris Agent: Efficient implementation of Page Rank Algorithm</li>
+                </ul>
+              </li>
+              <li>
+                <p>Convolutional Neural Networks</p>
+                <ul>
+                  <li>Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).</li>
+                  <li>Relevant modules: CS3243 Introduction to Artificial Intelligence, CS3244 Introduction to Machine Learning</li>
+                </ul>
+              </li>
             </ul>
-            <h5 id="convolutional-neural-networks">Convolutional Neural Networks</h5>
-            <ul>
-              <li>Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).</li>
-            </ul>
-            <h5 id="relevant-modules-cs3243-introduction-to-artificial-intelligence-cs3244-introduction-to-machine-learning">Relevant modules: CS3243 Introduction to Artificial Intelligence, CS3244 Introduction to Machine Learning</h5>
             <h4 id="ui-test-automation">UI Test Automation</h4>
-            <h5 id="experience-with-ui-testing-tools">Experience with UI testing tools:</h5>
             <ul>
-              <li>JavaFX: ThanePark (3K LoC)</li>
+              <li>Experience with UI testing tools:
+                <ul>
+                  <li>JavaFX: ThanePark (3K LoC)</li>
+                  <li>Relevant modules: CS2103 Software Engineering</li>
+                </ul>
+              </li>
             </ul>
-            <h5 id="relevant-modules-cs2103-software-engineering">Relevant modules: CS2103 Software Engineering</h5>
           </div>
         </panel>
         <panel header="**Progress**" minimized>
@@ -1714,7 +1726,45 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>Coming soon ...</p>
+            <h1 id="external-project-git-for-visual-studio">External project: Git for Visual Studio<a class="fa fa-anchor" href="#external-project-git-for-visual-studio"></a></h1>
+            <p><a href="https://github.com/github/VisualStudio">link</a></p>
+            <h2 id="online-documents-of-project-s-workflow">Online documents of project's workflow<a class="fa fa-anchor" href="#online-documents-of-project-s-workflow"></a></h2>
+            <ul>
+              <li><a href="https://github.com/github/VisualStudio#build-requirements">Build requirements and steps</a></li>
+              <li><a href="https://github.com/github/VisualStudio#troubleshooting">Common issues when setting up</a></li>
+              <li><a href="https://github.com/github/VisualStudio/blob/master/CONTRIBUTING.md">Contributing guide</a></li>
+              <li><a href="https://github.com/github/VisualStudio/blob/master/CODE_OF_CONDUCT.md">Contributor Covenant Code of Conduct</a></li>
+              <li><a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">Writing a good commit message</a></li>
+              <li><a href="https://github.com/github/VisualStudio/blob/master/CONTRIBUTING.md#submitting-an-issue">Submitting an issue</a></li>
+              <li><a href="https://github.com/github/VisualStudio/tree/master/docs">Documentation</a></li>
+            </ul>
+            <h2 id="things-learnt-from-project">Things learnt from project<a class="fa fa-anchor" href="#things-learnt-from-project"></a></h2>
+            <ul>
+              <li>Error dialogs in the application are extremely helpful in assisting new contributors in finding code related to bugs,
+                in a project of such a scale (estimate over 30k LoC, with many modules).</li>
+              <li>Finding more <code>good first issues</code> might be a good way to encourage new contributors to help out.
+                Currently there is only 1 <code>good first issue</code> and is stale as someone asked to do the issue, but his rather old PR did not get closed after a rather long period.
+                <a href="https://github.com/github/VisualStudio/pull/1989">link to PR</a>. This made me a little reluctant to start as other issues require some amount of understanding
+                of a significant part of the project. It is observed that the external project does not receive new contributors often.</li>
+              <li>Adding a label to an issue to describe the scope of the bug can be very helpful for new contributors. I had to rely solely on error dialogs, debuggers and some logging to find the cause of a bug.</li>
+              <li>PRs that lacked description of what it fixes, how it is fixed and what tests are written are often rejected. This is important as both the contributor and the developr should
+                be confident of the changes being introduced.</li>
+              <li>The project uses a <code>ReadyForReview</code> label for developers.</li>
+              <li>The project seems to be open to adhoc documentation fixes from public contributors. <a href="https://github.com/github/VisualStudio/pull/2231">Example</a></li>
+              <li>The project uses milestone deadlines to have certain PRs merged/reviewed/completed. However, the pattern is not clear.</li>
+              <li>The project merges PRs that fail CI tests by their internal memebers, probably because CI tools report false positives at times.</li>
+              <li>The project uses <a href="https://github.com/github/VisualStudio/projects">projects</a> to manage issues pertaining to different aspects of project management, such as maintaining/building a feature area,
+                or fixing bugs and polishing the code.</li>
+              <li>The project uses <a href="https://github.com/github/VisualStudio/issues/2240">development sprints</a> to push new enhancements. The project also utilises a <a href="https://github.com/github/VisualStudio/releases">bot</a>
+                to push new releases.</li>
+            </ul>
+            <h2 id="practices-tools-of-the-external-project-that-may-be-adoptable-by-nus-oss">Practices/tools of the external project that may be adoptable by NUS-OSS<a class="fa fa-anchor" href="#practices-tools-of-the-external-project-that-may-be-adoptable-by-nus-oss"></a></h2>
+            <ul>
+              <li>Use milestone deadlines for PRs/issues.</li>
+              <li>Use projects to plan for longer term development.</li>
+              <li>Use a bot to publish releases, and have development sprints (but the team is a little small for benefits).</li>
+            </ul>
+            <h2 id="optional-suggested-areas-of-improvement-for-the-external-project">[Optional] Suggested areas of improvement for the external project<a class="fa fa-anchor" href="#optional-suggested-areas-of-improvement-for-the-external-project"></a></h2>
           </div>
         </panel>
       </box>
@@ -4450,7 +4500,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Sun, 24 Mar 2019 16:17:33 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Sun, 24 Mar 2019 16:48:25 GMT</small></p>
   </div>
 </footer>
 </div>
