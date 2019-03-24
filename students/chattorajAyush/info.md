@@ -6,4 +6,4 @@
 <span id="areas">Java, Ruby on Rails, Front-end JavaScript Frameworks</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[Teammates](https://github.com/TEAMMATES/teammates), [chat.susi,ai](https://github.com/fossasia/chat.susi.ai)</span>
+<span id="projects">[Teammates](https://github.com/TEAMMATES/teammates), [chat.susi.ai](https://github.com/fossasia/chat.susi.ai)</span>
