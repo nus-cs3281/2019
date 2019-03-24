@@ -9,34 +9,34 @@ pageNav: 2
 
 {% set projects = [
     {name: "MarkBind", students: [
-      ['CHIN KUN SONG, MARVIN', 'marvinChin', 'A3', 'B2'],
-      ['LIN SI JIE', 'linSiJie', 'A2', 'B1'],
-      ['LU YANG KENNETH', 'kennethLu', 'A1', 'B1'],
-      ['MADDI AADYAA', 'maddiAadyaa', 'A3', 'B2'],
-      ['TAN ZHEN YONG', 'tanZhenYong', 'A3', 'B3']
+      ['CHIN KUN SONG, MARVIN', 'marvinChin', 'A3', 'B2', 'C1'],
+      ['LIN SI JIE', 'linSiJie', 'A2', 'B1', 'C1'],
+      ['LU YANG KENNETH', 'kennethLu', 'A1', 'B1', 'C1'],
+      ['MADDI AADYAA', 'maddiAadyaa', 'A3', 'B2', 'C1'],
+      ['TAN ZHEN YONG', 'tanZhenYong', 'A3', 'B3', 'C2']
     ]},
     {name: "PowerPointLabs", students: [
-      ['BRYAN LEW JU YU', 'bryanLew', 'A3', 'B3'],
-      ['SNG YU FENG CHESTER', 'chesterSng', 'A3', 'B3'],
-      ['YU PEI, HENRY', 'henryYuPei', 'A2', 'B2']
+      ['BRYAN LEW JU YU', 'bryanLew', 'A3', 'B3', 'C2'],
+      ['SNG YU FENG CHESTER', 'chesterSng', 'A3', 'B3', 'C2'],
+      ['YU PEI, HENRY', 'henryYuPei', 'A2', 'B2', 'C1']
     ]},
     {name: "RepoSense", students: [
-      ['CHELSEY ONG HEE', 'chelseyOng', 'A1', 'B1'],
-      ['GILBERT EMERSON', 'gilbertEmerson', 'A3', 'B3'],
-      ['ONG SHU PENG', 'ongShuPeng', 'A1', 'B1'],
-      ['WANG CHAO', 'wangChao', 'A3', 'B3']
+      ['CHELSEY ONG HEE', 'chelseyOng', 'A1', 'B1', 'C1'],
+      ['GILBERT EMERSON', 'gilbertEmerson', 'A3', 'B3', 'C2'],
+      ['ONG SHU PENG', 'ongShuPeng', 'A1', 'B1', 'C1'],
+      ['WANG CHAO', 'wangChao', 'A3', 'B3', 'C2']
     ]},
     {name: "TEAMMATES", students: [
-      ['AMRUT PRABHU', 'amrutPrabhu', 'A1', 'B1'],
-      ['CHATTORAJ AYUSH', 'chattorajAyush', 'A3', 'B3'],
-      ['JEREMY CHOO WUN KA', 'jeremyChoo', 'A2', 'B2'],
-      ['JIANG CHUNHUI', 'jiangChunhui', 'A3', 'B2'],
-      ['LI PENGCHENG', 'liPengcheng', 'A1', 'B1'],
-      ['MONIKA MANUELA HENGKI', 'monikaHengki', 'A3', 'B2'],
-      ['RAHUL RAJESH', 'rahulRajesh', 'A1', 'B1'],
-      ['RONAK LAKHOTIA', 'ronakLakhotia', 'A2', 'B2'],
-      ['TAN HENG YEOW', 'tanHengYeow', 'A2', 'B3'],
-      ['WANG JUNMING', 'wangJunming', 'A2', 'B2']
+      ['AMRUT PRABHU', 'amrutPrabhu', 'A1', 'B1', 'C1'],
+      ['CHATTORAJ AYUSH', 'chattorajAyush', 'A3', 'B3', 'C2'],
+      ['JEREMY CHOO WUN KA', 'jeremyChoo', 'A2', 'B2', 'C1'],
+      ['JIANG CHUNHUI', 'jiangChunhui', 'A3', 'B2', 'C2'],
+      ['LI PENGCHENG', 'liPengcheng', 'A1', 'B1', 'C1'],
+      ['MONIKA MANUELA HENGKI', 'monikaHengki', 'A3', 'B2', 'C2'],
+      ['RAHUL RAJESH', 'rahulRajesh', 'A1', 'B1', 'C1'],
+      ['RONAK LAKHOTIA', 'ronakLakhotia', 'A2', 'B2', 'C2'],
+      ['TAN HENG YEOW', 'tanHengYeow', 'A2', 'B3', 'C2'],
+      ['WANG JUNMING', 'wangJunming', 'A2', 'B2', 'C2']
     ]}
 ] %}
 
