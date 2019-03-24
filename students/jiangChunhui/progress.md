@@ -12,3 +12,6 @@ Week | Achievements
 6 | Merged PR: [Fix integrity of test data for FeedbackResponseComment #9393](https://github.com/TEAMMATES/teammates/pull/9393)
 6 | Submitted Issue: [feedbackQuestionType in FeedbackQuestionAttributes #9424](https://github.com/TEAMMATES/teammates/issues/9424)
 6 | Submitted Issue: [Fail to edit question if option filed is empty #9456](https://github.com/TEAMMATES/teammates/issues/9456)
+7 | Merged PR: [Remove feedbackQuestionType in FeedbackQuestionAttributes #9484](https://github.com/TEAMMATES/teammates/pull/9484)
+8 | Merged PR: [Consolidate Courses RESTFul API #9513](https://github.com/TEAMMATES/teammates/pull/9513)
+8 | Reviewed PR: [Consolidate GET course RESTFul API #9512](https://github.com/TEAMMATES/teammates/pull/9512)

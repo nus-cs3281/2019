@@ -1,12 +1,25 @@
 Week | Achievements
 ---- | ------------
 1 | Submitted Issue: [IntelliJ IllegalArgumentException on starting local web server #9306](https://github.com/TEAMMATES/teammates/issues/9306)
-1 | Responded to contributor query: [#9299](https://github.com/TEAMMATES/teammates/issues/9299#issuecomment-451649894)
+1 | Responded to contributor query: <ul><li>[#9299](https://github.com/TEAMMATES/teammates/issues/9299#issuecomment-451649894)</li><li>[#9313](https://github.com/TEAMMATES/teammates/issues/9313#issuecomment-452985286)</li>
 1 | Abandoned PR: [[#8791] Instructor: edit session: visible date: reject incorrect dates #9324](https://github.com/TEAMMATES/teammates/pull/9324)
 2 | Submitted Issue: [Status messages and error messages can be missed by users #9346](https://github.com/TEAMMATES/teammates/issues/9346)
 2 | Abandoned PR: [[#9346] Improve status message display in feedback session edit page #9348](https://github.com/TEAMMATES/teammates/pull/9348)
 3 | Merged PR: [[#8779] AccountAttributes: Remove HTML sanitization before saving for googleId, name, institute #9368](https://github.com/TEAMMATES/teammates/pull/9368)
 3 | Submitted Issue: [Cannot create an instructor with an email that has a 2 letter domain #9390](https://github.com/TEAMMATES/teammates/issues/9390)
 3 | Merged PR: [[#9390] Cannot create an instructor with an email that has a 2 letter domain #9401](https://github.com/TEAMMATES/teammates/pull/9401)
-
-[comment]: <> (2 | Authored PR (put on hold by request): [PR name 3 #365]())
+4 | Reviewed PR: [[#9420] Consolidate FeedbackQuestionRecipients RESTFul API #9446](https://github.com/TEAMMATES/teammates/pull/9446)
+4 | Reviewed PR: [[#9420] Consolidate account, student RESTFul API #9436](https://github.com/TEAMMATES/teammates/pull/9436)
+6 | Merged PR: [[#9420] Consolidate Sessions RESTFul API #9453](https://github.com/TEAMMATES/teammates/pull/9453)
+Recess | Merged PR: [[#9420] Consolidate Join RESTFul API #9485](https://github.com/TEAMMATES/teammates/pull/9485)
+Recess | Commented on PR: [[#9420] Consolidate Recycle Bin RESTFul API #9489](https://github.com/TEAMMATES/teammates/pull/9489)
+Recess | Reviewed PR: [ [#9494] Consolidate Courses RESTFul API #9513 ](https://github.com/TEAMMATES/teammates/pull/9513)
+7 | Merged PR [[#9420] Consolidate Course RESTFul API #9437](https://github.com/TEAMMATES/teammates/pull/9437)
+8 | Merged PR [[#9494] Consolidate DELETE instructor RESTFul API #9539](https://github.com/TEAMMATES/teammates/pull/9539)
+8 | Responded to contributor query: [#9565](https://github.com/TEAMMATES/teammates/issues/9565#issuecomment-471830503) <br> Reviewed PR: [[#9554] standardise recycle bins for sessions courses #9566](https://github.com/TEAMMATES/teammates/pull/9566)
+8 | Reviewed PR: [[#9564] Consolidate GET feedbacksessions RESTFul API #9572](https://github.com/TEAMMATES/teammates/pull/9572)
+9 | Reviewed PR: [[#9564] Consolidate Student Profile Picture RESTFul API #9575](https://github.com/TEAMMATES/teammates/pull/9575)
+9 | Reviewed PR: [[#9564] Consolidate GET Student Profile RESTFul API #9580](https://github.com/TEAMMATES/teammates/pull/9580)
+9 | Reviewed PR: [[#9564] Consolidate RESTFul UpdateInstructorPrivilege API #9590](https://github.com/TEAMMATES/teammates/pull/9590)
+9 | Merged PR [[#9494] Consolidate GET course RESTFul API #9512](https://github.com/TEAMMATES/teammates/pull/9512)
+? | Merged PR [[#9564] Consolidate GET hasResponses RESTFul API #9567](https://github.com/TEAMMATES/teammates/pull/9567)
