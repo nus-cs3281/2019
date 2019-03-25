@@ -9,3 +9,6 @@ Week | Achievements
 Recess | Merged PR: [GitBlame: RuntimeError when analyzing branch name that is within whitelisted format #508](https://github.com/reposense/RepoSense/pull/535)
 7 | Authored PR (put on hold): [Ramp chart: show up to report generation date, not last commit date #518](https://github.com/reposense/RepoSense/pull/539)
 8 | Reviewed PR: [Checkstyle: update addresses of DTD files](https://github.com/reposense/RepoSense/pull/586)
+9 | Submitted Issue: [Move sinceDate and untilDate in summary.json to be direct element of summary.json](https://github.com/reposense/RepoSense/issues/607)
+9 | Merged PR : [[#407] CodeView: give additional sorting options](https://github.com/reposense/RepoSense/pull/445)
+9 | Reviewed PR : [Make logs clearer after cloning in parallel #609](https://github.com/reposense/RepoSense/pull/616)
