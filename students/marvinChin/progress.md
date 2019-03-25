@@ -30,7 +30,7 @@ Week | Achievements
  7 | Reviewed PR: [Support page top header #733](https://github.com/MarkBind/markbind/pull/733)
  8 | Submitted Issue: [NPM script to replace expected output for test site #761](https://github.com/MarkBind/markbind/issues/761)
  8 | Investigated Issue: [Docs/drop-downs: documentation broken #704](https://github.com/MarkBind/markbind/issues/704)
- 8 | Authored PR (decision deferred to focus on v2 priorities): [[RFC] Apply Prettier Formatting #758](https://github.com/MarkBind/markbind/pull/758)
+ 8 | Authored PR (decision deferred to focus on v2 priorities): [Apply Prettier Formatting #758](https://github.com/MarkBind/markbind/pull/758)
  8 | Reviewed PR (second review): [Support page top header #733](https://github.com/MarkBind/markbind/pull/733)
  9 | Submitted Issue: [Unintended coupling between indexing for built-in search and anchor link generation #776](https://github.com/MarkBind/markbind/issues/776)
  9 | Submitted Issue: [Inconsistent indentation for Popovers sample code #783](https://github.com/MarkBind/markbind/issues/783)
