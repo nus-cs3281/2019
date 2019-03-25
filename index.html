@@ -1970,7 +1970,7 @@
             <div class="col">
               <p><strong>GitHub:</strong> <span><a href="https://www.github.com/emer7">https://www.github.com/emer7</a></span><br></p>
               <p><strong>Expert areas:</strong> <span>Java, JavaScript and React, Code and documentation quality</span><br></p>
-              <p><strong>Projects:</strong> <span><a href="https://github.com/reposense/RepoSense">RepoSense</a>, <a href="https://github.com/webpack/webpack">Webpack</a></span></p>
+              <p><strong>Projects:</strong> <span><a href="https://github.com/reposense/RepoSense">RepoSense</a>, <a href="https://github.com/electron/electron">Electron</a>, <a href="https://github.com/nusmodifications/nusmods">NUSMods</a>, <a href="https://github.com/infinitered/nsfwjs">nsfwjs</a></span></p>
             </div>
           </div>
         </div>
@@ -2099,6 +2099,18 @@
                     <td>8</td>
                     <td>Reviewed PR: <a href="https://github.com/reposense/RepoSense/pull/586">Checkstyle: update addresses of DTD files</a></td>
                   </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Submitted Issue: <a href="https://github.com/reposense/RepoSense/issues/607">Move sinceDate and untilDate in summary.json to be direct element of summary.json</a></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Merged PR : <a href="https://github.com/reposense/RepoSense/pull/445">[#407] CodeView: give additional sorting options</a></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Reviewed PR : <a href="https://github.com/reposense/RepoSense/pull/616">Make logs clearer after cloning in parallel #609</a></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -2106,7 +2118,20 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>Coming soon ...</p>
+            <p><strong>Electron</strong></p>
+            <p><a href="https://electronjs.org/docs/development">Electron Development Documentations</a></p>
+            <p>I appreciate their very structured and ordered contribution guideline, as Electron is a very big open source software. Not only that, Electron has quite cool contribution flow, going all the way from creating issue to getting your PR merged. What I observed from their process as well as how it might be applied to RepoSense are as follow:</p>
+            <ul>
+              <li>Structured Issue message. This is to ensure that the issue can be triaged faster and more efficient.</li>
+              <li>Specific PR title formatting. This is to ensure that the PRs are nicely organized. RepoSense is still weak in this aspect as PR title is still quite haphazard.</li>
+              <li>Specific branch naming, although this is already implemented by NUS-OSS, RepoSense has not really enforced this aspect</li>
+              <li>Semantic commit message, although SE-EDU standard is still better. RepoSense currently employs squashed PR but this aspect may be followed.</li>
+              <li>Structured PR message which although may not be on same standard with SE-EDU, it is full of semantic prefixes that is linked to bot automation. For example, you can include release note by adding <code>notes:</code>, which will be detected by Electron's release note bot and then it will process accordingly. RepoSense can follow this structure if it will use automations in the build and release process which will be listed below.</li>
+              <li>Welcome Bot that welcomes new contributor. New contributor upon creating their first PR and merging it will be greeted with the bot, which will remind the user with all the contribution guidelines so the user can follow in closely if they have failed to read it beforehand. RepoSense can benefit from this when RepoSense is larger to remind new contributor what to do when they have submitted their PR.</li>
+              <li>Clerk Release Note Bot that checks for <code>notes:</code> in PR message and update the release note accordingly. This is according to the idea that <code>commit -m</code> is for maintainers while <code>notes:</code> is for users. Although this bot is proprietarily developed by Electron team, RepoSense might be able to find third party alternative if RepoSense want to implement this feature in the release cycle.</li>
+              <li>As Electron has multiple version release which is hosted in separate branch, a change made to latest release might need to be propagated to the previous release, essentially backporting it. This is accomplished also by automatic bot that create auto PR to previous version branch by tagging the PR with specific tag. While RepoSense currently does not have multiple version release, this idea might be beneficial for RepoSense to explore in the future.</li>
+            </ul>
+            <p>I also appreciate that despite being a large open source software, their most active developers are very active, responsive, and helpful in providing assistance and reviewing my code. While this is something that we may already know intuitively, perhaps from this we can be reminded again to be helpful and responsive to foster a good Open Source community.</p>
           </div>
         </panel>
       </box>
@@ -4500,7 +4525,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Sun, 24 Mar 2019 16:48:25 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.21.0</a> at Mon, 25 Mar 2019 02:11:56 GMT</small></p>
   </div>
 </footer>
 </div>
