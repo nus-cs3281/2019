@@ -2,6 +2,7 @@
 [Exercism](https://github.com/exercism)
 
 **My contributions:**
+
 - [#745](https://github.com/exercism/python/pull/1690)
 - [#1642](https://github.com/exercism/java/pull/1642)
 
