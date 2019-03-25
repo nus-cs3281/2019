@@ -22,8 +22,8 @@ can be improved.
 
 For now, RepoSense do not have a coverage test yet, which may because the test coverage is not satisfying at the early 
 stage of RepoSense. Now, we already have a high code coverage, so the previous concern is not true anymore. Also, having 
-a coverage test allows us to improve our testing so we can improve our code with higher revenue and lower costs. So,
-maybe RepoSense should integrate coverage test now.
+a coverage test allows us to improve our testing with higher revenue and lower costs. So, maybe RepoSense should integrate 
+coverage test now.
 
 Currently, AB4 has coverage test. However, it do not have mutation test. As a project that teaches students about SE 
 related knowledge. Maybe we can integrate mutation test in our code because it is reasonable to let the students know

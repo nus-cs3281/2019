@@ -17,7 +17,6 @@ Website: http://amrut-prabhu.github.io
 
 - Worked as a full stack developer at Works Applications, an ERP software manufacturer with the top market share in Japan.
 - Worked in a small team to develop a framework used to speed up development of custom software for clients.
-<a name="worksap"></a>
 - Enhanced the import feature and redesigned CRUD operations to support batch mode for different types of inputs, hence reducing the number of slow database queries.
 - Effectively fixed multiple bugs such as non-persistent highlighted text in search results.
 - Streamlined application deployment to a single step process by utilizing Jenkins, Docker-compose and Nginx.
