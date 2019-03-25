@@ -21,22 +21,38 @@ To improve:
 
 {% macro print_feedback_table(round) %}
 
+## Round {{ round }}
+{{ page_break }}
+
 **Delivery**: `1` very bad | `3` average | `5` very good<br>
 **Usefulness to YOU**: `1` not useful at all | `3` >25% of the talk useful | `5` >75% of the talk useful
 
 <table style="width:100%">
 {% for project in projects %}
 {% for student in project.students %}
-{% if student[2] == round %}
+{% if round in student %}
 {{ print_row(student) }}
 {% endif %}
 {% endfor %}
 {% endfor %}
 </table>
-<p style="page-break-after: always;">&nbsp;</p>
+<hr>
+{{ page_break }}
 {% endmacro %}
 
+# Current Round
+
+{{ print_feedback_table('C1') }}
+{{ print_feedback_table('C2') }}
+
+# Previous Rounds
+
+{{ print_feedback_table('B1') }}
+{{ print_feedback_table('B2') }}
+{{ print_feedback_table('B3') }}
 
 {{ print_feedback_table('A1') }}
 {{ print_feedback_table('A2') }}
 {{ print_feedback_table('A3') }}
+
+{{ page_break }}

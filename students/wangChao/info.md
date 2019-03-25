@@ -6,4 +6,4 @@
 <span id="areas">Java, JavaScript</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [SE-EDU](https://github.com/se-edu)</span>
+<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [SE-EDU](https://github.com/se-edu), [CheckStyle](https://github.com/checkstyle/checkstyle)</span>
