@@ -8,3 +8,8 @@ Week | Achievements
 3 | Investigated Issue: [Unexpected indentation in the first line of fenced text](https://github.com/MarkBind/markbind/issues/618)
 4 | Merged PR: [Fix unexpected indentation in the first line of fenced text #623](https://github.com/MarkBind/markbind/pull/623)
 4 | Submitted Issue: [Add support for footnotes #683](https://github.com/MarkBind/markbind/issues/683)
+5 | Merged PR: [Migrate MarkBind's website to markbind.github.io ](https://github.com/MarkBind/markbind/pull/699)
+6 | Merged PR: [Fix: Uncaught exceptions cause a silent exit](https://github.com/MarkBind/markbind/pull/721)
+6 | Merged PR: [Fix missing footer in Using Plugins page](https://github.com/MarkBind/markbind/pull/730)
+7 | Submitted Issue: [siteNav: Styles are not being applied for 'layoutName/navigation.md'](https://github.com/MarkBind/markbind/issues/739)
+8 | Authored PR (in progress): [Add ability to convert Github wiki/docs to MarkBind site](https://github.com/MarkBind/markbind/pull/698)
