@@ -1070,7 +1070,29 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>Coming soon ...</p>
+            <h3 id="project-gatsby">Project: <a href="https://www.gatsbyjs.org/">Gatsby</a><a class="fa fa-anchor" href="#project-gatsby"></a></h3>
+            <p>Gatsby is an open source framework based on React that helps developers build websites and applications faster.</p>
+            <ul>
+              <li><a href="https://www.gatsbyjs.org/contributing/how-to-contribute/">How to Contribute</a>: Information on contributing to issues, documentation, product website, and codebase.</li>
+              <li><a href="https://www.gatsbyjs.org/contributing/rfc-process/">RFC Process</a>: Details on contributing substantial changes (using the requests for comments process).</li>
+              <li><a href="https://www.gatsbyjs.org/contributing/gatsby-style-guide/">Gatsby Style Guide</a>: Guidelines for writing documentation and tutorials.</li>
+            </ul>
+            <h3 id="what-i-learnt-2">What I Learnt<a class="fa fa-anchor" href="#what-i-learnt-2"></a></h3>
+            <ol>
+              <li><strong>Define and Enforce a Workflow</strong>: Gatsby follows the standard forking workflow for bug fixes and small enhancements. More substantial changes follow the Requests for Comments process. Contributors must open a pull request that has a detailed document regarding their proposed change in a <a href="https://github.com/gatsbyjs/rfcs">separate repository</a> dedicated to RFCs. Having a separate repository provides an exclusive space for more focussed discussions on new features. I could see how this process is beneficial for a large open-source project like Gatsby as it helps them to control how new features are added to the project.</li>
+              <li><strong>Have Dedicated Code Owners</strong>: Gatsby has 5 teams of <a href="https://github.com/orgs/gatsbyjs/teams/maintainers">maintainers</a> that take ownership of different areas of the project. For example, pull requests need a review from the respective code owners. Managing a huge project like Gatsby can be quite difficult for maintainers as it has the codebase, product website, documentation, and other ecosystem features like themes and plugins. Having dedicated code owners makes it more convenient for the maintainers to handle issues and review pull requests in areas they are most experienced in.</li>
+              <li><strong>Automate Repetitive Tasks</strong>: As it’s a popular product, Gatsby has a lot of activity in its issue tracker. Gatsby uses a <a href="https://github.com/apps/gatsbot">bot</a> to automate some repetitive tasks, like labelling issues based on their content and closing issues after inactivity. Additionally, they use a <a href="https://github.com/marketplace/renovate">bot</a> to update the project’s dependencies. Contributors also have have to follow specific pull request and branch naming guidelines which makes it easier for automated tasks to be run on them.</li>
+              <li><strong>Motivate your Contributors</strong>: For an open-source project, motivating your contributors is extremely important. Gatsby has a comprehensive guide for contributors, which includes basic information on how to triage and label issues, submit pull requests, and writing good documentation. It also has an <a href="https://www.gatsbyjs.org/docs/behind-the-scenes/">advanced guide</a> that explains how Gatsby works behind the scenes. The quality of the contributing guide is what motivated me to work on this project, as it showed me that the project was serious about helping its contributors. Gatsby encourages <a href="https://www.gatsbyjs.org/contributing/where-to-participate/">contributions</a> other than pull requests and commits. And there’s <a href="https://www.gatsbyjs.org/contributing/contributor-swag/">free swag for all contributors</a> too!</li>
+              <li><strong>Interact with your Community</strong>: Gatsby has their own <a href="https://discordapp.com/invite/br9rbUE">Discord channel</a> for providing faster support to those who need it. They also host free <a href="https://www.gatsbyjs.org/contributing/pair-programming/">pair programming sessions</a> where you can work on fixing an issue with a senior developer. Interacting with your project’s open-source community is important because it provides developers with a pool of resources, which gets things done faster.</li>
+            </ol>
+            <h3 id="suggestions-for-markbind">Suggestions for MarkBind<a class="fa fa-anchor" href="#suggestions-for-markbind"></a></h3>
+            <ol>
+              <li><strong>RFC Process</strong>: Even though having a separate repository for proposing substantial code changes can be overkill, the RFC process could still be incorporated for adding new features to MarkBind.</li>
+              <li><strong>Better Bug Reports</strong>: Require users to submit standalone MarkBind sites for reproducible test cases. Gatsby asks its users to create a new Gatsby site and add only those lines of code or plugins that cause a problem, publish the code, and link it in the bug report. This will be beneficial for MarkBind because the developers would not need to dig in through a lot of code to find the error, in addition to knowing the exact environment of the bug report.</li>
+              <li><strong>Issue Categories</strong>: MarkBind already has issue templates, but we can take one step further and have different templates for different categories of issues like Gatsby does. For example, questions about using MarkBind and bug reports can have separate issue templates.</li>
+              <li><strong>Comprehensive Contribution Guide</strong>: MarkBind will definitely benefit from a dedicated guide for new contributors on its product website.</li>
+              <li><strong>Guides for Different Use Cases</strong>: Gatsby has standalone <a href="https://www.gatsbyjs.org/docs/advanced-tutorials/">advanced tutorials</a> for developing websites that have different use cases. MarkBind could have guides for developing a site that serves as a textbook, project documentation, or an eLearning resource. This will also showcase MarkBind's different features and versatility.</li>
+            </ol>
           </div>
         </panel>
       </box>
@@ -4930,7 +4952,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Mon, 25 Mar 2019 16:58:59 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Tue, 26 Mar 2019 07:28:16 GMT</small></p>
   </div>
 </footer>
 </div>
