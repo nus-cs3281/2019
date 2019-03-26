@@ -24,19 +24,21 @@ They even have a [Command Line Tool](https://github.com/exercism/cli) for intera
 
 **Key Takeaways from this Project**
 
-**1. Suggesting Alternative Viewpoints** An important thing I learned while contributing was to not be reluctant in suggesting alternative ways for a particular implementation.
+**1. Suggesting Alternative Viewpoints -** An important thing I learned while contributing was to not be reluctant in suggesting alternative ways for a particular implementation.
 It is a good practice to discuss ideas with the mentors and eventually settle on the best path.
 
-**2. High Quality Code** Writing code that is readable to other developers is very important. In fact documentation in the form of comments should be minimal. Most Exercism projects encourage contributors to write code that is readable and does not need the aid of comments.
+**2. High Quality Code -** Writing code that is readable to other developers is very important. In fact documentation in the form of comments should be minimal. Most Exercism projects encourage contributors to write code that is readable and does not need the aid of comments.
 
-**3. Interaction with fellow developers** Exercism has a dedicated communication channel that allows developers to collaborate and discuss ideas/solutions. It is a great way to network and also provides you with  an opportunity to communicate with mentors who have experience in the industry for a long time.
+**3. Interaction with fellow developers -** Exercism has a dedicated communication channel that allows developers to collaborate and discuss ideas/solutions. It is a great way to network and also provides you with  an opportunity to communicate with mentors who have experience in the industry for a long time.
 
 **Improvements for Exercism**
 
 **1.** The documentation for Exercism could be improved. Making use of architecture diagrams or perhaps other visual aids should be included to help new developers get used to the codebase.
+
 **2.** Perhaps the issues could be labelled to help newcomers. This practice is followed in TEAMMATES and can be a good addition to the Exercism project.
 
 **Suggestions for TEAMMATES**
 
 **1.** A practice that TEAMMATES could adopt from Exercism is to have a dedicated channel for new developers coming into the organization. This can really help in the onboarding process and ease new developers into the new environment. 
+
 **2.** Another area that TEAMMATES can work on is to grow the number of students running the organization. It might make the development process faster if more mentors are on-board to drive the project forward.  
