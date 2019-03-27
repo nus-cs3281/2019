@@ -498,75 +498,90 @@
   <box>
     <h3 id="amrut-prabhu">AMRUT PRABHU<a class="fa fa-anchor" href="#amrut-prabhu"></a></h3>
     <div>
-      <h1 id="project-nusmods">Project: <a href="https://github.com/nusmodifications/nusmods/">NUSMods</a><a class="fa fa-anchor" href="#project-nusmods"></a></h1>
-      <p>NUSMods is an unofficial module planning platform for National University of Singapore (NUS), and is practically used by all NUS students. Currently, it offers a semester timetable planner, module information bank, and a venue locator and availability checker.</p>
-      <h2 id="nusmods-contribution-guide">NUSMods Contribution Guide<a class="fa fa-anchor" href="#nusmods-contribution-guide"></a></h2>
-      <p>Here is an overview of the parts of the NUSMods Contribution guide.</p>
+      <h2 id="project-nusmods">Project: <a href="https://github.com/nusmodifications/nusmods/">NUSMods</a><a class="fa fa-anchor" href="#project-nusmods"></a></h2>
+      <p>NUSMods is an unofficial module planning platform for National University of Singapore (NUS), and is practically used by all NUS students. Currently, it offers a semester timetable planner, module information bank, a course module planner, and a venue locator and availability checker.</p>
+      <p><strong>My Contributions:</strong></p>
+      <ul>
+        <li>Pull Requests:
+          <ul>
+            <li><a href="https://github.com/nusmodifications/nusmods/pull/1583">Highlight search period in Venues page</a></li>
+            <li><a href="https://github.com/nusmodifications/nusmods/pull/1636">Clean up cyclic references</a></li>
+          </ul>
+        </li>
+        <li>Reported Issues:
+          <ul>
+            <li><a href="https://github.com/nusmodifications/nusmods/issues/1647">Highlighted search period doesn't match with search options in Venues page</a></li>
+            <li><a href="https://github.com/nusmodifications/nusmods/issues/1646">Footer overlaps with side navbar</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h3 id="nusmods-project-guide">NUSMods Project Guide<a class="fa fa-anchor" href="#nusmods-project-guide"></a></h3>
+      <p>Here is an overview of the parts of the NUSMods project guide.</p>
       <ul>
         <li>
-          <p>The project README links to the 5 subprojects that make up the NUSMods repository. Each of these <strong>subprojects have their own READMEs</strong> (with varying levels of completeness) that highlights what the subproject is about, the processes involved, and how to get started with contributing to it.</p>
+          <p>The project README links to the 5 subprojects that make up the NUSMods repository. Each of these <strong>subprojects have their own README</strong> (with varying levels of completeness) that highlights what the subproject is about, the processes involved, and how to get started with contributing to it.</p>
         </li>
         <li>
           <p>The document also provides links to the NUSMods communication channels, the main one being Telegram. The community is active on Telegram and have <strong>open discussions</strong> about the project direction and design choices, apart from providing updates about new features.</p>
         </li>
         <li>
-          <p>The Contributing section has the typical elements: Code of Conduct, Setting up Guide, Development Worflow. The details provided are comprehensive, yet to-the-point.</p>
+          <p>The Contributing section has the typical elements: Code of Conduct, Setting up Guide, Development Workflow. The details provided are comprehensive, yet to-the-point.</p>
           <ul>
             <li>The project is easy to setup as subproject-specific details are provided and no project configuration or external tools (apart from standard ones like Node and Yarn) are <em>required</em>.</li>
             <li>In order to fix an issue, it is recommended to state your interest in taking up the issue. This is to prevent other contributors from working on the same issue. The documentation also specifically states that if you don't follow up on it for <strong>more than two weeks</strong>, others can take up the issue.</li>
           </ul>
         </li>
       </ul>
-      <h2 id="comparison-between-processes-of-nusmods-and-teammates">Comparison between processes of NUSMods and TEAMMATES<a class="fa fa-anchor" href="#comparison-between-processes-of-nusmods-and-teammates"></a></h2>
+      <h3 id="comparison-with-teammates-process">Comparison with TEAMMATES process<a class="fa fa-anchor" href="#comparison-with-teammates-process"></a></h3>
       <p>This section provides more specific details about the NUSMods process and practices, by comparing it with the one used by TEAMMATES.</p>
-      <h3 id="differences">Differences<a class="fa fa-anchor" href="#differences"></a></h3>
-      <ul>
+      <h4 id="differences">Differences:</h4>
+      <ol>
         <li>
-          <p>Netlify is part of the CI checks. Hence, each PR comes with a <strong>deployed website preview</strong> with the changes made. This allows reviewers and contributors to see the bug fix or feature in action, without needing to locally deploy the changes made in the PR.</p>
+          <p><strong>Open Communication Channels</strong>: NUSMods uses <strong>Telegram and the GitHub issue tracker</strong> as their primary communication channels. Uncertain features are discussed in depth in the corresponding GitHub issue so that potential contributors have an idea of how to go about resolving the issue. The Telegram group is used for requesting for help with small problems, informing members about minor updates, and some review requests.</p>
         </li>
         <li>
-          <p>NUSMods also uses the <a href="https://github.com/marketplace/renovate">Renovate</a> bot to <strong>automate dependency management</strong>. It creates new PRs when a new version of a project dependency is released. TEAMMATES doesn't have any such process. In fact, it is done manually and only on a need to basis- when a released version has a new feature or introduces several big changes, for example.</p>
+          <p><strong>Deploys Previews</strong>: Netlify is part of the CI checks in pull requests (PRs) to NUSMods. Hence, each PR comes with a deployed website preview with the changes made. This allows reviewers and contributors to see the bug fix or feature in action, without needing to locally deploy the changes made in the PR.</p>
         </li>
         <li>
-          <p>NUSMods uses Webpack to resolve most TypeScript <strong>import paths to absolute path</strong>, instead of relative paths like the ones in TEAMMATES.</p>
+          <p><strong>Uses Absolute Import Paths</strong>: NUSMods uses Webpack to resolve most TypeScript import paths to absolute path, instead of relative paths like the ones in TEAMMATES.</p>
         </li>
         <li>
-          <p>NUSMods only a <strong>handful number of active contributors</strong> since it has a smaller target audience, i.e., NUS students. They don't use labelling for PRs (like toReview, finalReview). TEAMMATES regularly gets a lot of contributors who generally fix a couple of issues. In addition, there are dedicated groups of contributors who work on subprojects, owing to CS3282.</p>
+          <p><strong>Automates Dependency Management</strong>: NUSMods uses the <a href="https://github.com/marketplace/renovate">Renovate</a> bot to automate management of its npm package dependencies. It creates new PRs when a new version of a project dependency is released. TEAMMATES doesn't have any such process. In fact, it is done manually and only on a need to basis- when a released version has a new feature or introduces several big changes, for example.</p>
         </li>
         <li>
-          <p>As a result of the previous point, NUSMods does not extensively use labels for PRs. Since they only have a couple of project maintainers, an extensive labelling system may be overkill too.</p>
+          <p><strong>Few Active Contributors</strong>: NUSMods only a <strong>handful number of active contributors</strong> since it has a smaller target audience, i.e., NUS students. In contrast, TEAMMATES regularly gets contributors who generally fix a couple of issues. In addition, there are dedicated groups of contributors who work on subprojects, owing to CS3282.</p>
         </li>
         <li>
-          <p>NUSMods uses <strong>Telegram and the GitHub issue tracker</strong> as their primary communication channels. Uncertain features are discussed in depth in the corresponding GitHub issue so that potential contributors have an idea of how to go about resolving the issue. The Telegram group is used for requesting for help with small problems, informing members about minor updates, and some review requests.</p>
+          <p><strong>Simpler Labelling Process</strong>: As a result of the previous point, NUSMods does not extensively use labels for PRs (like <code>s.toReview</code>, <code>s.finalReview</code>) unlike TEAMMATES which has an extensive labelling system. Since NUSMods only have a couple of project maintainers, an extensive labelling system may be overkill too.</p>
         </li>
-      </ul>
-      <h3 id="similarities">Similarities<a class="fa fa-anchor" href="#similarities"></a></h3>
-      <ul>
+      </ol>
+      <h4 id="similarities">Similarities:</h4>
+      <ol>
         <li>
-          <p>Like TEAMMATES, NUSMods has GitHub issue templates for reporting bugs and requesting features. This helps standardise issue formats and also guides the authors in terms of what information needs to be provided to make the issue complete.</p>
+          <p><strong>Uses Issue Templates</strong>: Like TEAMMATES, NUSMods has GitHub issue templates for reporting bugs and requesting features. This helps standardise issue formats and also guides the authors in terms of what information needs to be provided to make the issue complete. The NUSMods templates do feel better since they have pseudo examples that can be modified, and they specify exactly what information is to be provided in the issue description, without the template feeling too cluttered.</p>
         </li>
         <li>
-          <p>Both projects use the forking worflow with regards to PRs. Though maintainers have push access to the repository, they do not push directly to the <code>master</code> branch. Their contributions are still subjected to the same review process.</p>
+          <p><strong>Uses Forking Workflow</strong>: Both projects use the forking workflow with regards to making contributions. Though maintainers have push access to the repository, they do not push directly to the <code>master</code> branch. Their contributions are still subjected to the same review process as others.</p>
         </li>
-      </ul>
-      <h2 id="suggestions-for-teammates">Suggestions for TEAMMATES<a class="fa fa-anchor" href="#suggestions-for-teammates"></a></h2>
+      </ol>
+      <h3 id="suggestions-for-teammates">Suggestions for TEAMMATES<a class="fa fa-anchor" href="#suggestions-for-teammates"></a></h3>
       <p>After my experience contributing to the NUSMods project, here are some takeaways and suggestions that are applicable to TEAMMATES:</p>
+      <ol>
+        <li><strong>Communication Channels</strong>: Though TEAMMATES does use a communication channel outside of GitHub, it is primarily used by current CS3282 students. Even then, the subproject-specific channels are made private. This restricts other interested contributors from being informed about what's happening and seeing the reasoning behind certain decisions (which can be a learning opportunity). For example, <a href="https://github.com/TEAMMATES/teammates-ops/issues/3">this issue</a> does not provide any useful information (maybe it's supposed to be that way, but this point still holds).</li>
+      </ol>
+      <p>TEAMMATES should invite potential contributors to join the Slack workspace, unless there are some external factors behind the current decision to make it selective (like requiring a paid Slack plan in case the number of messages increases by a large amount; this is unlikely, but something to consider).</p>
+      <ol>
+        <li><strong>Documentation</strong> Though TEAMMATES has good documentation as compared to many other open source projects, it can use a couple of minor updates:</li>
+      </ol>
       <ul>
-        <li>
-          <p>Open up the Slack channels. Though TEAMMATES does use a communication channel outside of GitHub, it is primarily used by current CS3282 students. Even then, project-specific channels are made private. This restricts other interested contributors from being informed about what's happening and the reasons for certain decisions. For example, <a href="https://github.com/TEAMMATES/teammates-ops/issues/3">this issue</a> does not provide any useful information (maybe it's supposed to be that way, but the point still holds).</p>
-          <p>TEAMMATES should invite potential contributors to join the Slack workspace, unless there are some external factors behind the current decision (like requiring a paid Slack plan in case the number of messages increases by a large amount; this is unlikely, but something to consider).</p>
-        </li>
-        <li>
-          <p>Though TEAMMATES has good documentation as compared to many other open source projects, it can use a couple of minor updates:</p>
-          <ul>
-            <li>Explain what files are in which directory in the contributors orientation guide, similar to NUSMods' subprojects. This will prove useful to newcomers especially now, since we are in the process of migration. A new contributor faced a <a href="https://github.com/TEAMMATES/teammates/pull/9602#pullrequestreview-218052367">similar issue</a> which could have been prevented by stating that the frontend of the project has been moved to the <code>src/web</code> folder and the legacy files are meant to be deprecated.</li>
-            <li>The code documentation is decent, but can still be improved in terms of the covered classes and functions, as well as the level of detail (especially if there is something important that needs to be noted). This is not critical, and will require a considerable amount of effort too.</li>
-          </ul>
-        </li>
-        <li>
-          <p>In terms of code style, TEAMMATES can use absolute paths for TypeScript. Since using Webpack like NUSMods may be too heavy, alternatives like <a href="https://medium.com/@adrianfaciu/use-absolute-paths-for-module-imports-6e5ee9e94161">modifying the <code>tsconfig</code></a> can be considered instead.</p>
-        </li>
+        <li><strong>File structure</strong>: Explain what files are in which directory in the contributors orientation guide, similar to NUSMods' subprojects. This will prove useful to newcomers, especially now, since we are in the process of migration. A new contributor faced a <a href="https://github.com/TEAMMATES/teammates/pull/9602#pullrequestreview-218052367">similar issue</a> which could have been prevented by stating that the frontend of the project has been moved to the <code>src/web</code> folder and the legacy files are meant to be deprecated.</li>
+        <li><strong>Inactive contributors</strong>: Indicate the amount of time that has to pass before an issue can be reassigned in case the previous assignee does not follow up (doesn't respond or did not make a PR).</li>
+        <li><strong>Code documentation</strong>: It is decent, but can still be improved in terms of the covered classes and functions, as well as the level of detail (especially if there is something important that needs to be noted). This is not critical, and will require a considerable amount of effort too.
+          <br></li>
       </ul>
+      <ol>
+        <li><strong>Absolute Imports</strong>: In terms of code style, TEAMMATES can use absolute paths for TypeScript since it provides more information and better navigation, compared to relative paths. Since using Webpack (like NUSMods) may be too heavy, alternatives like <a href="https://medium.com/@adrianfaciu/use-absolute-paths-for-module-imports-6e5ee9e94161">modifying the <code>tsconfig</code></a> can be considered instead.</li>
+      </ol>
     </div>
   </box>
   <box>
@@ -777,7 +792,48 @@
   <box>
     <h3 id="rahul-rajesh">RAHUL RAJESH<a class="fa fa-anchor" href="#rahul-rajesh"></a></h3>
     <div>
-      <p>Coming soon ...</p>
+      <p><strong>Project</strong>: <a href="https://github.com/exercism">Exercism</a></p>
+      <h1 id="my-contributions-3">My Contributions<a class="fa fa-anchor" href="#my-contributions-3"></a></h1>
+      <ul>
+        <li><a href="https://github.com/exercism/problem-specifications/pull/1484">Add a completely new exercise, the Knapsack Problem</a></li>
+        <li><a href="https://github.com/exercism/cpp/pull/235">Convert an existing exercise, Pascal's Triangle to C++</a></li>
+      </ul>
+      <h1 id="what-is-exercism">What is Exercism?<a class="fa fa-anchor" href="#what-is-exercism"></a></h1>
+      <p>Exercism (<a href="https://exercism.io">https://exercism.io</a>) is an online open-source coding platform that offers coding practice and mentorship for over 40 programming languages! As of August 2018, Exercism has 1,700 contributors and 700 mentors.</p>
+      <h3 id="contributing-to-exercism">Contributing to Exercism<a class="fa fa-anchor" href="#contributing-to-exercism"></a></h3>
+      <ul>
+        <li><a href="https://github.com/exercism/docs/blob/master/finding-your-way.md">Finding your way</a></li>
+        <li><a href="https://github.com/exercism/docs/blob/master/contributing-to-language-tracks/README.md">Contributing to language tracks</a></li>
+      </ul>
+      <h1 id="key-takeaways-2">Key Takeaways<a class="fa fa-anchor" href="#key-takeaways-2"></a></h1>
+      <p>Exercism is a good choice for new contributors. Exercism has a nice variety of issues for newcomers to contribute to and excellent documentation to match as well. A few ones someone can start contributing to this repository include:</p>
+      <ul>
+        <li>Improve existing tests for an exercise</li>
+        <li>Convert an existing exercise to another language</li>
+        <li>Create your own exercise</li>
+        <li>Improve grammer/phrasing for exisiting exercise</li>
+        <li>Help maintain or fix bug in build systems/tools</li>
+      </ul>
+      <p>As you can see, there is a range of issues one can work one. The issues can range in difficulty from trivial to really challenging. I chose to do one simple Pull Request(PR) to port an existing exercise to C++ and I did a slightly harder PR which involved creating a brand new exercise. There have been many learning points throughout this process. I will list some of the more important ones and eventually compare them with my internal project, Teammates.</p>
+      <h3 id="1-the-more-the-merrier-or-is-it">1. The more the merrier...or is it?<a class="fa fa-anchor" href="#1-the-more-the-merrier-or-is-it"></a></h3>
+      <p>Exercism has over 40 programming languages and has a repository specifically for an exercise. There is one master repository that handles the canonical data for all the exercises. There is a certain elegance to how this project has managed to keep a decentralized system like this working. There are core team members working on each repository and each track has specific instructions on how to set-up and create new exercises.</p>
+      <p>My contribution to C++ for example uses <code>CMake</code> to test the code and has a specific format for the files. I knew this from the clear documentation they provided. The team responded almost immediately to my pull request and merged it in after a couple of seconds. It was all very smooth.</p>
+      <p>How does one manage such a decentralized system effectively? Exercism also definitely has its ups and downs.. but for the most part it does a fantastic job of syncing across the different programming languages for the various exercises. It is able to do so because of a strong team (some of them I believe are volunteers) who are willing to spend their spare time guiding new contributors and maintain the repository. More than just the technical aspects, I have learnt that it is the people who drive large open-source projects; people with a core mission and passion to work for a larger cause.</p>
+      <h3 id="2-pushing-the-difficulty-barrier-code-quality-checks">2. Pushing the difficulty barrier.... Code Quality/Checks<a class="fa fa-anchor" href="#2-pushing-the-difficulty-barrier-code-quality-checks"></a></h3>
+      <p>While I was doing the PR to port an existing exercise to C++, I realised I was just following a routine. Yes, I learnt about the contribution workflow and the development process behind Exercism. However, I could not help but wonder if this project had good quality control or stringent reviews. Majority of their PRs are small patches and I did not see much of this. As a result, I tried something different and implemented a completely new exercise.</p>
+      <p>This is a big deal. Mainly because a new exercise will be something that is going to be shared over all the 40+ languages. Every other language will be using your data and description. I submitted a PR to add a classic problem: the 0-1 knapsack.</p>
+      <p>Over the next few days, I was hit with a series of consecutive reviews. I had six people in total commenting on my PR. The reviewers were thorough. Some wanted to be convinced on why this exercise was needed. Others tore my description/tests down and asked those parts to be updated.</p>
+      <p>Overall, I have to say this project enforces a high standard for their exercises. What really impressed me was how 6 people reviewed by PR without having too much conflict or overlap. Each of the reviewers took the time to sit and read through the exericse/problem and point out subtle details. One of the reviewers updated some parts himself and pushed into my branch! (He told me the changes he made and his rationale) What i have learnt from this is as a reviewer, it is important to justify your comments and also convince the person contributing on why a change is needed. If you look at my PR on this above, you would realise that all the reviewers justified their comments and even asked for my opionion on changes. This is how you encourage new contributors to contribute further and grow your developer teams. I look forward to contributing more to them.</p>
+      <h3 id="3-the-bigger-picture-teamates-vs-exercism">3. The bigger picture - Teamates vs Exercism<a class="fa fa-anchor" href="#3-the-bigger-picture-teamates-vs-exercism"></a></h3>
+      <p>Now that I have covered some of my major takeaways, it is important to take a closer look at how my journey with Exercism compares with my internal project Teammates.</p>
+      <h4 id="a-encouraging-development-from-the-outside">a. Encouraging development from the outside</h4>
+      <p>Teamamates does not do a good job with encouraging new contributors as compared to Exercism. Of course, this is not a fair comparison considering teammates is still undergoing migration and there are specific deadlines to meet.</p>
+      <p>However, in the long run, I feel Teammates should strive to be inclusive to any external developer. This means improving our documentation and opening doors to a large variety of issues for one to work on. Similar to Exercism, Teammates should have a path set to allow new contributors to rise up the ranks and perhaps even become one of the core team members.</p>
+      <p>A more convenient set-up and testing framework would be ideal as well. Exercism has make files and tools to allow developers to quikly start contributing.</p>
+      <h4 id="b-strive-for-innovation-and-try-to-look-past-the-conventional-path">b. Strive for innovation and try to look past the conventional path</h4>
+      <p>This is a strong point. However, what I really want to say is that Teammates sometimes suffers from a lack of innovation. We follow what we are told to do and follow tasks simply based on protocol. There is not much room for innovation and in fact, there is very little encouragement to come up with newer ideas.</p>
+      <p>Exercism leaves room for someone complemetely new to come in and start something. I came in with a brand new exercise and I was encouraged by the team. Teammates should also look to encourage innovation. It is only by having people who can look past the ordinary path, can growth be achieved. Many times I feel that new ideas are shot down too quickly or are looked past citing reasons like this is how it was done in the past etc. I hope this will change one day in the future!</p>
+      <p><strong>Note</strong>: Exercism is also not perfect and it has its flaws. It is an established project and thus, there is not much change going on. Teammates is in migration and is undergoing massive change. Any comparison is not completely fair.</p>
     </div>
   </box>
   <box>
@@ -841,7 +897,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 16:46:42 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 18:31:20 GMT</small></p>
   </div>
 </footer>
 </div>
