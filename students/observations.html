@@ -498,29 +498,60 @@
   <box>
     <h3 id="amrut-prabhu">AMRUT PRABHU<a class="fa fa-anchor" href="#amrut-prabhu"></a></h3>
     <div>
-      <h1 id="observations-from-external-project-1-open-library">~Observations from External Project 1: Open Library~<a class="fa fa-anchor" href="#observations-from-external-project-1-open-library"></a></h1>
+      <h1 id="project-nusmods">Project: <a href="https://github.com/nusmodifications/nusmods/">NUSMods</a><a class="fa fa-anchor" href="#project-nusmods"></a></h1>
+      <p>NUSMods is an unofficial module planning platform for National University of Singapore (NUS), and is practically used by all NUS students. Currently, it offers a semester timetable planner, module information bank, and a venue locator and availability checker.</p>
+      <p>a comparison between the process of the external project to the internal project
+        suggestions for the internal project based on what you observed in the external project</p>
+      <h2 id="nusmods-process">NUSMods Process<a class="fa fa-anchor" href="#nusmods-process"></a></h2>
+      <p>Here is an overview of the parts of the NUSMods Contribution guide.</p>
       <ul>
-        <li>Uses Docker containerisation to run the various applications. A similar procedure can be done for teammates such that running a script is enough to deploy the application.</li>
+        <li>
+          <p>The main README links to the 5 subprojects that make up the NUSMods repository. Each of these <strong>subprojects have their own documentation</strong> (with varying levels of completeness) that highlights what the subproject is about, the processes involved, and how to get started with contributing to it.</p>
+        </li>
+        <li>
+          <p>The document also provides links to the NUSMods communication channels, the main one being Telegram. The community is active on Telegram and have <strong>open discussions</strong> about the project direction and design choices, apart from providing updates about new features.</p>
+        </li>
+        <li>
+          <p>The Contributing section has the typical elements: Code of Conduct, Setting up Guide, Development Worflow. The details provided are comprehensive, yet to-the-point.</p>
+          <ul>
+            <li>As far as the project setup is concerned, it is easy to do so as subproject-specific details are provided and no project configuration or external tools (apart from the standard ones like Node and Yarn) are <em>required</em>.</li>
+            <li>In order to fix an issue, it is recommended to state your interest in taking up the issue. This is to prevent other contributors from working on the same issue. The documentation also specifically states that if you don't follow up on it for more than <strong>two weeks</strong>, others can take up the issue.</li>
+          </ul>
+        </li>
       </ul>
-      <h1 id="observations-from-external-project-2-nusmods">Observations from External Project 2: NUSMods<a class="fa fa-anchor" href="#observations-from-external-project-2-nusmods"></a></h1>
+      <h2 id="comparison-between-processes-of-nusmods-and-teammates">Comparison between processes of NUSMods and TEAMMATES<a class="fa fa-anchor" href="#comparison-between-processes-of-nusmods-and-teammates"></a></h2>
+      <p>This section provides more specific details about the NUSMods process, by comparing it with the one used by TEAMMATES.</p>
+      <h3 id="differences">Differences<a class="fa fa-anchor" href="#differences"></a></h3>
       <ul>
         <li>
-          <p>Code of Conduct</p>
+          <p>Netlify is part of the CI checks. Hence, each PR comes with a <strong>deployed website preview</strong> with the changes made. This allows reviewers and contributors to see the bug fix or feature in action, without needing to locally deploy the changes made in the PR.</p>
         </li>
         <li>
-          <p>Contributing Guide</p>
+          <p>NUSMods only a <strong>handful number of active contributors</strong> since it has a smaller target audience, i.e., NUS students. They don't use labelling for PRs (like toReview, finalReview). TEAMMATES regularly gets a lot of contributors who generally fix a couple of issues. In addition, there are dedicated groups of contributors who work on subprojects, owing to CS3282.</p>
         </li>
         <li>
-          <p>How to get in touch</p>
+          <p>NUSMods also uses the <a href="https://github.com/marketplace/renovate">Renovate</a> bot to automate dependency management. It creates new PRs when a new version of a project dependency is released. TEAMMATES doesn't have any such process. In fact, it is done manually and only on a need to basis- when a released version has a new feature or introduces several big changes, for example.</p>
         </li>
         <li>
-          <p>Project specific contribution guides</p>
+          <p>don't use relative paths in typescript</p>
         </li>
+      </ul>
+      <h3 id="similarities">Similarities<a class="fa fa-anchor" href="#similarities"></a></h3>
+      <ul>
+        <li>
+          <p>Bug/Feature report template for creating TEAMMATES issues.</p>
+        </li>
+        <li>
+          <p>Forking worflow with PRs. Though maintainers have push access, they don't push directly to the master branch, and are still subjected to the same review process as other PRs.</p>
+        </li>
+      </ul>
+      <h2 id="suggestions-for-teammates">Suggestions for TEAMMATES<a class="fa fa-anchor" href="#suggestions-for-teammates"></a></h2>
+      <ul>
         <li>
           <p>Link to a blog post explaining the project and how to get started</p>
         </li>
         <li>
-          <p>Netlify preview in CI</p>
+          <p>Explain what files are in which directory (eg. frontend in web). Esp since we are in migration. A contrinbutor faced a <a href="https://github.com/TEAMMATES/teammates/pull/9602#pullrequestreview-218052367">similar issue</a></p>
         </li>
       </ul>
     </div>
@@ -797,7 +828,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 10:47:01 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 16:00:00 GMT</small></p>
   </div>
 </footer>
 </div>
