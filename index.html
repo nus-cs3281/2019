@@ -5040,7 +5040,109 @@
         </panel>
         <panel header="**Observations**" minimized>
           <div>
-            <p>Coming soon ...</p>
+            <h2 id="external-project-firefox-developer-tools">External Project: <a href="https://firefox-dev.tools/">Firefox Developer Tools</a><a class="fa fa-anchor" href="#external-project-firefox-developer-tools"></a></h2>
+            <h3 id="contributions-2">Contributions<a class="fa fa-anchor" href="#contributions-2"></a></h3>
+            <ol>
+              <li>Summary of <a href="https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&amp;emailtype1=exact&amp;emailassigned_to1=1&amp;email1=E0032242%40u.nus.edu&amp;list_id=14599249">bugs</a> worked on</li>
+              <li>Summary of <a href="https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&amp;emailtype1=exact&amp;emaillongdesc1=1&amp;email1=E0032242%40u.nus.edu&amp;list_id=14636163">other contributions</a> made e.g. bug triage, raising bugs, performing code reviews, technical assistance, helping contributors etc</li>
+              <li><a href="https://bugzilla.mozilla.org/user_profile?user_id=624287">Profile page</a> gauging level of activity</li>
+            </ol>
+            <h3 id="contributing-workflow">Contributing workflow<a class="fa fa-anchor" href="#contributing-workflow"></a></h3>
+            <p>There is a comprehensive <a href="https://docs.firefox-dev.tools/">developer documentation</a> that one can consult for working on Firefox Developer Tools (FDT). I will give a summary of only the necessary steps required for the typical contributing workflow.</p>
+            <ol>
+              <li><a href="https://docs.firefox-dev.tools/getting-started/bugzilla.html">Set up a Bugzilla account</a>. Bugzilla is Mozilla's bug tracker.</li>
+              <li>Use <a href="https://www.mercurial-scm.org/">Mercurial</a> as the Version Control System (VCS), <a href="https://docs.firefox-dev.tools/getting-started/build.html">pull and build</a> the code.</li>
+              <li>Find suitable bugs to work from this <a href="https://bugs.firefox-dev.tools/?easy&amp;tool=all">page</a>. You can also use <a href="https://codetribute.mozilla.org/projects/devtools">Codetribute</a> to find good first bugs to work on.</li>
+              <li>Run <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Mochitest">browser mochitests</a> to check for regressions after making code changes.</li>
+              <li>Use <a href="https://moz-conduit.readthedocs.io/en/latest/arcanist-user.html">Arcanist</a> or <a href="https://moz-conduit.readthedocs.io/en/latest/phabricator-user.html#using-moz-phab">moz-phab</a> as a command line tool to manage code reviews performed in <a href="https://moz-conduit.readthedocs.io/en/latest/phabricator-user.html#creating-an-account">Phabricator</a>, a suite of web-based software development collaboration tools.</li>
+            </ol>
+            <h3 id="learning-points-2">Learning points<a class="fa fa-anchor" href="#learning-points-2"></a></h3>
+            <p>Throughout my journey in contributing to FDT, there are many learning points that helped me become a better open source contributor, which are also beneficial for other engineers alike.</p>
+            <ol>
+              <li>Produce clear Steps to Reproduce (STR)</li>
+            </ol>
+            <p>The STR can refer to steps on reproducing a bug or steps of how one goes about debugging or testing code manually. This is especially important for projects like FDT where it involves a variety of different expertise. They include people working on different panels of FDT, people working on front-end and/or back-end of FDT, people working on the networking platform, people working on localization/accessibility, people working on other parts of Firefox and external contributors with different backgrounds etc.</p>
+            <p>Different expertise possesses differing context of the issue at hand. As a result, without a clear STR, it would be hard to involve different expertise to collaborate together to solve an issue.</p>
+            <p>Take for an example this <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1493599">patch</a> which involves the back-end platform team exposing an API to the front-end team to use. As both the front-end and back-end codebase's size are significantly huge, different people in different teams may have little idea on how things work specifically in each other's domain.</p>
+            <p>A good example would be this <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1493599#c9">comment</a> where it clearly describes the STR of how the code is tested so that expertise from the other team has a better idea of the context of one's approach in performing the manual test.</p>
+            <p>As a general rule of thumb, I learned that we should be as verbose as possible in giving STR, to the extent where we put ourselves in the receiving party's shoes and assume they do not have any prior knowledge.</p>
+            <ol start="2">
+              <li>DevOps expertise is crucial</li>
+            </ol>
+            <p>FDT is a complex web application embedded within Firefox, both of which have significantly large codebases. A dedicated system <a href="https://wiki.mozilla.org/EngineeringProductivity/Projects/Treeherder">Treeherder</a> is built to handle Continuous Integration (CI) data, which similar to the Travis CI that we use in NUS-OSS.</p>
+            <p>Reviewers would normally push ongoing patches to Treeherder (with an estimated of ~1 hour of build time) to check for regressions before reviewing the patch. Contributors who fixed a few bugs are allowed <a href="https://www.mozilla.org/en-US/about/governance/policies/commit/access-policy/">Level 1 Access</a>, which enables them to push their patch to Treeherder to check for regressions.</p>
+            <p>With proper CI in place, reviewers can ensure that the submitted patch does not cause the software's build process to fail. This is crucial where the consequence of regressions is very heavy as a small breaking change might cause the Firefox browser to malfunction.</p>
+            <p>With millions of people pushing new code/features to the same codebase every day, the importance of DevOps team is obvious here because they are responsible for landing the code in the codebase while ensuring that the codebase stays healthy.</p>
+            <p>Even though one can rely on automated CI software that is managed by external vendors, having DevOps knowledge would ensure that a team can build, test, and release software faster and more reliable as the product scales.</p>
+            <p>This is a <a href="https://amido.com/blog/a-case-study-of-devops-at-netflix/">case study</a> from Netflix on how DevOps is practiced in the company.</p>
+            <ol start="3">
+              <li>Using Test-Driven Development (TDD)</li>
+            </ol>
+            <p>Almost every bug that I worked on for FDT required me to write a test to verify its functionality. Occasionally, I'm required to make changes to other test files as well due to the code changes I made.</p>
+            <p>The reason for writing tests is because regression testing is needed to ensure that we do not break other features present in the codebase during the build process (related to the previous point above on DevOps).</p>
+            <p>Tests are heavily encouraged in software that utilizes DevOps, thus it would be more efficient for developers to use TDD.</p>
+            <p>Instead of thinking of writing tests as an afterthought, reversing the process would result in increased productivity.</p>
+            <ol start="4">
+              <li>Having an active international community of members result in higher contributor retention rate</li>
+            </ol>
+            <p>FDT has a dedicated Slack <a href="https://devtools-html-slack.herokuapp.com/">channel</a> which has different channels catered for different panels and a general channel catered for everyone.</p>
+            <p>At any point in time, there is a high chance that one's query is answered by a member that is online. Over time, this behavior encourages people to give back because they have received some sort of help from others in the same way too.</p>
+            <p>Also, by having an active community of members giving back their knowledge, it encourages new contributors to be less reluctant to ask questions for fear that they might be asking &quot;stupid&quot; questions or just embarrassed that they will be judged based on what they ask.</p>
+            <p>Furthermore, actual Mozilla employees communicate with other contributors in the same channel as well and often aid new contributors with basic queries. This act also reflects well on the community on welcoming new contributors.</p>
+            <h3 id="transferable-knowledge">Transferable knowledge<a class="fa fa-anchor" href="#transferable-knowledge"></a></h3>
+            <p>Throughout my journey in contributing to FDT, there are a few points that I feel TEAMMATES can adopt as well.</p>
+            <ol>
+              <li>Have a list of experts in certain areas of the codebase</li>
+            </ol>
+            <p>In FDT, there are owners for different panels. They are the main person(s) to go to or get reviews from when working on a respective panel.</p>
+            <p>Even though the scale of TEAMMATES may be smaller, there is still an incentive to have this type of structure. In the past, issues are grouped based on different areas of the TEAMMATES for e.g. <code>f-Results</code>, <code>f-Questions</code>, <code>f-Profiles</code> etc. Also, we have past area leads who led certain areas of TEAMMATES.</p>
+            <p>However, the recent ongoing migration to v7 requires most contributors to work with multiple areas of TEAMMATES and issues are mostly grouped according to front-end and back-end.</p>
+            <p>We can definitely consider bringing back this structure once the v7 migration has been completed. As the project gets bigger, it is hard for one to know everything, with the exception of project leads which require years of experience.</p>
+            <p>New contributors can start off understanding certain areas of TEAMMATES and then slowly branch out to more areas of TEAMMATES. They can then choose 1 or a few areas to be an expert at after working with the codebase for some time. Afterward, they would help in handling reviews, suggestions and/or provide directions for features related to their area of expertise.</p>
+            <ol start="2">
+              <li>Maintain a technical blog</li>
+            </ol>
+            <p>FDT maintains a <a href="https://hacks.mozilla.org/category/developer-tools/">technical blog</a> which highlights their roadmap, new features and also retrospections.</p>
+            <p>We can set up a technical blog for TEAMMATES highlighting our milestones and achievements based on the releases we made. There are a few benefits to doing this.</p>
+            <p>Firstly, it provides students a chance to improve their technical writing skills and also share the work that they have done with more people.</p>
+            <p>Also, having a technical blog provides a platform for potential contributors to be aware of TEAMMATES, the tech stack we are using and also the impact that we are making for educators worldwide. This allows TEAMMATES to get noticed by new contributors and might result in a potential source of constant contributors apart from Google Summer of Code (GSoC), CS3282 and summer interns.</p>
+            <p>Lastly, having a technical blog would also reach out to a wider range of audience. Software rarely gets noticed through GitHub repositories. Having a platform that reaches out to a wider range of audience could bring in more users, potential sponsors and also opportunities for collaboration.</p>
+            <ol start="3">
+              <li>Online video call meetings</li>
+            </ol>
+            <p>In FDT, they hold team weekly video calls with meeting notes recorded. This might be hard to reproduce exactly for TEAMMATES due to the difficulty in accommodating to everyone's schedule.</p>
+            <p>However, one recommended approach I can suggest would be to hold a video call meetings for significant milestones that involves external contributors too. Right now the only meeting that TEAMMATES does is the code sprint to get everyone up to speed to develop for TEAMMATES during CS3282. Even so, they are catered for our own NUS students.</p>
+            <p>External overseas contributors rarely get a chance to deal with significant milestones that the TEAMMATES core team is handling with the exception of GSoC students where they take on a significant project over the summer.</p>
+            <p>The retention rate of past GSoC students is low, as well as external contributors who often fix a few bugs for coursework and leave afterward.</p>
+            <p>By having video call meetings for significant milestones that TEAMMATES is working on, we can also involve external contributors so that most of the people that are committed will be on the same page and would not feel left out.</p>
+            <p>I feel that retaining external contributors would be a good first step in getting more mentors to handle more potential CS3282 students. Over time, I believe retaining external contributors would form a virtuous cycle of increasing the number of contributors for TEAMMATES.</p>
+            <ol start="4">
+              <li>Issues that are harder than first-timer issues that involve more mentoring</li>
+            </ol>
+            <p>From my observations, our <code>d.firstTimers</code> issues are a lot simpler than other projects but the transition to work on <code>d.Contributors</code> issues may be huge for some contributors.</p>
+            <p>For contributors that require more assistance and time in understanding the codebase, they would often give up after solving their first issue and then stop contributing. However, they might turn out to be effective contributors given more time to understand the codebase.</p>
+            <p>We can take inspiration from FDT's <a href="https://github.com/firefox-devtools/profiler">profiler</a> where both their <code>good-first-issue</code> and <code>help wanted</code> <a href="https://github.com/firefox-devtools/profiler/labels">labeled</a> issues involve instructions on how to complete the task.</p>
+            <p>Although finding the related files to change is part of the learning process, we can identify some of these bugs and provide clear instructions on how to proceed to work on it. This would give potential contributors more confidence to take on harder issues. As a result, the transition from a <code>d.firstTimers</code> issue to a <code>d.Contributors</code> issue would be smoother.</p>
+            <ol start="5">
+              <li>Active Slack channel that welcomes external contributors too</li>
+            </ol>
+            <p>Right now our Slack channel only accepts interns and CS3282 students due to mentoring resources available.</p>
+            <p>The initial phase of mentoring these external contributors may require a lot of resources and there is no certainty that they would stay too. However, if we think of this issue in another perspective, having external contributors invited to the Slack channel might benefit TEAMMATES in the long run.</p>
+            <p>Firstly, it allows current CS3282 students to have a chance to mentor external contributors. New contributors to the project helping each other sparks positive interactions and would contribute to an increased retention rate of contributors. Over time, the interaction might scale up to the level of what FDT has currently, which is a win-win situation for everyone.</p>
+            <p>Also, there are little drawbacks to accepting external contributors even if they do not become active contributors in the end. That would be almost equivalent to having little to no external contributors in the first place.</p>
+            <p>We can have a separate TEAMMATES public channel to start the ball rolling if there are concerns integrating this suggestion into the current channel we have now.</p>
+            <h3 id="areas-of-improvement-for-external-project">Areas of improvement for external project<a class="fa fa-anchor" href="#areas-of-improvement-for-external-project"></a></h3>
+            <ol>
+              <li>Provide more architectural diagrams</li>
+            </ol>
+            <p>Most of the documentation is text-based which might be hard for new contributors to follow. Architectural diagrams or diagrams, in general, would help contributors in understanding the codebase in a visual manner, similar to what TEAMMATES have currently done.</p>
+            <p>In addition, diagrams also provide more experienced contributors an easier reference to work with. Furthermore, it can be used to facilitate technical onboarding of new members/employees.</p>
+            <ol start="2">
+              <li>Incrementally move to a more well-known VCS like GitHub</li>
+            </ol>
+            <p>The act of moving code to GitHub attracts more contributors as the code would have more visibility given that more projects are now on GitHub.</p>
+            <p>Also, most people are familiar with Git rather than Mercurial, so that adds up to attracting contributors.</p>
+            <p>There is an ongoing initiative to do that as seen by the debugger living in a GitHub <a href="https://github.com/firefox-devtools">repo</a>, so that is definitely a step in the right direction.</p>
           </div>
         </panel>
       </box>
@@ -5206,7 +5308,7 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 18:31:20 GMT</small></p>
+    <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 1.22.0</a> at Wed, 27 Mar 2019 21:00:41 GMT</small></p>
   </div>
 </footer>
 </div>
