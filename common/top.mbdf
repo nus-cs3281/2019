@@ -14,10 +14,10 @@
     <a href="../students/observations.html" class="nav-link">Observations</a>
   </li>
     <li>
-    <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website {{ glyphicon_share_alt }}</a>
+    <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website <md>:glyphicon-share-alt:</md></a>
   </li>
   <li slot="right">
-    <a href="https://github.com/nus-cs3281/{{ year }}" class="nav-link">{{ fab_github }}</a>
+    <a href="https://github.com/nus-cs3281/{{ year }}" class="nav-link"><md>:fab-github:</md></a>
   </li>
 </navbar>
 
