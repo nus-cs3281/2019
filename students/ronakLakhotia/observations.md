@@ -37,6 +37,41 @@ It is a good practice to discuss ideas with the mentors and eventually settle on
 
 **2.** Perhaps the issues could be labelled to help newcomers. This practice is followed in TEAMMATES and can be a good addition to the Exercism project.
 
+**Project**: [JabRef](https://github.com/JabRef/jabref/)
+
+**Contributions**
+
+- [Added additional key bindings](https://github.com/JabRef/jabref/pull/4732)
+- [Co-Authored a PR](https://github.com/JabRef/jabref/pull/4727)
+- [Added integrity checks](https://github.com/JabRef/jabref/pull/4642)
+
+**Links to getting started**
+
+- [Get an idea about the project from the official website](https://www.jabref.org/#jabref)
+- [FAQ on Contributing](http://help.jabref.org/en/FAQcontributing)
+
+**Observations about the project**
+
+**About the Project** - JabRef is a cross-platform citation and reference management tool. It helps you collect and organize sources, find the paper you need and discover the latest research. 
+
+**1.** - For every change made, updating documents is a must and it is a part of the PR checklist.
+
+**2.** - The review process requires at least two senior devs to approve your PR before it gets merged.
+
+**3.** - The issues have proper labelling, each of them categorize according to the description and which part of the application it is relevant to.
+
+**4.** - The project uses tools like Codacy and [DEP](https://github.com/z0al/dep). Codacy automates the review process and eases development workflow. DEP is a bot that checks for PR dependencies and tells the developer if other issues need to be resolved before the current PR can be merged.
+
+**Key Takeaways from this Project**
+
+**1. Emphasis on Documentation** - An important takeaway was that, JabRef encourages contributors to keep updating the documentation with every PR, which is quite interesting as I have not come across his practice in other projects.
+
+**2. Asking for help** - The JabRef community is big and help is readily available. Contributors are encouraged to discuss ideas and methods of implementation.
+
+**Improvements for JabRef**
+
+**1.** JabRef can perhaps can improve their documentation of setting up the project. It will help the newcomers ease into the new environment.
+                                                                         
 **Suggestions for TEAMMATES**
 
 **1.** A practice that TEAMMATES could adopt from Exercism is to have a dedicated channel for new developers coming into the organization. This can really help in the onboarding process and ease new developers into the new environment. 
