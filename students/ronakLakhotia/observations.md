@@ -54,13 +54,13 @@ It is a good practice to discuss ideas with the mentors and eventually settle on
 
 **About the Project** - JabRef is a cross-platform citation and reference management tool. It helps you collect and organize sources, find the paper you need and discover the latest research. 
 
-**1.** - For every change made, updating documents is a must and it is a part of the PR checklist.
+**1.** For every change made, updating documents is a must and it is a part of the PR checklist.
 
-**2.** - The review process requires at least two senior devs to approve your PR before it gets merged.
+**2.** The review process requires at least two senior devs to approve your PR before it gets merged.
 
-**3.** - The issues have proper labelling, each of them categorize according to the description and which part of the application it is relevant to.
+**3.** The issues have proper labelling, each of them categorize according to the description and which part of the application it is relevant to.
 
-**4.** - The project uses tools like Codacy and [DEP](https://github.com/z0al/dep). Codacy automates the review process and eases development workflow. DEP is a bot that checks for PR dependencies and tells the developer if other issues need to be resolved before the current PR can be merged.
+**4.** The project uses tools like Codacy and [DEP](https://github.com/z0al/dep). Codacy automates the review process and eases development workflow. DEP is a bot that checks for PR dependencies and tells the developer if other issues need to be resolved before the current PR can be merged.
 
 **Key Takeaways from this Project**
 
@@ -71,6 +71,31 @@ It is a good practice to discuss ideas with the mentors and eventually settle on
 **Improvements for JabRef**
 
 **1.** JabRef can perhaps can improve their documentation of setting up the project. It will help the newcomers ease into the new environment.
+
+**Project**: [apps-android-commons](https://github.com/commons-app/apps-android-commons/)
+
+**Contributions**
+
+- [Fixed lint errors](https://github.com/commons-app/apps-android-commons/pull/2359)
+
+**Links to getting started**
+
+- [Contribution Documentation](https://github.com/commons-app/apps-android-commons/wiki#contributor-documentation)
+- [App functionality](https://github.com/commons-app/apps-android-commons/wiki/App-functionality)
+                         
+**Observations about the project**
+
+**About the Project** - The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons.
+
+**1.** The project workflow is easy to follow and mentors are always ready to help.
+
+**2.** Since the project deals with a mobile application, each change made in the PR requires developers to upload screenshots. 
+
+**Key Takeaways from this Project**
+
+**1. Testing your code -** Mentors emphasize on the importance of testing. Your changes should have relevant test cases before it is up for review. 
+   
+**1. Automated review process -** The project makes use of Codacy to automate the review process in the initial stages. Metrics are set failing which the PR build will fail. I think it is a great way to enforce good engineering practices.
                                                                          
 **Suggestions for TEAMMATES**
 
