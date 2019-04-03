@@ -6,4 +6,4 @@
 <span id="areas">Java, JavaScript and React, Code and documentation quality</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [Webpack](https://github.com/webpack/webpack)</span>
+<span id="projects">[RepoSense](https://github.com/reposense/RepoSense), [Electron](https://github.com/electron/electron), [NUSMods](https://github.com/nusmodifications/nusmods), [nsfwjs](https://github.com/infinitered/nsfwjs)</span>

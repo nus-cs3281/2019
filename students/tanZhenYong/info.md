@@ -6,4 +6,4 @@
 <span id="areas">JavaScript, Code Quality, Dev Ops</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[MarkBind](https://markbind.github.io/markbind/), [Metasploit](https://www.metasploit.com/)</span>
+<span id="projects">[MarkBind](https://markbind.org), [Serverless Framework](https://serverless.com/framework)</span>

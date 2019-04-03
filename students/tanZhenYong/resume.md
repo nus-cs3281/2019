@@ -84,15 +84,16 @@ _Oct 2013 - Nov 2013_
 <h1 class="font-weight-light text-center">{{ fas_tasks }} Competencies</h1>
 
 ---
+#### Cybersecurity
+- Led the development of a forensic web crawler **WebAnatomy**, as part of my final year project in Temasek Polytechnic, subsequently deployed at the [Civil Aviation Authority of Singapore (CAAS)](https://www.caas.gov.sg/) for monitoring web vandalism (~1.5 KLoC).
+- Trained in digital forensics, including EnCase and AccessData FTK Certified Examiner.
+
 #### Python
 - Implemented new source acquisition methods for the [**Argos threat intelligence platform**](https://www.cyberint.com/product/argos-digital-risk-protection-platform/) while on internship at CyberInt.
 
 #### JavaScript
 - Contributed features and bug fixes to the open source static site generator [**MarkBind**](https://markbind.github.io/markbind/), including new syntax.
 - Conceptualised and implemented part of the core fingerprinting library for the passwordless authentication system [**Autoauth**](https://github.com/cs3235-autoauth), built as the module project for [CS3235 Computer Security](https://www.comp.nus.edu.sg/~hugh/presentations/cs3235/).
-
-#### PHP
-- Led the development of a forensic web crawler **WebAnatomy**, as part of my final year project in Temasek Polytechnic, subsequently deployed at the [Civil Aviation Authority of Singapore (CAAS)](https://www.caas.gov.sg/) for monitoring web vandalism (~1.5 KLoC).
 
 <!--#### Java
 - In charge of storage and code quality for a relationship tracker and intelligence tool [**Intelli**](https://github.com/CS2103AUG2017-F10-B1/main) (~1 KLoC), built as the module project for [CS2103 Software Engineering](https://nus-cs2103-ay1718s1.github.io/website/).

@@ -59,23 +59,21 @@ Intern | 22nd May 2017 - 21st July 2017
 
 #### C#
 
-##### Experience with Language
-- SaberSkirmish (1K LoC)
+- Experience with Language
+	- SaberSkirmish (1K LoC)
 
 #### AI and Machine Learning
 
-##### Graphs
-- Pyramid Puzzle Solver for the Pyramid Beads Puzzle
-- Tetris Agent: Efficient implementation of Page Rank Algorithm
+- Graphs
+	- Pyramid Puzzle Solver for the Pyramid Beads Puzzle
+	- Tetris Agent: Efficient implementation of Page Rank Algorithm
 
-##### Convolutional Neural Networks
-- Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).
-
-##### Relevant modules: CS3243 Introduction to Artificial Intelligence, CS3244 Introduction to Machine Learning
+- Convolutional Neural Networks
+	- Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).
+	- Relevant modules: CS3243 Introduction to Artificial Intelligence, CS3244 Introduction to Machine Learning
 
 #### UI Test Automation
 
-##### Experience with UI testing tools:
-- JavaFX: ThanePark (3K LoC)
-
-##### Relevant modules: CS2103 Software Engineering
+- Experience with UI testing tools:
+	- JavaFX: ThanePark (3K LoC)
+	- Relevant modules: CS2103 Software Engineering

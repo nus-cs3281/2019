@@ -9,7 +9,8 @@
     ".gitignore",
     ".git/*",
     "*.md",
-    "*.mbd"
+    "*.mbd",
+    "*.mbdf"
   ],
   "pages": [
     {
