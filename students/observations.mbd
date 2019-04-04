@@ -1,8 +1,7 @@
 <frontmatter>
+header: pagetop.md
 </frontmatter>
 {% from "index.mbd" import projects %}
-
-<include src="../common/top.mbdf" />
 
 # Observations from External Projects
 

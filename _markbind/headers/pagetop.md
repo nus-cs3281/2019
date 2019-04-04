@@ -1,4 +1,5 @@
-<navbar placement="top" type="inverse">
+<header>
+<navbar placement="top" type="primary">
   <a slot="brand" href="/" title="Home" class="navbar-brand">CS3281&2-2019/Students</a>
 
   <li>
@@ -20,5 +21,4 @@
     <a href="https://github.com/nus-cs3281/{{ year }}" class="nav-link"><md>:fab-github:</md></a>
   </li>
 </navbar>
-
-<div class="contents">
+</header>

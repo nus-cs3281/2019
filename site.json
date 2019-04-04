@@ -17,6 +17,7 @@
       "glob": "**/*.mbd"
     }
   ],
+  "theme": "bootswatch-pulse",
   "deploy": {
     "message": "Site Update."
   }

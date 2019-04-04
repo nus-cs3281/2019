@@ -1,9 +1,8 @@
 <frontmatter>
 title: CS3281&2 - 2019 Batch
+header: pagetop.md
 pageNav: 2
 </frontmatter>
-
-<include src="common/top.mbdf" />
 
 # CS3281&2 - 2019 Batch
 
@@ -56,5 +55,3 @@ pageNav: 2
 </include>
   {% endfor %}
 {% endfor %}
-
-<include src="common/bottom.mbdf" />
