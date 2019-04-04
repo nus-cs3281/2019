@@ -32,6 +32,7 @@
         "wang-junming": "WANG JUNMING"
       },
       "title": "CS3281&2 - 2019 Batch",
+      "header": "pagetop.md",
       "pageNav": 2,
       "src": "index.mbd",
       "layout": "default"
@@ -46,6 +47,7 @@
         "updating-the-process-observations-page": "Updating the Process Observations Page"
       },
       "title": "Updating this website",
+      "header": "pagetop.md",
       "pageNav": 2,
       "src": "instructions.mbd",
       "layout": "default"
@@ -151,6 +153,7 @@
         "areas-of-improvement-for-external-project": "Areas of improvement for external project",
         "wang-junming": "WANG JUNMING"
       },
+      "header": "pagetop.md",
       "src": "students/observations.mbd",
       "title": "",
       "layout": "default"
