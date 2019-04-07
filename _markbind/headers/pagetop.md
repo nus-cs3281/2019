@@ -1,18 +1,18 @@
 <header>
 <navbar placement="top" type="primary">
-  <a slot="brand" href="index.html" title="Home" class="navbar-brand">CS3281&2-2019/Students</a>
+  <a slot="brand" href="{{ baseUrl }}/index.html" title="Home" class="navbar-brand">CS3281&2-2019/Students</a>
 
   <li>
-    <a href="index.html" class="nav-link">Students</a>
+    <a href="{{ baseUrl }}/index.html" class="nav-link">Students</a>
   </li>
   <li>
-    <a href="instructions.html" class="nav-link">Instructions</a>
+    <a href="{{ baseUrl }}/instructions.html" class="nav-link">Instructions</a>
   </li>
   <li>
-    <a href="students/talksSchedule.html" class="nav-link">Lightning Talks</a>
+    <a href="{{ baseUrl }}/students/talksSchedule.html" class="nav-link">Lightning Talks</a>
   </li>
   <li>
-    <a href="students/observations.html" class="nav-link">Observations</a>
+    <a href="{{ baseUrl }}/students/observations.html" class="nav-link">Observations</a>
   </li>
     <li>
     <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website <md>:glyphicon-share-alt:</md></a>
