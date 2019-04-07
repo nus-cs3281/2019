@@ -1,5 +1,5 @@
-<span id="page_break"><p style="page-break-after: always;">&nbsp;</p></span>
+<variable name="page_break"><p style="page-break-after: always;">&nbsp;</p></variable>
 
-<span id="icon_important_red"><font color="red">{{ glyphicon_exclamation_sign |safe }}</font></span>
+<variable name="icon_important_red"><span style="color: red"><md>:glyphicon-exclamation-sign:</md></span></variable>
 
-<span id="year">2019</span>
+<variable name="year">2019</variable>

@@ -1,9 +1,8 @@
 <frontmatter>
 title: Updating this website
+header: pagetop.md
 pageNav: 2
 </frontmatter>
-
-<include src="common/top.mbdf" />
 
 # Instructions for Updating this Website
 
@@ -86,5 +85,3 @@ Notes:
 ## Updating the Process Observations Page
 
 Update the `observations.md` page in your folder with your observations from the external projects.
-
-<include src="common/bottom.mbdf" />
