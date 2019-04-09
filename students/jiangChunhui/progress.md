@@ -18,3 +18,8 @@ Week | Achievements
 9 | Submitted Issue: [Bug: Cannot delete all courses in recycle bin #9598](https://github.com/TEAMMATES/teammates/issues/9598)
 9 | Reviewed PR: [Bug fix: Cannot delete all courses in recycle bin #9599](https://github.com/TEAMMATES/teammates/pull/9599)
 9 | Reviewed PR: [Consolidate Student Profile Picture RESTFul API #9575](https://github.com/TEAMMATES/teammates/pull/9575)
+10 | Reviewed PR: [Migrate DELETE /bin/course to RESTFul API #9608](https://github.com/TEAMMATES/teammates/pull/9608)
+10 | Merged PR: [Standardize the naming convention of request DTO #9618](https://github.com/TEAMMATES/teammates/pull/9618)
+10 | Merged PR: [Migrate DELETE /instructor/courses/permanentlyDeleteAll to RESTFul API #9601](https://github.com/TEAMMATES/teammates/pull/9601)
+11 | Reviewed PR: [Migrate GET COURSE_STATS to RESTFul API #9621](https://github.com/TEAMMATES/teammates/pull/9621)
+11 | Merged PR: [Consolidate GET Student Profile RESTFul API #9580](https://github.com/TEAMMATES/teammates/pull/9580)
