@@ -22,4 +22,5 @@ Week | Achievements
 10 | Merged PR: [Standardize the naming convention of request DTO #9618](https://github.com/TEAMMATES/teammates/pull/9618)
 10 | Merged PR: [Migrate DELETE /instructor/courses/permanentlyDeleteAll to RESTFul API #9601](https://github.com/TEAMMATES/teammates/pull/9601)
 11 | Reviewed PR: [Migrate GET COURSE_STATS to RESTFul API #9621](https://github.com/TEAMMATES/teammates/pull/9621)
+11 | Reviewed PR: [Apply optimised saving policy #9634](https://github.com/TEAMMATES/teammates/pull/9634)
 11 | Merged PR: [Consolidate GET Student Profile RESTFul API #9580](https://github.com/TEAMMATES/teammates/pull/9580)
