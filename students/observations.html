@@ -486,20 +486,37 @@
         <box>
           <h3 id="gilbert-emerson">GILBERT EMERSON<a class="fa fa-anchor" href="#gilbert-emerson"></a></h3>
           <div>
-            <p><strong>Electron</strong></p>
-            <p><a href="https://electronjs.org/docs/development">Electron Development Documentations</a></p>
+            <h2 id="external-project-electron"><strong>External Project:</strong> Electron<a class="fa fa-anchor" href="#external-project-electron"></a></h2>
+            <p><strong>Links:</strong> <br>
+              <a href="https://electronjs.org/docs/development">Electron Development Documentations</a></p>
             <p>I appreciate their very structured and ordered contribution guideline, as Electron is a very big open source software. Not only that, Electron has quite cool contribution flow, going all the way from creating issue to getting your PR merged. What I observed from their process as well as how it might be applied to RepoSense are as follow:</p>
             <ul>
-              <li>Structured Issue message. This is to ensure that the issue can be triaged faster and more efficient.</li>
-              <li>Specific PR title formatting. This is to ensure that the PRs are nicely organized. RepoSense is still weak in this aspect as PR title is still quite haphazard.</li>
-              <li>Specific branch naming, although this is already implemented by NUS-OSS, RepoSense has not really enforced this aspect</li>
-              <li>Semantic commit message, although SE-EDU standard is still better. RepoSense currently employs squashed PR but this aspect may be followed.</li>
-              <li>Structured PR message which although may not be on same standard with SE-EDU, it is full of semantic prefixes that is linked to bot automation. For example, you can include release note by adding <code>notes:</code>, which will be detected by Electron's release note bot and then it will process accordingly. RepoSense can follow this structure if it will use automations in the build and release process which will be listed below.</li>
-              <li>Welcome Bot that welcomes new contributor. New contributor upon creating their first PR and merging it will be greeted with the bot, which will remind the user with all the contribution guidelines so the user can follow in closely if they have failed to read it beforehand. RepoSense can benefit from this when RepoSense is larger to remind new contributor what to do when they have submitted their PR.</li>
-              <li>Clerk Release Note Bot that checks for <code>notes:</code> in PR message and update the release note accordingly. This is according to the idea that <code>commit -m</code> is for maintainers while <code>notes:</code> is for users. Although this bot is proprietarily developed by Electron team, RepoSense might be able to find third party alternative if RepoSense want to implement this feature in the release cycle.</li>
-              <li>As Electron has multiple version release which is hosted in separate branch, a change made to latest release might need to be propagated to the previous release, essentially backporting it. This is accomplished also by automatic bot that create auto PR to previous version branch by tagging the PR with specific tag. While RepoSense currently does not have multiple version release, this idea might be beneficial for RepoSense to explore in the future.</li>
+              <li><strong>Structured Issue message</strong> <br>
+                This is to ensure that the issue can be triaged faster and more efficient. This goes all the way from differentiating bug issue and feature request issue, and then there is issue template that developer can follow including a checklist for developer whether they have checked for existing issue, etc. <br>
+                RepoSense perhaps can follow this procedure to improve issue management.</li>
+              <li><strong>Semantic commit message</strong> <br>
+                Electron follows <a href="https://www.conventionalcommits.org/en/v1.0.0-beta.3/">Semantic Commit Message</a> to streamline release process. RepoSense can implement this alternative commit message guideline if it does not want to follow the rigorous SE-EDU as for now RepoSense does not really have any commit message guideline.</li>
+              <li><strong>Semantic Prefix for PR Title</strong> <br>
+                This is to ensure that the PRs are nicely organized. This enforcement is mandatory in Electron. RepoSense can learn to implement this better as PR title in RepoSense is still quite haphazard.</li>
+              <li><strong>Semantic PR message</strong> <br>
+                Electron's semantic PR message is not only for stylistic purpose, but it is linked to their bot automation. For example, you can include release note by adding <code>notes:</code>, which will be detected by Electron's <em>release note bot</em> and then it will process accordingly. While this may be an overkill feature, RepoSense can follow this structure if it will use automations in the build and release process in the future. The automations involving bot will be expanded below.</li>
+              <li><strong>Welcome Bot</strong> <br>
+                Electron has a bot that welcomes new contributor. Upon creating their first PR and merging it, they will be greeted with the bot. The bot will remind the user with all the contribution guidelines so the user can follow in closely if they have failed to read it beforehand. RepoSense can benefit from this when RepoSense is larger to remind new contributor what to do when they have submitted their PR. Also, with the welcome bot we can easily differentiate who is a new developer to RepoSense and who is not.</li>
+              <li><strong>Clerk Release Note Bot</strong> <br>
+                The bot checks for <code>notes:</code> prefix in PR message and update the release note accordingly. This is according to the idea that <code>commit -m</code> is for maintainers while <code>notes:</code> is for users. Although this bot is proprietarily developed by Electron team, RepoSense might be able to find third party alternative if RepoSense want to implement this feature in the release cycle.</li>
+              <li><strong>Automatic backporting</strong> <br>
+                As Electron has multiple version releases which are hosted in separate branch, a change made to latest release might need to be propagated to the previous release, essentially backporting it. This is accomplished also by automatic bot that create auto PR to previous version branch by tagging the PR with specific tag. While RepoSense currently does not have multiple version release, this idea might be beneficial for RepoSense to explore in the future.</li>
             </ul>
             <p>I also appreciate that despite being a large open source software, their most active developers are very active, responsive, and helpful in providing assistance and reviewing my code. While this is something that we may already know intuitively, perhaps from this we can be reminded again to be helpful and responsive to foster a good Open Source community.</p>
+            <h2 id="external-project-nusmods-r"><strong>External Project:</strong> NUSMods R<a class="fa fa-anchor" href="#external-project-nusmods-r"></a></h2>
+            <p><strong>Links:</strong> <br>
+              <a href="https://github.com/nusmodifications/nusmods/blob/master/CONTRIBUTING.md">Contribution Guide</a></p>
+            <p>NUSMods has its own development chat channel via Telegram. Personally I think Telegram is not the best medium as it is more of a group chat where it is very easy for a discussion to go out of control and people that is not involved will not get what is actually being discussed. I found that NUSMods Telegram group is more of a group chat for the core developers and the contributors are mostly there just watching them discussing. It will be on rarer opportunity such as feature request or asking for guide from the core developers will the contributors be active in the group. I found that Slack which is already being employed by RepoSense to be more appropriate, despite RepoSense slack is not as lively as NUSMods group.</p>
+            <p>Nevertheless I appreciate NUSMods core developers openness and willingness to help. They are quick to respond and give advices, and the fact that they invite all contributors to the group and we can see all the chats there signifies those. They are also quick to reply and do not hesitate to help, signifies by my discussion with one of the core developers when I found some problem in my PR.</p>
+            <h2 id="external-project-nsfwjs"><strong>External Project:</strong> nsfwjs<a class="fa fa-anchor" href="#external-project-nsfwjs"></a></h2>
+            <p><strong>Links:</strong> <br>
+              <a href="https://github.com/all-contributors/all-contributors">All Contributor Guideline (used by nsfwjs)</a></p>
+            <p>One noteworthy observation from this project is that they follow All Contributor Guideline (link above). They acknowledge any contributors contributing in any aspects such as UI, documentation, etc. I find this to be very encouraging, especially for new open source developers and this can motivate and encourage them. I find that this will create a very warm and hospitable open source community. Perhaps RepoSense can follow this guideline or modify it to fit its own purpose to enhance current contribution acknowledgement.</p>
           </div>
         </box>
         <box>
@@ -1107,7 +1124,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 2.1.1</a> at Wed, 10 Apr 2019 08:37:25 GMT</small></p>
+        <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 2.1.1</a> at Thu, 11 Apr 2019 02:41:02 GMT</small></p>
       </div>
     </footer>
   </div>
