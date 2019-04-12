@@ -11,7 +11,7 @@ The main reason being their documentation is **clear and easy to read**. Habitic
 
 Fun Fact: Contributors on Habitica are not called "contributors", they are called **Blacksmiths**.
 
- ##### Habitica shows Blacksmiths what they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
+ ##### Habitica shows Blacksmiths whatc they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
 
 On the same page, you can find that Habitica also introduces the workflow of the project. Some FAQs like where to add images, where to add translatable strings are on the same page. Also, even though MongoDB might be widely used, Habitica also has a small section to teach Blacksmiths how to modify the database so that they are able to test their changes. 
 
