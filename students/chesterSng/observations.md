@@ -1,6 +1,11 @@
 ## External Project: Habitica
 [Habitica](https://habitica.com/) is a an open-source, online task management application. Instead of the usual way of task management, Habitica takes it a step further by gamifying it. It turns your life into a role-playing game where you complete real life tasks for experience and gold, which can gain you better equipments to pimp your character.
 
+### Pull Requests Merged
+1. I fixed a bug where additional unusable options were displayed for certain items. [PR #10965](https://github.com/HabitRPG/habitica/pull/10965)
+2. I enabled usernames to be searchable in one of the pages and added test cases. [PR #10980](https://github.com/HabitRPG/habitica/pull/10980)
+3. I changed the login page to display more informative messages and added test cases. [PR #11078](https://github.com/HabitRPG/habitica/pull/11078)
+
 ### Workflow
 The workflow of the project is documented [here](https://habitica.fandom.com/wiki/Using_Your_Local_Install_to_Modify_Habitica%27s_Website_and_API). It is vastly similar to PowerPointLabs, where contributors fork, create a new branch on their own repo, push changes to the branch and make a pull request. One difference is that there are no conventions to follow in Habitica in the naming of the branches and pull requests.
 
@@ -11,7 +16,7 @@ The main reason being their documentation is **clear and easy to read**. Habitic
 
 Fun Fact: Contributors on Habitica are not called "contributors", they are called **Blacksmiths**.
 
- ##### Habitica shows Blacksmiths whatc they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
+ ##### Habitica shows Blacksmiths what they can contribute to on their [Guidance For Blacksmiths](https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths).
 
 On the same page, you can find that Habitica also introduces the workflow of the project. Some FAQs like where to add images, where to add translatable strings are on the same page. Also, even though MongoDB might be widely used, Habitica also has a small section to teach Blacksmiths how to modify the database so that they are able to test their changes. 
 
