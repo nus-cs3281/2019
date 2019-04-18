@@ -1,9 +1,8 @@
 <frontmatter>
 title: CS3281&2 - 2019 Batch
+header: pagetop.md
 pageNav: 2
 </frontmatter>
-
-<include src="common/top.mbdf" />
 
 # CS3281&2 - 2019 Batch
 
@@ -12,7 +11,7 @@ pageNav: 2
       ['CHIN KUN SONG, MARVIN', 'marvinChin', 'A3', 'B2', 'C1'],
       ['LIN SI JIE', 'linSiJie', 'A2', 'B1', 'C1'],
       ['LU YANG KENNETH', 'kennethLu', 'A1', 'B1', 'C1'],
-      ['MADDI AADYAA', 'maddiAadyaa', 'A3', 'B2', 'C1'],
+      ['MADDI AADYAA', 'maddiAadyaa', 'A3', 'B2', 'C2'],
       ['TAN ZHEN YONG', 'tanZhenYong', 'A3', 'B3', 'C2']
     ]},
     {name: "PowerPointLabs", students: [
@@ -56,5 +55,3 @@ pageNav: 2
 </include>
   {% endfor %}
 {% endfor %}
-
-<include src="common/bottom.mbdf" />
