@@ -30,6 +30,12 @@
 - RepoSense: Implemented single page application to dynamically load information from the processed reports.
 - Exploring routing in vuejs: [http://ongspxm.github.io/blog/2017/02/vuejs-routing/](http://ongspxm.github.io/blog/2017/02/vuejs-routing/)
 
+**Databases**
+- Handled databases design and queries for applications of varying complexity
+- Recent projects
+    - Dateideas: CRUD operations for a content delivery system for posts
+    - Telegram-tumblr: storing posts and drafts 
+
 **Web technologies**
 - Written games using vanilla web technologies (html, css, javascript, svg): [http://ongspxm.github.io/blog/tags/game/](http://ongspxm.github.io/blog/tags/game/)
 - Voxel terrain rendering on browser [http://ongspxm.github.io/blog/2017/12/vortex-space/](http://ongspxm.github.io/blog/2017/12/vortex-space/)
