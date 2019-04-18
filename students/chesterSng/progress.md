@@ -1,6 +1,7 @@
 Week | Achievements
 ---- | ------------
 1 | Merged PR: [Updating Contributing Doc #1739](https://github.com/PowerPointLabs/PowerPointLabs/pull/1739)
+2 | Merged PR: [Add github logo to navbar #87](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/87)
 2 | Submitted Issue: [PictureSlidesLab Window overflowing smaller screens](https://github.com/PowerPointLabs/PowerPointLabs/issues/1741)
 3 | Reviewed PR: [Convert to Picture: Unsupported Object #1740](https://github.com/PowerPointLabs/PowerPointLabs/pull/1740)
 3 | Reviewed PR: [Close background ppts on closing of main window #1746](https://github.com/PowerPointLabs/PowerPointLabs/pull/1746)
@@ -48,3 +49,10 @@ Week | Achievements
 12 | Merged PR: [Adjust similarity tolerance for ZoomToArea test #1870](https://github.com/PowerPointLabs/PowerPointLabs/pull/1870)
 12 | Merged PR: [Update Tutorial Slides for TooltipsLab #1842](https://github.com/PowerPointLabs/PowerPointLabs/pull/1842)
 12 | Merged PR: [Add Progress Bar mode to TimerLab #1826](https://github.com/PowerPointLabs/PowerPointLabs/pull/1826)
+13 | Reviewed PR: [Shapes Lab Storage Error #1887](https://github.com/PowerPointLabs/PowerPointLabs/pull/1887)
+13 | Reviewed PR: [eLL disappears when no slide is selected #1853](https://github.com/PowerPointLabs/PowerPointLabs/pull/1853)
+13 | Reviewed PR: [Update Shapes Lab UserGuide #96](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/96)
+13 | Reviewed PR: [Update UG for ColorsLab and ShortcutsLab #97](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/97)
+13 | Merged PR: [Change link for github logo to PowerPointLabs Repo #94](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/94)
+13 | Merged PR: [Tooltips Lab: User Guide #93](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/93)
+13 | Merged PR: [Update TimerLab User Guide with Countdown and Progress Bar mode #95](https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/95)

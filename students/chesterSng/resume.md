@@ -5,6 +5,8 @@
 
 ## Qualifications/Education:
 * Bachelor of Computing (Honours) in Computer Science | Graduating in 2021
+* Cumalative Average Point: 5.0/5.0
+* Recipient of the Smart Nation Scholarship 2018
 
 ## Experience/Work Industry:
 <br/>
@@ -59,22 +61,21 @@ During my internship, I used JavaScript extensively for the front-end logic of v
 ###### Implemented Back-End of Applications during internship 
 During my internship, I used C# to build MVC applications.
 - I wrote ~1kLoC to build new applications
-- I used Entity Framework to fetch data from SQL Server Databases
+- I used Entity Framework to fetch data from SQL Databases
 
 ###### Contributed to PowerPointLabs [Ongoing]
-I started contributing to PowerPointLabs since 2019.
+I started contributing to PowerPointLabs since 2019. My contributions can be found [here](https://github.com/PowerPointLabs/PowerPointLabs/pulls?q=is%3Apr+author%3AChesterSng+is%3Aclosed)
 - I wrote over ~1kLoC for PowerPointLabs 
-- I fixed a long-running bug in PowerPointLabs, which prevented users from using certain features of PowerPointLabs completely
-- I made numerous UI/UX changes, which made PowerPointLabs worked more coherently
-- I implemented a new add-on to TimerLab, adding a Progress Bar option
+- I fixed a long-running bug in PowerPointLabs, which prevented users from using some features of PowerPointLabs completely 
+- I made numerous UI/UX changes for PowerPointLabs to work more coherently
+- I proposed and implemented a new add-on to TimerLab, adding a Progress Bar option
 - I co-implemented TooltipsLab, an entirely new lab for PowerPointLabs that enables users to easily create Tooltips inside their PowerPoint Presentation
-- I reviewed over 10 PRs and found numerous bugs for the authors
-- I reviewed 4 PRs for eLearningLab, a new lab for PowerPointLabs that enables users to easily create eLearning slides from PowerPoint
+- I reviewed multiple PRs and found important bugs for the authors 
 
 ##### Database
 
 ###### Managed SQL Server Database during internship
-During my internship, I managed various SQL Server databases.
+During my internship, I created and managed various SQL Server databases.
 - Wrote a script to transfer thousands of contacts from excel to a SQL Server database.
 - Used Entity Framework in C# to manage fetching of data 
 - Wrote SQL Scripts to manage data
