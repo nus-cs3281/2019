@@ -23,3 +23,4 @@ Week | Achievements
 11 | Reviewed [#618](http://github.com/reposense/RepoSense/pull/618), [#633](http://github.com/reposense/RepoSense/pull/633)
 12 | Reviewed [#618](http://github.com/reposense/RepoSense/pull/618)
 12 | Merged [#575](http://github.com/reposense/RepoSense/pull/575)
+13 | Merged [#641](http://github.com/reposense/RepoSense/pull/641)
