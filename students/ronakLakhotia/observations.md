@@ -17,7 +17,7 @@
 **1.** It provides you with thousands of exercises spread across numerous language tracks. I decided on contributing to Exercism because of the **number of language tracks** that a developer can choose from. Since I am most comfortable with Java, I made pull requests to the [Java Learning Track](https://github.com/exercism/java).
 One can find other languages like C++, Python, JavaScript and many more.
 
-**2.** Exercism uses **tools** like [Exalysis](https://github.com/exercism/exalysis) that automatically run the tests on a solution and makes some helpful suggestions based on static analysis of the code for common errors and patterns.
+**2.** Exercism uses **tools** like [Exalysis](https://github.com/exercism/exalysis) that automatically runs the tests on a solution and makes some helpful suggestions based on static analysis of the code for common errors and patterns.
 They even have a [Command Line Tool](https://github.com/exercism/cli) for interacting with the [website](https://exercism.io/) from the local environment.
 
 **3.** The project **workflow is smooth** in general. Mentors are always ready to help new developers during the initial stages. The exercism community is active and there is an online chat room too where mentors and developers can discuss their ideas. For instance, while working on one of the PRs, there were a couple of mentors who suggested changes to my implementation. They did so in a nice and helpful manner which I feel is important for attracting new contributors to an open-source project.
