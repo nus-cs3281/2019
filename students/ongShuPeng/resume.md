@@ -34,8 +34,8 @@
 - Handled databases design and queries for applications of varying complexity
 - Recent projects
     - Dateideas: CRUD operations for a content delivery system for posts
-    - Telegram-tumblr: storing posts and drafts 
+    - Telegram-tumblr: storing posts and drafts to be posted to tumblr
 
-**Web technologies**
+**Javascript**
 - Written games using vanilla web technologies (html, css, javascript, svg): [http://ongspxm.github.io/blog/tags/game/](http://ongspxm.github.io/blog/tags/game/)
 - Voxel terrain rendering on browser [http://ongspxm.github.io/blog/2017/12/vortex-space/](http://ongspxm.github.io/blog/2017/12/vortex-space/)
