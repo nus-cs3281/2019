@@ -45,16 +45,16 @@ _BreadTalk Group Ltd is a Singaporean multinational food and beverage corporatio
     
 ##### JavaScript
 
-###### Used various JavaScript Libraries:
-1. jQuery
-2. Bootstrap
-3. DataTables
-4. zTree
-
 ###### Implemented Front-End of Applications during internship
 During my internship, I used JavaScript extensively for the front-end logic of various applications. 
 - I used zTree to implement a visual representation of a file system in the browser, and customised various aspects of zTree library to suit the company's needs. 
 - I used DataTables to build a contacts page and used JavaScript to efficiently handle the displaying and fetching of over thousands of contacts.
+
+###### Contributed to Habitica
+*A habit tracker app which treats your goals like a Role Playing Game. Programming Languages Used: JavaScript, Vue*
+- I fixed a bug where additional unusable options were displayed for certain items. [PR #10965](https://github.com/HabitRPG/habitica/pull/10965)
+- I enabled usernames to be searchable in one of the pages and added test cases. [PR #10980](https://github.com/HabitRPG/habitica/pull/10980)
+- I changed the login page to display more informative messages and added test cases. [PR #11078](https://github.com/HabitRPG/habitica/pull/11078)
 
 ##### C#
 
@@ -64,7 +64,7 @@ During my internship, I used C# to build MVC applications.
 - I used Entity Framework to fetch data from SQL Databases
 
 ###### Contributed to PowerPointLabs [Ongoing]
-I started contributing to PowerPointLabs since 2019. My contributions can be found [here](https://github.com/PowerPointLabs/PowerPointLabs/pulls?q=is%3Apr+author%3AChesterSng+is%3Aclosed)
+I started contributing to PowerPointLabs since 2019. My contributions can be found [here](https://github.com/PowerPointLabs/PowerPointLabs/pulls?q=is%3Apr+author%3AChesterSng+is%3Aclosed).
 - I wrote over ~1kLoC for PowerPointLabs 
 - I fixed a long-running bug in PowerPointLabs, which prevented users from using some features of PowerPointLabs completely 
 - I made numerous UI/UX changes for PowerPointLabs to work more coherently
@@ -76,6 +76,6 @@ I started contributing to PowerPointLabs since 2019. My contributions can be fou
 
 ###### Managed SQL Server Database during internship
 During my internship, I created and managed various SQL Server databases.
-- Wrote a script to transfer thousands of contacts from excel to a SQL Server database.
-- Used Entity Framework in C# to manage fetching of data 
-- Wrote SQL Scripts to manage data
+- I wrote a script to transfer thousands of contacts from excel to a SQL Server database.
+- I used Entity Framework in C# to manage fetching of data 
+- I wrote SQL Scripts to manage data
