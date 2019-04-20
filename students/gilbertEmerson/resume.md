@@ -74,6 +74,6 @@ _Tel Aviv, Israel | Jul 2018 - Dec 2018_
 
 #### Artificial Intelligence (AI)
 
-- Implemented classification for GIF image format for [NSFWJS](https://github.com/infinitered/nsfwjs/pull/57).
+- Implemented classification for GIF image format for [nsfwjs](https://github.com/infinitered/nsfwjs/pull/57).
 - Implemented Natural Language Processing for PINUS Chat Bot.
 - Gave a lightning talk on [Natural Language Processing](https://github.com/nus-cs3281/2019/issues/63).
