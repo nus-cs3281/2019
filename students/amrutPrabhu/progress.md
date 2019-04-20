@@ -46,7 +46,7 @@ Week | Achievements
 13 | Merged PR: [[#9646] Add L&P test for Instructor student enrollment #9648](https://github.com/TEAMMATES/teammates/pull/9648)
 13 | Merged PR: [[#9666] Modal is not removed when going back to the previous browser page #9672](https://github.com/TEAMMATES/teammates/pull/9672)
 13 | Merged PR: [[#9658] Empty csrf token does not cause request to fail #9659](https://github.com/TEAMMATES/teammates/pull/9659)
-13 | Responded to contributor queries: [#9667](https://github.com/TEAMMATES/teammates/issues/9667#issuecomment-483513677)
+13 | Responded to contributor queries: [#9667](https://github.com/TEAMMATES/teammates/issues/9667#issuecomment-483513677), [#9604](https://github.com/TEAMMATES/teammates/issues/9604#issuecomment-485056561)
 13 | Authored PR: [[#9604] Add feature to regenerate student's session links #9610](https://github.com/TEAMMATES/teammates/pull/9610)
 13 | Authored PR: [[#9560] Improve L&P test process #9671](https://github.com/TEAMMATES/teammates/pull/9671)
-
+13 | Reviewed PR: [[#9651] Enhance Jmeter result population upon running test #9652](https://github.com/TEAMMATES/teammates/pull/9652#pullrequestreview-228873531)
