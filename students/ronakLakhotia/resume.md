@@ -41,7 +41,7 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 - Lead a team of four to develop a school schedule management desktop application on Java with various frameworks such as JUnit, JavaFX, etc.
 - Followed Software Engineering Principes like Testing using JUnit, writing useful documentation for User Guide and Developer guide and using CI tools like Travis, CodeCov and AppVeyor.
 - Implemented five features individually in an existing codebase of ~10KLoC.
-- See the project description [here](https://github.com/CS2103AUG2017-W13-B2/main) and personal portfolio [here](https://cs2103aug2017-w13-b2.github.io/main/team/RonakLakhotia.html).
+- See the project description [here](https://github.com/CS2103AUG2017-W13-B2/main).
 
 #### CATcher | Peer-Testing Tool for Software Projecrs (Jan 2019 – April 2019)
 
@@ -59,27 +59,50 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 - Winner of `Most Annoying Hack` - Hand&Roll 2018.
 - More details can be found [here](https://github.com/RonakLakhotia/chrome-twitter-extension).
 
-## Competencies
+## Technical Skills
 
-<!-- - Expertise: Java, Angular
-- Other Areas: JavaScript, Python, HTML, CSS, Vue.js, C/C++, MySQL
-## Expertise Area -->
+- Expertise: Java, Angular, Artificial Intelligence
+- Other Areas: C, HTML, CSS, Python, SQL, NoSQL(MongoDB), JUnit Testing, MEAN (Web Development Stack)
+
+## Expertise Area
 
 ### Java
 
-- Wrote over 2KLoC of functional code and nearly 1.9 KLoC of JUnit tests for School Software Engineering Project.
-- Contributed PRs occasionally to open source projects. [here1](https://github.com/reposense/RepoSense/pull/420) [here2](https://github.com/reposense/RepoSense/pull/416)
+- Contributed to TEAMMATES which is a Java Web application. Sample PRs:
+    * [#9365](https://github.com/TEAMMATES/teammates/pull/9365) - Fixed code quality issues.
+    * [#9402](https://github.com/TEAMMATES/teammates/pull/9402) - Added new features.
+    
+- Contributed to WikiMedia Commons Application [Android Application in Java](https://github.com/commons-app/apps-android-commons/). My contributions: [Pull Requests](https://github.com/commons-app/apps-android-commons/pull/2359)
+- Contributed to [Exercism](https://github.com/exercism/java), which is a tool used to teach students Java. My contributions: [Pull Requests](https://github.com/exercism/java/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed)
+- Contributed to [JabRef](https://github.com/JabRef/jabref/), a popular referencing tool. My contributions: [Pull Requests](https://github.com/JabRef/jabref/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed)
+- Developed an Android Application in a group of 2 using Android Studio(Java) for university students to keep track of interested events in campus. More Information [here](https://github.com/NUSEvents/NusEvents).
+- Wrote over 2KLoC of functional code and nearly 1.9 KLoC of JUnit tests for School Software Engineering Project. [Personal Portfolio](https://cs2103aug2017-w13-b2.github.io/main/team/RonakLakhotia.html).
+- Reviewed various PR's for TEAMMATES and PR's of CS2103 students.
 
 ---
 
-### JavaScript
+### Angular
 
-- Collaborated with three other students in an hackathon to come up with a chrome extension publicly tweets out from a user’s Twitter account all the keystrokes and websites that the user visits.
-
-- Project can be viewed [here](https://github.com/RonakLakhotia/chrome-twitter-extension)
+- Contributed in migrating TEAMMATES frontend to Angular. Sample PRs:
+    * [#9628](https://github.com/TEAMMATES/teammates/pull/9628) - Added support for MSQ questions.
+    * [#9379](https://github.com/TEAMMATES/teammates/pull/9379) - Display hints to users when internet connection is off. 
+  
+- Co-developed a peer-testing tool for Software Engineering Projects. Wrote the various components of the application in Angular. More Details in [Projects](https://github.com/nus-cs3281/2019/blob/master/students/ronakLakhotia/resume.md#Projects) section.
+- Gave a [tech talk](https://github.com/nus-cs3281/2019/issues/34) on Angular.
+- Wrote a [book chapter](https://github.com/se-edu/learningresources/pull/76) on Angular for `se-edu/learningresources`.
 
 ---
 
-### Web Development
+### Artificial Intelligence
 
-- Worked primarily on an internal dashboard on in my 6 month internship at Autodesk. Worked with MEAN stack.
+- Took two focus area modules in NUS, [CS3243](https://nusmods.com/modules/CS3243/introduction-to-artificial-intelligence) and [CS4243](https://nusmods.com/modules/CS4243/computer-vision-and-pattern-recognition).
+- Learned important concepts of heuristic search, minimax and alpha-beta procedures, Bayes' rule and other areas in CS3243.
+    * Worked in a group of five students to develop a Tetris game-playing agent using genetic algorithm.
+    * Practised Feature Engineering to come up with optimal weights for the Tetris agent.
+    * Cleared upto 1 million lines each time the game was simulated.
+    * Project Report can be found [here](https://github.com/RonakLakhotia/CS3243-TetrisAI/blob/master/Report.pdf).
+    
+- Learned concepts of histogram equalization, noise removal, epipolar geometry, structure from motion and more in CS4243.
+    * Worked on a project in a group of four students to study the 3D trajectory of a tennis ball.
+    * Populated results of the ball tracking algorithm as it was tracked from different camera angles.
+    * Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory).
