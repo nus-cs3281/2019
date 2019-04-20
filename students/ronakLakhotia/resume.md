@@ -36,12 +36,28 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 
 ## Projects
 
-#### Weaver
+#### Weaver | Address Book Desktop Application	(Sep 2017 – Nov 2017)
 
-- Address Book Desktop application for NUS students.
-- Implemented features to help students in their day to day school life.
-- Built a feature to add profile pictures for users.
-- See the project [here](https://github.com/CS2103AUG2017-W13-B2/main).
+- Lead a team of four to develop a school schedule management desktop application on Java with various frameworks such as JUnit, JavaFX, etc.
+- Followed Software Engineering Principes like Testing using JUnit, writing useful documentation for User Guide and Developer guide and using CI tools like Travis, CodeCov and AppVeyor.
+- Implemented five features individually in an existing codebase of ~10KLoC.
+- See the project description [here](https://github.com/CS2103AUG2017-W13-B2/main) and personal portfolio [here](https://cs2103aug2017-w13-b2.github.io/main/team/RonakLakhotia.html).
+
+#### CATcher | Peer-Testing Tool for Software Projecrs (Jan 2019 – April 2019)
+
+- Co-developed (with another student) a proof-of-concept desktop application that facilitates peer testing of products at scale.
+- The application is developed using Angular as the frontend framework and Electron to make it compatible with the different Operating Systems.
+- It uses GitHub as the backend but provides a more streamlined interface for developers, testers, tutors, and admins.
+- Took part in weekly meetings to come up with an optimal design and workflow for the application.
+- The app is expected to be used in Software Engineering modules in a future semester.
+- More details about the project can be found [here](https://github.com/testathor/CATcher/blob/master/README.md).
+
+#### OutCognito | Chrome Extension (Jan 2018 – Jan 2018)
+
+- Created a Google Chrome extension which publicly tweets out from the users Twitter account all the keystrokes and websites that a user visits.
+- Used NodeJs for backend to authenticate and sent POST requests and wrote client side scripts to anonymously gather user activity.
+- Winner of `Most Annoying Hack` - Hand&Roll 2018.
+- More details can be found [here](https://github.com/RonakLakhotia/chrome-twitter-extension).
 
 ## Competencies
 
