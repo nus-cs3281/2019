@@ -106,3 +106,9 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
     * Worked on a project in a group of four students to study the 3D trajectory of a tennis ball.
     * Populated results of the ball tracking algorithm as it was tracked from different camera angles.
     * Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory).
+    
+## Co-Curricular Activities
+
+- Publicity & Marketing Manager Assistance | International Relations Programme under NUSSU (Aug 2017 to present)
+
+- Varsity Cricket Team | (Aug 2016 to Present)
