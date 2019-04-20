@@ -26,7 +26,7 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 - Took part in weekly development cycles by contributing bug fixes, reviewing Pull Requests of other contributors and implementing new features in a ~130KLoC codebase. (Sample PR: [#9379](https://github.com/TEAMMATES/teammates/pull/9379), [#9457](https://github.com/TEAMMATES/teammates/pull/9457))
 - Implemented and Migrated the various question types to Angular, leveraging on the powerful features of the new framework. (Sample PR: [#9582](https://github.com/TEAMMATES/teammates/pull/9528))
 - Worked in a group of three to add support for Continuous Profiling in TEAMMATES by integrating [JMeter](https://jmeter.apache.org/) into the codebase. This will help the maintainers keep track of the potential issue-prone operations in the system.
-- View all my contributions [here](https://github.com/TEAMMATES/teammates/pulls/RonakLakhotia)
+- View all my contributions [here](https://github.com/TEAMMATES/teammates/pulls/RonakLakhotia).
 
 #### Teaching Assistant | National University of Singapore (Aug 2017 - May 2018)
 
@@ -69,12 +69,11 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 ### Java
 
 - Contributed to TEAMMATES which is a Java Web application. Sample PRs:
-    * [#9365](https://github.com/TEAMMATES/teammates/pull/9365) - Fixed code quality issues.
-    * [#9402](https://github.com/TEAMMATES/teammates/pull/9402) - Added new features.
-    
-- Contributed to WikiMedia Commons Application [Android Application in Java](https://github.com/commons-app/apps-android-commons/). My contributions: [Pull Requests](https://github.com/commons-app/apps-android-commons/pull/2359)
-- Contributed to [Exercism](https://github.com/exercism/java), which is a tool used to teach students Java. My contributions: [Pull Requests](https://github.com/exercism/java/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed)
-- Contributed to [JabRef](https://github.com/JabRef/jabref/), a popular referencing tool. My contributions: [Pull Requests](https://github.com/JabRef/jabref/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed)
+    - [#9365](https://github.com/TEAMMATES/teammates/pull/9365) - Fixed code quality issues.
+    - [#9402](https://github.com/TEAMMATES/teammates/pull/9402) - Added new features.
+- Contributed to WikiMedia Commons Application [Android Application in Java](https://github.com/commons-app/apps-android-commons/). My contributions: [Pull Requests](https://github.com/commons-app/apps-android-commons/pull/2359).
+- Contributed to [Exercism](https://github.com/exercism/java), which is a tool used to teach students Java. My contributions: [Pull Requests](https://github.com/exercism/java/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed).
+- Contributed to [JabRef](https://github.com/JabRef/jabref/), a popular referencing tool. My contributions: [Pull Requests](https://github.com/JabRef/jabref/pulls?q=is%3Apr+author%3ARonakLakhotia+is%3Aclosed).
 - Developed an Android Application in a group of 2 using Android Studio(Java) for university students to keep track of interested events in campus. More Information [here](https://github.com/NUSEvents/NusEvents).
 - Wrote over 2KLoC of functional code and nearly 1.9 KLoC of JUnit tests for School Software Engineering Project. [Personal Portfolio](https://cs2103aug2017-w13-b2.github.io/main/team/RonakLakhotia.html).
 - Reviewed various PR's for TEAMMATES and PR's of CS2103 students.
@@ -84,9 +83,8 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 ### Angular
 
 - Contributed in migrating TEAMMATES frontend to Angular. Sample PRs:
-    * [#9628](https://github.com/TEAMMATES/teammates/pull/9628) - Added support for MSQ questions.
-    * [#9379](https://github.com/TEAMMATES/teammates/pull/9379) - Display hints to users when internet connection is off. 
-  
+    - [#9628](https://github.com/TEAMMATES/teammates/pull/9628) - Added support for MSQ questions.
+    - [#9379](https://github.com/TEAMMATES/teammates/pull/9379) - Display hints to users when internet connection is off.  
 - Co-developed a peer-testing tool for Software Engineering Projects. Wrote the various components of the application in Angular. More Details in [Projects](https://github.com/nus-cs3281/2019/blob/master/students/ronakLakhotia/resume.md#Projects) section.
 - Gave a [tech talk](https://github.com/nus-cs3281/2019/issues/34) on Angular.
 - Wrote a [book chapter](https://github.com/se-edu/learningresources/pull/76) on Angular for `se-edu/learningresources`.
@@ -97,15 +95,15 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 
 - Took two focus area modules in NUS, [CS3243](https://nusmods.com/modules/CS3243/introduction-to-artificial-intelligence) and [CS4243](https://nusmods.com/modules/CS4243/computer-vision-and-pattern-recognition).
 - Learned important concepts of heuristic search, minimax and alpha-beta procedures, Bayes' rule and other areas in CS3243.
-    * Worked in a group of five students to develop a Tetris game-playing agent using genetic algorithm.
-    * Practised Feature Engineering to come up with optimal weights for the Tetris agent.
-    * Cleared upto 1 million lines each time the game was simulated.
-    * Project Report can be found [here](https://github.com/RonakLakhotia/CS3243-TetrisAI/blob/master/Report.pdf).
+    - Worked in a group of five students to develop a Tetris game-playing agent using genetic algorithm.
+    - Practised Feature Engineering to come up with optimal weights for the Tetris agent.
+    - Cleared upto 1 million lines each time the game was simulated.
+    - Project Report can be found [here](https://github.com/RonakLakhotia/CS3243-TetrisAI/blob/master/Report.pdf).
     
 - Learned concepts of histogram equalization, noise removal, epipolar geometry, structure from motion and more in CS4243.
-    * Worked on a project in a group of four students to study the 3D trajectory of a tennis ball.
-    * Populated results of the ball tracking algorithm as it was tracked from different camera angles.
-    * Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory).
+    - Worked on a project in a group of four students to study the 3D trajectory of a tennis ball.
+    - Populated results of the ball tracking algorithm as it was tracked from different camera angles.
+    - Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory).
     
 ## Co-Curricular Activities
 
