@@ -32,7 +32,9 @@ Week | Achievements
 10 | Merged PR: [[#599] CodeView: fix `All` checkbox indication failure #611](https://github.com/reposense/RepoSense/pull/611)
 10 | Merged PR: [[#581] CodeView#filter: add interactive selection switch #608](https://github.com/reposense/RepoSense/pull/608)
 10 | Submitted Issue: [Update the link in the description of Repo Sense #630](https://github.com/reposense/RepoSense/issues/630)
-Reviewed PR | #555, #570, #575, #579, #592, #596, #616, #617, #625 
+13 | Merged PR: [[#503] CLI: add --version tag to show version of RepoSense #565](https://github.com/reposense/RepoSense/pull/565)
+13 | Merged PR: [[#621] LogsManager: shift the log file to output folder #632](https://github.com/reposense/RepoSense/pull/632)
+Reviewed PR | #555, #570, #575, #579, #592, #596, #616, #617, #625, #644
 
 ### SE-EDU
 Week | Achievements

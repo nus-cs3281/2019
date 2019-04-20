@@ -6,4 +6,4 @@
 <span id="areas">Java, JavaScript, Web Development</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates), [rest-assured](https://github.com/rest-assured/rest-assured)</span>
+<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates), [Exercism](https://github.com/exercism/java), [JabRef](https://github.com/JabRef/jabref/), [apps-android-commons](https://github.com/commons-app/apps-android-commons/)</span>

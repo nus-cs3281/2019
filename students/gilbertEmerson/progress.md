@@ -12,3 +12,7 @@ Recess | Merged PR: [GitBlame: RuntimeError when analyzing branch name that is w
 9 | Submitted Issue: [Move sinceDate and untilDate in summary.json to be direct element of summary.json](https://github.com/reposense/RepoSense/issues/607)
 9 | Merged PR : [[#407] CodeView: give additional sorting options](https://github.com/reposense/RepoSense/pull/445)
 9 | Reviewed PR : [Make logs clearer after cloning in parallel #609](https://github.com/reposense/RepoSense/pull/616)
+11 | Merged PR : [Page unresponsive when loading report of many repos with huge date gap #542](https://github.com/reposense/RepoSense/pull/596)
+12 | Merged PR : [Checkstyle: increase severity of all existing rules #624](https://github.com/reposense/RepoSense/pull/626)
+12 | Merged PR : [RampChart: show up to report generation date, not last commit date #518](https://github.com/reposense/RepoSense/pull/539)
+13 | Merged PR : [summary.json: move sinceDate and untilDate become direct element #607](https://github.com/reposense/RepoSense/pull/615)

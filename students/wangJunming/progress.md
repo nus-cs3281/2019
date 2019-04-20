@@ -16,6 +16,11 @@ Week | Achievements
 9 | Reviewed PR: [Consolidate GET Student Profile RESTFul API](https://github.com/TEAMMATES/teammates/pull/9580)
 9 | Reviewed PR: [Consolidate GET hasResponses RESTFul API](https://github.com/TEAMMATES/teammates/pull/9567)
 10 | Merged PR: [Link Recovery: Provide a method for students to request submissions links to be resent](https://github.com/TEAMMATES/teammates/pull/9413)
-
+11 | Merged PR: [Migrate DELETE /bin/course to RESTFul API](https://github.com/TEAMMATES/teammates/pull/9608)
+11 | Reviewed PR: [Admin is unable to reset Student Google ID](https://github.com/TEAMMATES/teammates/pull/9640)
+12 | Reviewed PR: [Instructor Privileges does not inherit from more general level when doing update](https://github.com/TEAMMATES/teammates/pull/9653)
+13 | Submitted Issue: [Cannot archive courses in the instructor home page](https://github.com/TEAMMATES/teammates/issues/9675)
+13 | Merged PR: [Migrate Get /accounts to RESTFul API](https://github.com/TEAMMATES/teammates/pull/9641)
+13 | Reviewed PR: [Consolidate PUT /students RESTFul API](https://github.com/TEAMMATES/teammates/pull/9647)
 
 
