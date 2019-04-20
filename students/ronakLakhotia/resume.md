@@ -14,7 +14,7 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 
 #### Autodesk Asia Pte Ltd: Software Development Intern (May 2018 - Nov 2018)
 
-- Developed a website with a scalable architecture to monitor various user analytics of the AutoCAD Mobile App. Was responsible for deployment and site reliability
+- Developed a website with a scalable architecture to monitor various user analytics of the AutoCAD Mobile App. Was responsible for deployment and site reliability.
 - Implemented an automated alerting system using NodeJS APIs like Moment, NodeMailer and SlackBot.
 - Designed a pipeline to stream user crash reports onto the dashboard using the Microsoft Dev Center API, thereby helping the team monitor the app performance.
 - Technical learning included NodeJS, Express, HTML5, Bootstrap, writing RESTFul APIS to make server side HTTP requests.
@@ -98,12 +98,12 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
     - Worked in a group of five students to develop a Tetris game-playing agent using genetic algorithm.
     - Practised Feature Engineering to come up with optimal weights for the Tetris agent.
     - Cleared upto 1 million lines each time the game was simulated.
-    - Project Report can be found [here](https://github.com/RonakLakhotia/CS3243-TetrisAI/blob/master/Report.pdf).
-    
+    - Project Report can be found [here](https://github.com/RonakLakhotia/CS3243-TetrisAI/blob/master/Report.pdf).   
 - Learned concepts of histogram equalization, noise removal, epipolar geometry, structure from motion and more in CS4243.
     - Worked on a project in a group of four students to study the 3D trajectory of a tennis ball.
+    - Came up with heuristics like pixel values of the ball to design the tracking algorithm.
     - Populated results of the ball tracking algorithm as it was tracked from different camera angles.
-    - Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory).
+    - Project details can be found [here](https://github.com/RonakLakhotia/table-tennis-ball-trajectory) and you can view the results [here](https://amrut-prabhu.github.io/table-tennis-ball-trajectory/).
     
 ## Co-Curricular Activities
 
