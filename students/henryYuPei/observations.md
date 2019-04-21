@@ -1,6 +1,11 @@
 # External project: Git for Visual Studio
 [link](https://github.com/github/VisualStudio)
 
+## Contributions to external project:
+* [PR1: Remove empty directory when clone fails #2241](https://github.com/github/VisualStudio/pull/2241)
+* [PR2: Allow cloning of repositories into empty directories #2316](https://github.com/github/VisualStudio/pull/2316)
+* [Issue: Allow cloning of repositories into empty directories #2250](https://github.com/github/VisualStudio/issues/2250)
+
 ## Online documents of project's workflow
 * [Build requirements and steps](https://github.com/github/VisualStudio#build-requirements)
 * [Common issues when setting up](https://github.com/github/VisualStudio#troubleshooting)
