@@ -95,6 +95,7 @@ Contributor
 - Convolutional Neural Networks, Computer Vision
 	- Gave a 7 minutes talk on [Computer Vision and its applications](https://github.com/nus-cs3281/2019/issues/62)
 	- Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).
+	- Tried an experiment with some simple CNN + Generative Adverserial Networks to [generate music](https://github.com/YuPeiHenry/musicStart)
 	- Relevant modules: CS3243 Introduction to Artificial Intelligence (A), CS3244 Introduction to Machine Learning (A+)
 
 - Graphs and algorithms
