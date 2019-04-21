@@ -2,9 +2,8 @@ Week | Achievements
 ---- | ------------
 2 | Merged PR: [ide-setup.md: improve IntelliJ indentation guideline #9364](https://github.com/TEAMMATES/teammates/pull/9364)
 4 | Submitted Issue: [Remove feedbackQuestionType in FeedbackResponseAttributes #9407](https://github.com/TEAMMATES/teammates/issues/9407)
-4 | Merged PR: [Replace responseMetaData with responseDetails in FeedbackResponseAttributes #9380](https://github.com/TEAMMATES/teammates/pull/9380)
 4 | Merged PR: [Remove feedbackQuestionType in FeedbackResponseAttributes #9415](https://github.com/TEAMMATES/teammates/pull/9415)
-5 | Merged PR: [Fix submission button not working caused by serializing FeedbackQuestionAttributes #9441](https://github.com/TEAMMATES/teammates/pull/9441)
+5 | Merged PR: [Replace responseMetaData with responseDetails in FeedbackResponseAttributes #9380](https://github.com/TEAMMATES/teammates/pull/9380), [Fix submission button not working caused by serializing FeedbackQuestionAttributes #9441 (bug fix of previous PR)](https://github.com/TEAMMATES/teammates/pull/9441)
 5 | Merged PR: [Consolidate FeedbackSessionStats RESTFul API #9445](https://github.com/TEAMMATES/teammates/pull/9445)
 6 | Merged PR: [Consolidate FeedbackQuestionRecipients RESTFul API #9446](https://github.com/TEAMMATES/teammates/pull/9446)
 6 | Merged PR: [Fix editing question when option filed is empty #9464](https://github.com/TEAMMATES/teammates/pull/9464)
@@ -24,3 +23,7 @@ Week | Achievements
 11 | Reviewed PR: [Migrate GET COURSE_STATS to RESTFul API #9621](https://github.com/TEAMMATES/teammates/pull/9621)
 11 | Reviewed PR: [Apply optimised saving policy #9634](https://github.com/TEAMMATES/teammates/pull/9634)
 11 | Merged PR: [Consolidate GET Student Profile RESTFul API #9580](https://github.com/TEAMMATES/teammates/pull/9580)
+12 | Submitted Issue: [Student Enroll Page: Refresh the existing student panel after enrollment. #9663](https://github.com/TEAMMATES/teammates/issues/9663)
+12 | Reviewed PR: [Migrate '/instructor/students/course' to new APIs #9668](https://github.com/TEAMMATES/teammates/pull/9668)
+13 | Reviewed PR: [Fix instructor home sort by date inconsistency #9684](https://github.com/TEAMMATES/teammates/pull/9684)
+13 | Merged PR: [Consolidate PUT /students RESTFul API #9647](https://github.com/TEAMMATES/teammates/pull/9647)
