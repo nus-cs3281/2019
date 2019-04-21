@@ -26,4 +26,4 @@ Week | Achievements
 12 | Submitted Issue: [Student Enroll Page: Refresh the existing student panel after enrollment. #9663](https://github.com/TEAMMATES/teammates/issues/9663)
 12 | Reviewed PR: [Migrate '/instructor/students/course' to new APIs #9668](https://github.com/TEAMMATES/teammates/pull/9668)
 13 | Reviewed PR: [Fix instructor home sort by date inconsistency #9684](https://github.com/TEAMMATES/teammates/pull/9684)
-13 | Merged PR: [Consolidate PUT /students RESTFul API #9647](https://github.com/TEAMMATES/teammates/pull/9647)
+13 | Merged PRs: [Consolidate PUT /students RESTFul API #9647](https://github.com/TEAMMATES/teammates/pull/9647), [Fix broken LNP test of put /students #9690](https://github.com/TEAMMATES/teammates/pull/9690)
