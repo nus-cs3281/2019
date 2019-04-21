@@ -4,6 +4,7 @@
 - [Enable ESLint for dom/cache (automatic changes)](https://phabricator.services.mozilla.com/D20943)
 - [Enable ESLint for dom/cache (manual changes)](https://phabricator.services.mozilla.com/D20944)
 - [Drop support for PageThumbUtils.createCanvas with null window](https://phabricator.services.mozilla.com/D22892)
+- [Remove INSTALL_LOCALE from APP_CONSTANTS](https://phabricator.services.mozilla.com/D24662)
 
 **Documentation**:
 - [Developer Guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide)
