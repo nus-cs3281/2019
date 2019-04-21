@@ -50,3 +50,4 @@ Week | Achievements
 13 | Authored PR: [[#9604] Add feature to regenerate student's session links #9610](https://github.com/TEAMMATES/teammates/pull/9610)
 13 | Reviewed PR: [[#9651] Enhance Jmeter result population upon running test #9652](https://github.com/TEAMMATES/teammates/pull/9652#pullrequestreview-228873531)
 13 | Responded to contributor queries: <ul><li>[Standardise look of feedback session details card #9667](https://github.com/TEAMMATES/teammates/issues/9667#issuecomment-483513677)</li><li> [Add feature to regenerate student's session links #9604](https://github.com/TEAMMATES/teammates/issues/9604#issuecomment-485056561)</li></ul>
+13 | Contributed Observations: <ul><li>[[#9564] Consolidate PUT /students RESTFul API #9647](https://github.com/TEAMMATES/teammates/pull/9647#issuecomment-485238385)</li></ul>
