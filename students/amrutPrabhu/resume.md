@@ -83,7 +83,11 @@ Website: http://amrut-prabhu.github.io
 
 #### Projects
 
-- [Poker AI](https://github.com/amrut-prabhu/poker-ai)- 3rd place in the 14th STePS at SoC.
+- [Poker AI](https://github.com/amrut-prabhu/poker-ai)
+    - Developed a bot to play a 2 player game of Limit Texas Hold 'Em Poker optimally.
+    - Used an Adversarial MiniMax tree search strategy, with alpha beta pruning and heuristics to cut off the search.
+    - Developed a genetic algorithm to decide the optimal weights for the heuristics. 
+    - Awarded the 3rd place in the CS3243 project tract at 14th STePS project showcase at SoC.
 - [Predicting defaults on student loans](https://github.com/amrut-prabhu/loan-default-prediction)
 	- Led a project to predict the future earnings and loan default rates for students, using the College Scorecard dataset. 
 - [Modelled the trajectory of a table tennis ball](https://github.com/amrut-prabhu/table-tennis-ball-trajectory) using **Computer Vision** techniques
