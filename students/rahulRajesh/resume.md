@@ -56,8 +56,8 @@ __Project Director | Aug 2017 - Oct 2017__
 - Wrote a [book chapter on Docker](https://se-education.org/learningresources/contents/docker/Docker.html) in SE-EDU, an open-source resource for Software Engineering related topics.
 
 #### Javascript
-- Selected to be a tutor for a group of 8 students for [CS1101S Programming Methodology](https://ivle.nus.edu.sg/V1/lms/public/view_moduleoutline.aspx?CourseID=88939D88-A031-4919-8F8E-15D02CA33D9B&ClickFrom=StuViewBtn), an introductory programming module taught in the Source (a superscipt of Javascipt). Attained a teaching feedback score of 4.8/5.0.
-- Worked on several features related to the front-end for [Teammates](https://github.com/TEAMMATES/teammates), an open-source application designed to streamline peer evaluation process for educational institutions. The front-end is written with Angular and uses Typescript (another superscript of Javascript):
+- Selected to be a tutor for a group of 8 students for [CS1101S Programming Methodology](https://ivle.nus.edu.sg/V1/lms/public/view_moduleoutline.aspx?CourseID=88939D88-A031-4919-8F8E-15D02CA33D9B&ClickFrom=StuViewBtn), an introductory programming module taught in the Source (a superset of Javascipt). Attained a teaching feedback score of 4.8/5.0.
+- Worked on several features related to the front-end for [Teammates](https://github.com/TEAMMATES/teammates), an open-source application designed to streamline peer evaluation process for educational institutions. The front-end is written with Angular and uses Typescript (another superset of Javascript):
     - Refactored the profile picture upload feature and simplified user flow - [#9575](https://github.com/TEAMMATES/teammates/pull/9575)
     - Improved the Instructor Student List Page - [#9668](https://github.com/TEAMMATES/teammates/pull/9668)
     - Helped out with writing snapshot tests - [#9582](https://github.com/TEAMMATES/teammates/pull/9582) and [#9581](https://github.com/TEAMMATES/teammates/pull/9581)
