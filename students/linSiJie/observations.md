@@ -33,7 +33,7 @@ However, this commit message "rule" is also not strictly enforced. While I try t
 
 My experience at SE-EDU has trained me to write highly descriptive commit messages that served to convince maintainers the reason behind every commit. This is in stark contrast to commits at PHPMyAdmin or MarkBind, where developers simply need to provide a descpriton of their commit. For PHPMyAdmin, developers can even sometimes get away without writing significant commit messages.
 This has prompted me to reflect on why SE-EDU has adopted such a requirement for commit messages. 
-On one hand, as a role model for Software Engineering, the project serves to teach new developers the "right" way. Leading by example, these messages explain commits so well that the project can be easily understood by anyone.
+On one hand, these messages explain commits so well that the project can be easily understood by anyone. This gives the maintainers confidence that the authored PR is correct.
 On the other hand, such a system slows down development. Given that every commit needs to be tightly scoped and must accompany such an extensive commit message, the impedence to change is very high and developement cycles are slow.
 Perhaps, for an average Software Engineering project, a system similar to that of MarkBind would be ideal. While there is no fixed format and fixed requirement, developers are required to write messages that are informative and descriptive. Such an option finds a middle ground that balances ease of development and quality.
 

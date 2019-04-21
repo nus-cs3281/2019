@@ -6,8 +6,10 @@
 * [Submit pull requests](https://github.com/Kentico/cloud-sdk-swift/blob/master/CONTRIBUTING.md#submitting-pull-requests) 
 
 
-### Contribution so far:
+### Contributions:
+* [Fix Xcode warnings](https://github.com/Kentico/cloud-sdk-swift/pull/64)
 * [Implement retry policy](https://github.com/Kentico/cloud-sdk-swift/pull/63)
+* [Implement image URL builder](https://github.com/Kentico/cloud-sdk-swift/pull/68)
 
 ### Observation:
 
