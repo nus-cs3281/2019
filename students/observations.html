@@ -555,9 +555,19 @@
         <box>
           <h3 id="wang-chao">WANG CHAO<a class="fa fa-anchor" href="#wang-chao"></a></h3>
           <div>
-            <p>The external project that I picked is CheckStyle, which is a tool for checking Java source code for adherence to a Code
-              Standard or set of validation rules (best practices).</p>
+            <h2 id="project-checkstyle"><strong>Project</strong>: <a href="https://github.com/checkstyle/checkstyle">CheckStyle</a><a class="fa fa-anchor" href="#project-checkstyle"></a></h2>
+            <p>Checkstyle is a tool for checking Java source code for adherence to a Code Standard or set of validation rules.</p>
+            <h3 id="links-2">Links<a class="fa fa-anchor" href="#links-2"></a></h3>
             <p>The link of the workflow of contributing to CheckStyle is <a href="https://checkstyle.org/contributing.html#Content">here</a></p>
+            <h3 id="contributions-made-2">Contributions made<a class="fa fa-anchor" href="#contributions-made-2"></a></h3>
+            <ul>
+              <li><a href="https://github.com/checkstyle/checkstyle/pull/6406">Issue #6381: Incorrect warning for empty lambda bodies with google_checks.xml</a></li>
+              <li><a href="https://github.com/checkstyle/checkstyle/pull/6423">Issue #6083: Add Limitation in index.xml.vm</a></li>
+              <li><a href="https://github.com/checkstyle/checkstyle/pull/6433">doc: add File Filter section in extending.xml</a></li>
+              <li><a href="https://github.com/checkstyle/checkstyle/pull/6505">Issue #6345: RightCurly with option alone false negative for class, method and constructor</a></li>
+              <li><a href="https://github.com/checkstyle/checkstyle/pull/6614">Issue #6367: Improve pitest coverage for RightCurly</a></li>
+            </ul>
+            <h3 id="workflow-6">Workflow<a class="fa fa-anchor" href="#workflow-6"></a></h3>
             <p>The basic workflow is like this:</p>
             <ol>
               <li>Submit an issue and wait to be approved or choose an approved issue from the issue list.</li>
@@ -566,27 +576,41 @@
               <li>Edit your PR until being approved by all maintainers.</li>
             </ol>
             <p>The workflow of CheckStyle do not have a big difference with RepoSense and SE-EDU.</p>
-            <p>There are two impressive aspect when I contributes to CheckStyle. One is CI Test, another is Diff Report.</p>
+            <h3 id="impressive-aspects">Impressive aspects<a class="fa fa-anchor" href="#impressive-aspects"></a></h3>
+            <p>There are two impressive aspects when I contributes to CheckStyle. One is CI Test, another is Diff Report.</p>
             <p>For the CI Test, CheckStyle has 17 checks to pass in order to proceeded with PR. The tests covers a variety of aspects.
               For example, it ensures that the project is able to run on all JDK version and all Platforms. Also, it requires the
               code to have 100% coverage. 100% is even not enough for the tests. CheckStyle also have a test named <code>pitest</code>, which is
               a kind of mutation test. It is basically modifying the test code to look for tests failure. It will find out the lines
               that are able to be modified without tests failure, which indicates either the test case can be improved or the main code
               can be improved.</p>
+            <p>For Diff Report, basically, it ask all the changes related to main code that may cause a regression to generate a diff
+              report, which compares the result of analysis generated for a large number of public repos before the change and after
+              the change. This process is to ensure that no regression happens after the change. This tool is written by the developer
+              of checkstyle and it plays an import role in the workflow of CheckStyle.</p>
+            <h3 id="suggestions-to-reposense">Suggestions to RepoSense<a class="fa fa-anchor" href="#suggestions-to-reposense"></a></h3>
             <p>For now, RepoSense do not have a coverage test yet, which may because the test coverage is not satisfying at the early
               stage of RepoSense. Now, we already have a high code coverage, so the previous concern is not true anymore. Also, having
               a coverage test allows us to improve our testing with higher revenue and lower costs. So, maybe RepoSense should integrate
               coverage test now.</p>
-            <p>Currently, AB4 has coverage test. However, it do not have mutation test. As a project that teaches students about SE
-              related knowledge. Maybe we can integrate mutation test in our code because it is reasonable to let the students know
-              that there is another kind of test to test code quality.</p>
-            <p>For Diff Report, basically, it ask all the changes related to main code that may cause a regression to generate a diff
-              report, which compares the result of analysis generated for a large number of public repos before the change and after
-              the change. This process is to ensure that no regression happens after the change.</p>
-            <p>Because AB4 is not analysis based application, so Diff Report is not suitable for AB4.</p>
-            <p>For RepoSense, we already have a Netlify preview for some Repos which plays a similar row. However, it is not same.
-              Maybe we can add a tool that are able to analyze the difference of the two report generated so we can have a better
+            <p>We already have a Netlify preview for some Repos which plays a similar row with diff report. However, it is not same.
+              For now, we basically analyze the preview manually to see if regression happens.
+              Maybe we can develop a tool that are able to analyze the difference of the two report generated so we can have a better
               insight of potential regressions.</p>
+            <h3 id="suggestions-to-se-edu">Suggestions to SE-EDU<a class="fa fa-anchor" href="#suggestions-to-se-edu"></a></h3>
+            <p>Currently, AB4 has coverage test. However, it do not have mutation test. As a project that teaches students about SE
+              related knowledge, maybe we can integrate mutation test in our code because it is reasonable to let the students know
+              that there is another kind of test to test code quality.</p>
+            <p>Because AB4 is not analysis based application, so a Diff Report is not suitable for AB4.</p>
+            <h3 id="suggestions-to-checkstyle">Suggestions to CheckStyle<a class="fa fa-anchor" href="#suggestions-to-checkstyle"></a></h3>
+            <p>Firstly, the developer guide of CheckStyle does not give an overall structure of CheckStyle and how each component interacts with others.
+              Since CheckStyle has a huge code base, it is quite hard for a new comer to contribute to Checkstyle.
+              The new comer have to take a lot of time to be familiar with checkstyle, which is quite hard and requires higher skills for the contributor.
+              This may block the new comer away from being an actual contributor.</p>
+            <p>Secondly, the commit message of CheckStyle only contains the information of the issue number related to this commit.
+              So, the developer cannot get any information of this commit from the message directly. It is harder for the developers to locate and analyze the bug.
+              Things get even worse if there is a long discussion in the issue/PR page in github, it is really difficult to find the true important information.
+              Maybe CheckStyle should add some relevant important information in the commit message so the developers are able to get the required information more easily.</p>
           </div>
         </box>
         <h1 id="teammates">TEAMMATES<a class="fa fa-anchor" href="#teammates"></a></h1>
@@ -1146,7 +1170,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 2.2.0</a> at Sun, 21 Apr 2019 17:00:20 GMT</small></p>
+        <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 2.2.0</a> at Sun, 21 Apr 2019 17:07:32 GMT</small></p>
       </div>
     </footer>
   </div>
