@@ -74,7 +74,7 @@ Website: http://amrut-prabhu.github.io
 - [Predicting defaults on student loans](https://github.com/amrut-prabhu/loan-default-prediction)
 	- Led a project to predict the future earnings and loan default rates for students, using the College Scorecard dataset. 
 - [Modelled the trajectory of a table tennis ball](https://github.com/amrut-prabhu/table-tennis-ball-trajectory) using **Computer Vision** techniques
-- [Poker AI]
+- [Poker AI]- 3rd place in the 14th STePS at SoC.
 
 #### Related work
 

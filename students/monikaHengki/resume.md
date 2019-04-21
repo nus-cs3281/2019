@@ -38,16 +38,17 @@ _Singapore | August 2018 - December 2018_
 
 ##### TEAMMATES
 
-- [TEAMMATES](http://teammatesv4.appspot.com/) is an award winning online feedback management system for education, used by over 500K users.
+- [TEAMMATES](http://teammatesv4.appspot.com/) is an award winning online feedback management system for education, used by over 350K users.
 - Improved user flow as the front-end was migrated to Angular (Sample PR: [#1](https://github.com/TEAMMATES/teammates/pull/9527), [#2](https://github.com/TEAMMATES/teammates/pull/9414), [issue](https://github.com/TEAMMATES/teammates/issues/9573))
-- Contributed ~3KLoC for front-end snapshot testing using Jest (Sample [PR](https://github.com/TEAMMATES/teammates/pull/9553))
+- Contributed ~4KLoC for front-end snapshot testing using Jest (Sample [PR](https://github.com/TEAMMATES/teammates/pull/9553))
 - Migrated pages from JSP to a modern front-end framework, Angular (Sample [PR](https://github.com/TEAMMATES/teammates/pull/9398))
 - View all my [contributions](https://github.com/TEAMMATES/teammates/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Amonmanuela)
 
 ##### Mozilla Firefox
 
-- Enforce ESLint rules on the dom/cache directory for better code quality (PR: [#1](https://phabricator.services.mozilla.com/D20943), [#2](https://phabricator.services.mozilla.com/D20944))
-- Drop support for PageThumbUtils.createCanvas with null window to improve performance and memory overhead ([PR](https://phabricator.services.mozilla.com/D22892))
+- Open source contributor to Mozilla Firefox, a free and open-source web browser developed by The Mozilla Foundation and its subsidiary, Mozilla Corporation.
+- Improved code quality by enforcing ESLint rules (PR: [#1](https://phabricator.services.mozilla.com/D20943), [#2](https://phabricator.services.mozilla.com/D20944)) and removing unnecessary constants ([PR](https://phabricator.services.mozilla.com/D24662))
+- Improved performance and memory overhead ([PR](https://phabricator.services.mozilla.com/D22892))
 
 ##### FoodZoom
 
@@ -74,7 +75,6 @@ _Singapore | August 2018 - December 2018_
 - Front-end frameworks:
   - Angular:
     - Migrated pages from JSP to Angular on TEAMMATES
-    - Wrote snapshot tests using Jest on TEAMMATES
     - Improved UI/UX through making a consistent user flow on TEAMMATES (see Projects above)
   - React:
     - Helped to develop a [Contribute page](https://nusmods.com/contribute) to invite more contributors on [NUSMods](https://nusmods.com), a course planning platform for National University of Singapore ([PR](https://github.com/nusmodifications/nusmods/pull/1333))
@@ -86,6 +86,9 @@ _Singapore | August 2018 - December 2018_
 - Progressive Web App (PWA):
   - Gave a talk to 20 NUS students on why they should start building PWAs ([Slides](https://docs.google.com/presentation/d/1iMJKqOXuEvlWghiZIeMbCkzs5raf8q_2-efmVUE1ShY/edit?usp=sharing))
 
-#### Artificial Intelligence
+#### Artificial Intelligence (AI)
 
-- TBD
+- Developed AgentHero: an AI bot to play Poker using Deep Q Networks
+- Surpassed the performance of a poker agent that plays with a heuristic to approximate its win rate, winning 59.5% of the time
+- Implemented Q-Learning and experience replay to learn the feature weights
+- Used a deep neural network to calculate the expected reward for each action in a state (fold, call, or raise)
