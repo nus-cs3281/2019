@@ -19,17 +19,19 @@ Intern | 22nd May 2017 - 21st July 2017
 - Created automated software integrity checking tools.
 - Engineered fictitious malware to show effectiveness.
 
-#### Pyramid Puzzle Solver
-- Solver for the popular [Pyramid Beads Puzzle](https://www.google.com/search?q=pyramid+beads+puzzle)
-- Able to efficiently solve even the hardest puzzles within 2 seconds (2D) and 20 minutes (3D)
-- Code available at [link](https://github.com/YuPeiHenry/Pyramid-Puzzle-Solver)
-- Java (1K LoC)
+#### PowerPoint Labs
+Maintainer and Developer
+- PowerPoint productivity plugin used by over 700,000 users
+- Many features that enhance presentations or simplifies formatting of slides
+- Read more at https://www.comp.nus.edu.sg/~pptlabs/
+- C# (4K LoC)
 
-#### Tetris Agent
-- Part of NUS module CS3243 Introduction to Artificial Intelligence.
-- Self-implemented efficient Page Rank algorithm. Able to complete 12 iterations with 479130 vertices in 2 hours (12 cores on NSCC).
-- Code available at [link](https://github.com/YuPeiHenry/tetris-localsearch)
-- Java (1.2K LoC)
+#### Github for Visual Studio
+Contributor
+- Visual Studio plugin that integrates Github seamlessly
+- Respond to PRs, answer threads and resolve issues all from the comfort of Visual Studio
+- Read more at https://visualstudio.github.com/
+- C# (200 LoC)
 
 #### Saber Skirmish
 - Part of NUS module CS3241R Introduction to Computer Graphics.
@@ -49,6 +51,18 @@ Intern | 22nd May 2017 - 21st July 2017
 - Code available at [link](https://github.com/YuPeiHenry/SpaceSentinels)
 - C++ (1.6K LoC), Javascript (1K LoC)
 
+#### Pyramid Puzzle Solver
+- Solver for the popular [Pyramid Beads Puzzle](https://www.google.com/search?q=pyramid+beads+puzzle)
+- Able to efficiently solve even the hardest puzzles within 2 seconds (2D) and 20 minutes (3D)
+- Code available at [link](https://github.com/YuPeiHenry/Pyramid-Puzzle-Solver)
+- Java (1K LoC)
+
+#### Tetris Agent
+- Part of NUS module CS3243 Introduction to Artificial Intelligence.
+- Self-implemented efficient Page Rank algorithm. Able to complete 12 iterations with 479130 vertices in 2 hours (12 cores on NSCC).
+- Code available at [link](https://github.com/YuPeiHenry/tetris-localsearch)
+- Java (1.2K LoC)
+
 #### Real-world Image Recognition for Multiple Human Attributes
 - A Machine Learning project as part of CS3244.
 - AI to perform binary classification of human attributes.
@@ -60,20 +74,36 @@ Intern | 22nd May 2017 - 21st July 2017
 #### C#
 
 - Experience with Language
+	- PowerPoint Labs (4K LoC)
+	- Github for Visual Studio (200 LoC)
 	- SaberSkirmish (1K LoC)
+	- Gave a 7 minutes talk on [testing frameworks for C#](https://github.com/nus-cs3281/2019/issues/22)
+	- [Experience with syntax and features](https://se-education.org/learningresources/contents/csharp/IntroductionToCSharp.html)
+
+- Experience with WPF
+	- PowerPoint Labs
+	- Github for Visual Studio
+	
+- Experience with other OOP Languages
+	- ThanePark (Java, 3K LoC)
+	- Pyramid Puzzle Solver (Java, 1K LoC)
+	- Tetris Agent (Java, 1.2K LoC)
+	- Space Sentinels (C++, 1.6K LoC)
 
 #### AI and Machine Learning
 
-- Graphs
+- Convolutional Neural Networks, Computer Vision
+	- Gave a 7 minutes talk on [Computer Vision and its applications](https://github.com/nus-cs3281/2019/issues/62)
+	- Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).
+	- Relevant modules: CS3243 Introduction to Artificial Intelligence (A), CS3244 Introduction to Machine Learning (A+)
+
+- Graphs and algorithms
 	- Pyramid Puzzle Solver for the Pyramid Beads Puzzle
 	- Tetris Agent: Efficient implementation of Page Rank Algorithm
 
-- Convolutional Neural Networks
-	- Real-world Image Recognition for Multiple Human Attributes: 80% accuracy on long-sleeves (WIDER attribute) and 90% accuracy on gender (LFW dataset).
-	- Relevant modules: CS3243 Introduction to Artificial Intelligence, CS3244 Introduction to Machine Learning
 
-#### UI Test Automation
+#### Unit Testing Frameworks
 
 - Experience with UI testing tools:
 	- JavaFX: ThanePark (3K LoC)
-	- Relevant modules: CS2103 Software Engineering
+	- Relevant modules: CS2103 Software Engineering (A)
