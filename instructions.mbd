@@ -1,4 +1,8 @@
-<include src="common/top.mbdf" />
+<frontmatter>
+title: Updating this website
+header: pagetop.md
+pageNav: 2
+</frontmatter>
 
 # Instructions for Updating this Website
 
@@ -7,7 +11,6 @@ This repo/website is for hosting information about the students in the module, t
 ## General Instructions for Updating This Repo
 
 * Clone https://github.com/nus-cs3281/{{ year }} to your Computer.
-* Always use a new branch to add your content.
 * Do not force-push.
 * Usually, there is no need to create issues or PRs when updating this repo.
 
@@ -82,5 +85,3 @@ Notes:
 ## Updating the Process Observations Page
 
 Update the `observations.md` page in your folder with your observations from the external projects.
-
-<include src="common/bottom.mbdf" />

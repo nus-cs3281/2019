@@ -6,14 +6,18 @@
     "_markbind/logs/*",
     "_site/*",
     "site.json",
+    ".gitignore",
+    ".git/*",
     "*.md",
-    "*.mbd"
+    "*.mbd",
+    "*.mbdf"
   ],
   "pages": [
     {
       "glob": "**/*.mbd"
     }
   ],
+  "theme": "bootswatch-pulse",
   "deploy": {
     "message": "Site Update."
   }

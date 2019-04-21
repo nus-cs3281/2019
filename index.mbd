@@ -1,72 +1,57 @@
 <frontmatter>
 title: CS3281&2 - 2019 Batch
+header: pagetop.md
+pageNav: 2
 </frontmatter>
-
-<include src="common/top.mbdf" />
 
 # CS3281&2 - 2019 Batch
 
 {% set projects = [
     {name: "MarkBind", students: [
-      ['CHIN KUN SONG, MARVIN', 'marvinChin'],
-      ['LIN SI JIE', 'linSiJie'],
-      ['LU YANG KENNETH', 'kennethLu'],
-      ['MADDI AADYAA', 'maddiAadyaa'],
-      ['TAN ZHEN YONG', 'tanZhenYong']
+      ['CHIN KUN SONG, MARVIN', 'marvinChin', 'A3', 'B2', 'C1'],
+      ['LIN SI JIE', 'linSiJie', 'A2', 'B1', 'C1'],
+      ['LU YANG KENNETH', 'kennethLu', 'A1', 'B1', 'C1'],
+      ['MADDI AADYAA', 'maddiAadyaa', 'A3', 'B2', 'C2'],
+      ['TAN ZHEN YONG', 'tanZhenYong', 'A3', 'B3', 'C2']
     ]},
     {name: "PowerPointLabs", students: [
-      ['BRYAN LEW JU YU', 'bryanLew'],
-      ['SNG YU FENG CHESTER', 'chesterSng'],
-      ['YU PEI, HENRY', 'henryYuPei']
+      ['BRYAN LEW JU YU', 'bryanLew', 'A3', 'B3', 'C2'],
+      ['SNG YU FENG CHESTER', 'chesterSng', 'A3', 'B3', 'C2'],
+      ['YU PEI, HENRY', 'henryYuPei', 'A2', 'B2', 'C1']
     ]},
     {name: "RepoSense", students: [
-      ['CHELSEY ONG HEE', 'chelseyOng'],
-      ['GILBERT EMERSON', 'gilbertEmerson'],
-      ['ONG SHU PENG', 'ongShuPeng'],
-      ['WANG CHAO', 'wangChao']
+      ['CHELSEY ONG HEE', 'chelseyOng', 'A1', 'B1', 'C1'],
+      ['GILBERT EMERSON', 'gilbertEmerson', 'A3', 'B3', 'C2'],
+      ['ONG SHU PENG', 'ongShuPeng', 'A1', 'B1', 'C1'],
+      ['WANG CHAO', 'wangChao', 'A3', 'B3', 'C2']
     ]},
     {name: "TEAMMATES", students: [
-      ['AMRUT PRABHU', 'amrutPrabhu'],
-      ['CHATTORAJ AYUSH', 'chattorajAyush'],
-      ['JEREMY CHOO WUN KA', 'jeremyChoo'],
-      ['JIANG CHUNHUI', 'jiangChunhui'],
-      ['LI PENGCHENG', 'liPengcheng'],
-      ['MONIKA MANUELA HENGKI', 'monikaHengki'],
-      ['RAHUL RAJESH', 'rahulRajesh'],
-      ['RONAK LAKHOTIA', 'ronakLakhotia'],
-      ['TAN HENG YEOW', 'tanHengYeow'],
-      ['WANG JUNMING', 'wangJunming']
+      ['AMRUT PRABHU', 'amrutPrabhu', 'A1', 'B1', 'C1'],
+      ['CHATTORAJ AYUSH', 'chattorajAyush', 'A3', 'B3', 'C2'],
+      ['JEREMY CHOO WUN KA', 'jeremyChoo', 'A2', 'B2', 'C1'],
+      ['JIANG CHUNHUI', 'jiangChunhui', 'A3', 'B2', 'C2'],
+      ['LI PENGCHENG', 'liPengcheng', 'A1', 'B1', 'C1'],
+      ['MONIKA MANUELA HENGKI', 'monikaHengki', 'A3', 'B2', 'C2'],
+      ['RAHUL RAJESH', 'rahulRajesh', 'A1', 'B1', 'C1'],
+      ['RONAK LAKHOTIA', 'ronakLakhotia', 'A2', 'B2', 'C2'],
+      ['TAN HENG YEOW', 'tanHengYeow', 'A2', 'B3', 'C2'],
+      ['WANG JUNMING', 'wangJunming', 'A2', 'B2', 'C2']
     ]}
 ] %}
 
 {% for project in projects %}
 **{{ project.name }}:**
-{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '%2C')}})
+{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '')}})
 {% endfor %}
 {% endfor %}
 
 {% for project in projects %}
 # {{ project.name }}
   {% for student in project.students %}
-<box>
 
-## {{ student[0] }}
-
-<div class="container">
- <div class="row">
-  <div class="col">
-<img src="students/{{ student[1] }}/photo.png" width="100" /><br>
-
-
-  </div>
-  <div class="col">
-<include src="students/{{ student[1] }}/studentInfo.md#info" boilerplate />
-  </div>
- </div>
-</div>
-<include src="students/{{ student[1] }}/studentInfo.md#work" boilerplate />
-</box>
+<include src="students/{{ student[1] }}/studentInfo.md" boilerplate >
+  <span id="name">{{ student[0] }}</span>
+  <span id="folder">{{ student[1] }}</span>
+</include>
   {% endfor %}
 {% endfor %}
-
-<include src="common/bottom.mbdf" />

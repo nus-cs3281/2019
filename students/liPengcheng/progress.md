@@ -1,0 +1,17 @@
+Week | Achievements
+---- | ------------
+1 | Reviewed PR: [Update user map as at Jun 2018 #9309](https://github.com/TEAMMATES/teammates/pull/9309)
+1 | Merged PR: [Migrate Instructor Course Details Page to Angular #9333](https://github.com/TEAMMATES/teammates/pull/9333)
+2 | Merged PR: [Migrate part of Instructor Home Page to Angular #9375](https://github.com/TEAMMATES/teammates/pull/9375)
+2 | Reviewed PR: [Migrate first part of instructor help page to Angular #9383](https://github.com/TEAMMATES/teammates/pull/9383)
+3 | Reviewed PR: [Refactor chained boolean values into function #9395](https://github.com/TEAMMATES/teammates/pull/9395)
+4 | Submitted Issue: [Show default picture as profile photo for student who is yet to join #9405](https://github.com/TEAMMATES/teammates/issues/9405)
+4 | Reviewed PR: [Fix unstable FeedbackSessionsLogicTest #9388](https://github.com/TEAMMATES/teammates/pull/9388)
+4 | Reviewed PR: [Migrate instructor getting started page #9398](https://github.com/TEAMMATES/teammates/pull/9398)
+5 | Merged PR: [Migrate remaining of instructor home page/feedback sessions page remind and resend functionals #9422](https://github.com/TEAMMATES/teammates/pull/9422)
+5 | Reviewed PR: [Instructor Home Page: Multiple dropdown menus stay expanded if clicked consecutively #9469](https://github.com/TEAMMATES/teammates/pull/9469)
+6 | Merged PR: [Fix instructor home page sorting bug #9435](https://github.com/TEAMMATES/teammates/pull/9435)
+7 | Reviewed PR: [Show loading spinner when fetching authentication details is ongoing #9527](https://github.com/TEAMMATES/teammates/pull/9527)
+7 | Merged PR: [Student home page E2E test migration #9503](https://github.com/TEAMMATES/teammates/pull/9503)
+7 | Reviewed PR: [Cannot load any public page #9543](https://github.com/TEAMMATES/teammates/pull/9543)
+7 | Reviewed PR: [Update Documentation for guide on Snapshot Tests #9552](https://github.com/TEAMMATES/teammates/pull/9552)
