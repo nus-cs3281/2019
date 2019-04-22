@@ -24,4 +24,4 @@ Week | Achievements
 11 | Merged PR: [GitLog: handle paths in config that exist outside the repo #592](https://github.com/reposense/RepoSense/pull/592)
 12 | Merged PR: [Redesigning the sorting toolbar #618](https://github.com/reposense/RepoSense/pull/618)
 12 | Reviewed PR: [Zoom-in feature for ramp charts #573](https://github.com/reposense/RepoSense/pull/573)
-13 | Merging PR soon: [ChartView: Add remaining features missing from sorting of authors and repos #639](https://github.com/reposense/RepoSense/pull/639)
+Reading Week | Merging PR soon: [ChartView: Add remaining features missing from sorting of authors and repos #639](https://github.com/reposense/RepoSense/pull/639)
