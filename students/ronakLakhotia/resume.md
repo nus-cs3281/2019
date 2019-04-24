@@ -27,6 +27,7 @@ LinkedIn: https://www.linkedin.com/in/ronak-lakhotia/
 - Implemented and Migrated the various question types to Angular, leveraging on the powerful features of the new framework. (Sample PR: [#9582](https://github.com/TEAMMATES/teammates/pull/9528))
 - Worked in a group of three to add support for Continuous Profiling in TEAMMATES by integrating [JMeter](https://jmeter.apache.org/) into the codebase. This will help the maintainers keep track of the potential issue-prone operations in the system.
 - View all my contributions [here](https://github.com/TEAMMATES/teammates/pulls/RonakLakhotia).
+- Reviewed two book chapters ([Design Systems](https://github.com/se-edu/learningresources/pull/105), [SQL](https://github.com/se-edu/learningresources/pull/87)).
 
 #### Teaching Assistant | National University of Singapore (Aug 2017 - May 2018)
 
