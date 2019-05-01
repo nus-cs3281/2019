@@ -40,3 +40,5 @@ Recess | Reviewed PR: [ [#9494] Consolidate Courses RESTFul API #9513 ](https://
 13 | Submitted Issue: [Remove unused variables in Const.ResourceURIs #9674](https://github.com/TEAMMATES/teammates/issues/9674) <br> Responded to contributor query: [#9674](https://github.com/TEAMMATES/teammates/issues/9674)
 13 | Reviewed PR: [[#9595] Migrate '/instructor/students/course' to new APIs #9668](https://github.com/TEAMMATES/teammates/pull/9668)
 13 | Merged PR [[#9637] GET /course endpoint fails for courses where you're only a student or an instructor. #9638](https://github.com/TEAMMATES/teammates/pull/9638)
+Reading week | Reviewed PR: [[#9636] - Resolved the error in resending reminder emails #9691](https://github.com/TEAMMATES/teammates/pull/9691)
+Reading week | Reviewed PR: [[#9674] - Remove unused variables in Const.java #9692](https://github.com/TEAMMATES/teammates/pull/9692)

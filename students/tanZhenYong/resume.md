@@ -92,7 +92,7 @@ _Oct 2013 - Nov 2013_
 - Implemented new source acquisition methods for the [**Argos threat intelligence platform**](https://www.cyberint.com/product/argos-digital-risk-protection-platform/) while on internship at CyberInt.
 
 #### JavaScript
-- Contributed features and bug fixes to the open source static site generator [**MarkBind**](https://markbind.github.io/markbind/), including new syntax.
+- Contributed features and bug fixes to the open source static site generator [**MarkBind**](https://markbind.github.io/markbind/), including new syntax and DevOps enhancements.
 - Conceptualised and implemented part of the core fingerprinting library for the passwordless authentication system [**Autoauth**](https://github.com/cs3235-autoauth), built as the module project for [CS3235 Computer Security](https://www.comp.nus.edu.sg/~hugh/presentations/cs3235/).
 
 <!--#### Java

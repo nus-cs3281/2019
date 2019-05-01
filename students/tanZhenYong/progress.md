@@ -65,3 +65,7 @@ Week | Achievements
 9 | Reviewed PR: [Use Sets instead of Dictionaries for Page.includedFiles #778]({{ pullBaseUrl }}/778)
 10 | Merged PR: [Upgrade vulnerable MarkBind dependencies #788]({{ pullBaseUrl }}/788)
 10 | Reviewed PR: [Add algolia-no-index class for hidden content #785]({{ pullBaseUrl }}/785)
+11 | Reviewed PR: [Fix algolia-no-index for various components #811]({{ pullBaseUrl }}/811)
+11 | Merged PR: [Deploy user docs only from main MarkBind repository #817]({{ pullBaseUrl }}/817)
+12 | Submitted issue: [Layouts should not have *.md files copied on build #825]({{ issueBaseUrl }}/825)
+13 | Reviewed PR: [Support building and deploying from multiple json configs #838]({{ pullBaseUrl }}/838)

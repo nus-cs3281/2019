@@ -23,4 +23,12 @@ Week | Achievements
 9 | Reviewed PR: [[#9533] update user map for jan feb 2019 #9578](https://github.com/TEAMMATES/teammates/pull/9578)
 9 | Reviewed PR: [[#9574] Clicking Save Edited Photo does not close the modal in Student Profile page #9588](https://github.com/TEAMMATES/teammates/pull/9588)
 9 | Responded to new contributors: <ul><li> [#9591](https://github.com/TEAMMATES/teammates/pull/9591#pullrequestreview-216870212) </li> <li> [#9588](https://github.com/TEAMMATES/teammates/pull/9588#issuecomment-474676664)</li> <li> [#9568](https://github.com/TEAMMATES/teammates/pull/9568#issuecomment-472599560) </li>
-
+10 | Merged PR: [[#9480] Add instructor courses snapshot #9627](https://github.com/TEAMMATES/teammates/pull/9627)
+10 | Reviewed PR: [[#9536][#9480] Add front-end, snapshot, E2E tests for admin home page #9605](https://github.com/TEAMMATES/teammates/pull/9605)
+11 | Responded to new contributors: <ul><li> [compile errors and unable to build the project #9622](https://github.com/TEAMMATES/teammates/issues/9622) </li>
+11 | Reviewed PR: [[#9480] Add snapshot test for instructor course student edit page #9625](https://github.com/TEAMMATES/teammates/pull/9625)
+12 | Reviewed PR: [[#9382] Add committers #9631](https://github.com/TEAMMATES/teammates/pull/9631)
+12 | Reviwed PR: [[#9480] Add snapshot tests for sessions table component #9664](https://github.com/TEAMMATES/teammates/pull/9664)
+13 | Merged PR: [[#9480] Add snapshot tests for instructor course student details page #9680](https://github.com/TEAMMATES/teammates/pull/9680)
+13 | Ongoing PR: [[#9480] Add Instructor course edit snapshot #9677](https://github.com/TEAMMATES/teammates/pull/9683)
+13 | Submitted Issue: [Resolve TinyMCE conflicts with Snapshot tests #9688](https://github.com/TEAMMATES/teammates/issues/9688) 

@@ -42,6 +42,8 @@ Courses Taken:
 
     * Other projects done in Java: The driver of distributed database project. About 1KLoC Java. (See the database section below)
 
+    * CS1020 Teaching assistant (2017 Jan - 2017 May)
+
 - Swift: Overall 12 KLoC among 3 projects
     * [Kentico cloud-sdk-swift](https://github.com/Kentico/cloud-sdk-swift). I have contributed to this open source project with Swift = 1KLoC.
 

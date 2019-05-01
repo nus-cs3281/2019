@@ -5,6 +5,12 @@ Gatsby is an open source framework based on React that helps developers build we
 - [RFC Process](https://www.gatsbyjs.org/contributing/rfc-process/): Details on contributing substantial changes (using the requests for comments process).
 - [Gatsby Style Guide](https://www.gatsbyjs.org/contributing/gatsby-style-guide/): Guidelines for writing documentation and tutorials.
 
+### Contributions
+- [fix(www): prevent filter accordions from disappearing on collapse](https://github.com/gatsbyjs/gatsby/pull/12727)
+- [fix(gatsby-dev-cli): move package.json file check after pathToRepo handling](https://github.com/gatsbyjs/gatsby/pull/11565)
+- [Issue #12517](https://github.com/gatsbyjs/gatsby/issues/12517)
+- [Issue #12845](https://github.com/gatsbyjs/gatsby/issues/12845)
+
 ### What I Learnt
 
 1. **Define and Enforce a Workflow**: Gatsby follows the standard forking workflow for bug fixes and small enhancements. More substantial changes follow the Requests for Comments process. Contributors must open a pull request that has a detailed document regarding their proposed change in a [separate repository](https://github.com/gatsbyjs/rfcs) dedicated to RFCs. Having a separate repository provides an exclusive space for more focussed discussions on new features. I could see how this process is beneficial for a large open-source project like Gatsby as it helps them to control how new features are added to the project. 
